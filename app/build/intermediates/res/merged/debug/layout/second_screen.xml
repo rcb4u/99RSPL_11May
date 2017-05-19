@@ -1,0 +1,607 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_masterScreen1"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:weightSum="100.0"
+    android:divider="@android:color/background_light">
+
+    <com.RSPL.POS.LockableScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10.0"
+        android:id="@+id/SecScr_horiztonal_scrollview_id">
+
+
+        <LinearLayout
+            android:id="@+id/SecScr_horiztonal_outer_layout_id"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10.0"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:fillViewport="true"
+            android:background="@drawable/border">
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/loading_activity"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/hemas"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mcash"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mastercard"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/biooil"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/cargills"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/sampathbank"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/sunsineparma"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/wowlk"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mydeallk"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/loading_activity"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/hemas"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mcash"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mastercard"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/biooil"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/cargills"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/sampathbank"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/sunsineparma"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/wowlk"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mydeallk"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/wowlk"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:src="@drawable/mydeallk"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </com.RSPL.POS.LockableScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80.0"
+        android:weightSum="100.0"
+
+
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80.0"
+            android:id="@+id/linearlayoutss"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+            <VideoView
+                android:id="@+id/SecScrVV1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:onClick="true"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.0"
+            android:orientation="vertical"
+            android:id="@+id/linearlayouts"
+            android:padding="1dp"
+            android:weightSum="100.0"
+            android:background="@drawable/border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="110.0"
+                android:orientation="vertical"
+                android:weightSum="10.0"
+                android:background="@drawable/border"
+                android:padding="1dp">
+
+
+                <TextView
+                    android:id="@+id/store_name_second"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffffff"
+                    android:textSize="15dp"
+                    android:textAllCaps="true"
+                    android:background="#ff3421"
+                    android:text="Store Name"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:weightSum="10.0">
+                    <TextView
+                        android:id="@+id/custName"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.0"
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:textColor="#ffffffff"
+                        android:textSize="15dp"
+                        android:background="#ff3421"
+                        android:text="Customer"/>
+
+                    <TextView
+                        android:id="@+id/SecScr_show_customer_id"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.0"
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:textColor="#ffffffff"
+                        android:textSize="15dp"
+                        android:background="#ff3421"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:weightSum="10.0">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.0">
+
+                        <TextView
+                            android:id="@+id/SecScr_product_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:layout_gravity="left"
+                            android:textColor="#ffffffff"
+                            android:textSize="12dp"
+                            android:background="#ff3421"
+                            android:text="Product"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3.0">
+
+                        <TextView
+                            android:id="@+id/SecScr_qty"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal"
+                            android:textColor="#ffffffff"
+                            android:textSize="12dp"
+                            android:background="#ff3421"
+                            android:text="Qty"
+                            android:paddingRight="10dp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.0">
+
+                        <TextView
+                            android:id="@+id/SecScr_selling_p"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:textColor="#ffffffff"
+                            android:textSize="12dp"
+                            android:background="#ff3421"
+                            android:text="Price"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/border"
+                    android:padding="1dp"
+                    android:layout_weight="6.8">
+                    <ListView
+                        android:id="@+id/listviewSec"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ff8909" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="1dp"
+                    android:paddingBottom="2dp"
+                    android:layout_gravity="right"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="1.0">
+
+                        <TextView
+                            android:id="@+id/SecScr_total"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.7"
+                            android:textStyle="bold"
+                            android:gravity="left"
+                            android:textColor="#ffffffff"
+                            android:textSize="15dp"
+                            android:background="#ff3421"
+                            android:text="Grand Total   ="
+                            android:paddingLeft="2dp"/>
+
+                        <TextView
+                            android:id="@+id/sec_total"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:textColor="#ffffffff"
+                            android:textSize="15dp"
+                            android:background="#ff3421" />
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="1.0">
+
+                        <TextView
+                            android:id="@+id/Second_Discount"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:textStyle="bold"
+                            android:gravity="left"
+                            android:textColor="#ffffffff"
+                            android:textSize="15dp"
+                            android:background="#ff3421"
+                            android:text="Discount    ="
+                            android:paddingLeft="2dp"/>>
+                        <TextView
+                            android:id="@+id/sec_discount"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:text="0.0"
+                            android:textColor="#ffffffff"
+                            android:textSize="15dp"
+                            android:background="#ff3421" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="1.0">
+
+                        <TextView
+                            android:id="@+id/SecScr_total_net"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.7"
+                            android:textStyle="bold"
+                            android:gravity="left"
+                            android:textColor="#ffffffff"
+                            android:textSize="15dp"
+                            android:background="#ff3421"
+                            android:text="Net Payable  ="
+                            android:paddingLeft="2dp"/>
+
+                        <TextView
+                            android:id="@+id/sec_total_net"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:textColor="#ffffffff"
+                            android:textSize="15dp"
+                            android:background="#ff3421" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10.0"
+        android:orientation="horizontal"
+        android:weightSum="100.0"
+        android:background="@drawable/border1">
+
+        <!-- Linear layout inside one text view for POS, and one imageview for blinking effect-->
+
+        <!--scrolling text-->
+        <com.RSPL.POS.ScrollTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90.0"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+
+
+            android:textColor="#ffffffff"
+
+            android:textSize="30dp"
+            android:scrollHorizontally="true"
+            android:textAllCaps="true"
+            android:background="#FF6F00"
+
+            android:id="@+id/SecScr_scrolling_text_id">
+        </com.RSPL.POS.ScrollTextView>
+        <ImageView
+
+            android:id="@+id/SecScr_blinking_image_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10.0"
+            android:layout_gravity="left"
+            android:background="#ffffff"
+            android:adjustViewBounds="true"
+            android:fillViewport="true"
+            android:src="@drawable/loading_activity"/>
+
+        <Button
+            android:id="@+id/MainActivitySync"
+            android:onClick="Test"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+

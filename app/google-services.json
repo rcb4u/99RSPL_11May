@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "106099071890",
+    "firebase_url": "https://rspl-v-11529-03.firebaseio.com",
+    "project_id": "rspl-v-11529-03",
+    "storage_bucket": "rspl-v-11529-03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106099071890:android:ef104622a9b37bfd",
+        "android_client_info": {
+          "package_name": "com.RSPL.POS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106099071890-r9jq48gape64gnlsi2c3e3a31s6vqb9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.RSPL.POS",
+            "certificate_hash": "8ce88f1517f2ef204ba46333263ad1f59f81f5dd"
+          }
+        },
+        {
+          "client_id": "106099071890-thrsd9ob42us7tj59dv2fhklmqnbqbc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeoBXDYEpnKtatlf14ybzwEnjqgy-WZ7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106099071890-thrsd9ob42us7tj59dv2fhklmqnbqbc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

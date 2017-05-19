@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/.android/build-cache/e11ece5a72aed5624587c9022721a8c5f98a3a3a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cef8ebab8e1e6b0f158ac3c40905c27e26db4ed">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_126f3b914f9c6bec7aec4c61e4acdc53606dbcc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta5/constraint-layout-solver-1.0.0-beta5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff0dad5e4fc720f478ce8b5f6edf76a932d9b886">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta5_df4f9a51dc53b6b8c6402e69c8584557852a10be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b53020540ddba1db47836ac5ce6cb3ad16911b6b">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e186f94e584674f1db8d15624bf16f598035f1fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/libs/ngx_serial_communication_v1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42c9d33128fa9bfc4aac7794c7c971811374be18">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/2/ngx_serial_communication_v1.0.1_362da540153a770b75d1699787d94fc9b33387e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/.android/build-cache/b0e40cc6328593b2530d6a69603b0ae8aac12e34/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ba21787b462c3132b9ef818ae4b4630cdaa4596c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/.android/build-cache/b7420eff8e3217a88f93937fe09a56a28bbcc631/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dce0f3de11781e1ee758cba483871b598c9d4931">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aebe886e68c6e2e928cf5b49c810fad37859de9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/libs/ngx_pos_usb_serial_sdk_dualdisplay_1.0.4_encrp.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c01ba0c186f335070414d2dba3792afa186651f0">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/2/ngx_pos_usb_serial_sdk_dualdisplay_1.0.4_encrp_8a6412c46f13792d6aaad0a6fab82301c6af0cc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/libs/activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/2/activation_8ae2ff26295e08e14d7d69382a43844b41ec5803/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b0aaa9e1d90e18c7a6131562e9657f05d4d737b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/libs/guava-19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/2/guava-19.0_fe7056ebeef62fe7222ecf131baf0d26d701e41d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/libs/additionnal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/2/additionnal_2c9799c5bc9c91084a3fc3a8510f9bc6e38e1217/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rspl-rahul/MasterCode/99RSPL 11May/app/libs/mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/transforms/dex/debug/folders/1000/2/mail_dc8c98e2befc77c2fe939b87a6fae4aac63f5907/classes.dex" />
+    </item>
+
+</items>

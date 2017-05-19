@@ -1,0 +1,117 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffdd0"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+       >
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="50dp"
+            android:src="@drawable/mcash"/>
+        <TextView
+            android:id="@+id/Etcash"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="260dp"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:inputType="textEmailAddress"
+            android:hint="0"
+            android:textSize="18px"
+            android:gravity="center"
+            android:paddingBottom="35dp"
+
+            android:layout_weight="0.04" />
+        <ImageView
+            android:layout_marginTop="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:src="@drawable/rs"
+            android:background="#fffdd0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!--  <android.support.design.widget.TextInputLayout
+              android:layout_width="match_parent"
+              android:id="@+id/passwordTextLayout"
+              android:layout_below="@+id/emailTextLayout"
+              android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/Emailedit"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Mobile No "
+            android:layout_marginLeft="5dp"
+            android:paddingBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="18px"
+
+            android:textColor="#000000"
+            android:background="@drawable/border_style"
+            />
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18px"
+            android:ems="20"
+            android:hint="Enter OTP"
+            android:inputType="numberPassword"
+            android:paddingBottom="5dp"
+            android:background="@drawable/border_style"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_marginLeft="150px"
+            android:layout_height="30dp"
+            android:id="@+id/submitForWallet"
+            android:textColor="#ffffff"
+            android:text=" SUBMIT "
+            android:layout_marginEnd="10dp"
+            android:ems="12"
+            android:fontFamily="sans-serif"
+            android:onClick="view"
+            android:background="#ff3300"
+
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:id="@+id/cancelForWallet"
+            android:textColor="#ffffff"
+            android:text=" CANCEL "
+            android:ems="12"
+            android:fontFamily="sans-serif"
+            android:onClick="view"
+            android:background="#ff3300"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fffdd0">
+<!--
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/reprint_bill_text"
+        android:layout_weight="1"
+        android:imeOptions="flagNoExtractUi"
+        />-->
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layout1"
+        android:paddingLeft="60dp"
+        android:paddingTop="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:weightSum="1.0"
+
+            >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reprint_bill_text"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#000000"
+
+                android:drawableRight="@drawable/cross_arrow_icon"
+                android:background="@drawable/border_style"
+                android:layout_weight="0.85"
+                android:imeOptions="flagNoExtractUi"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

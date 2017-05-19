@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/color/abs__primary_text_holo_light.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/color/abs__primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/color/abs__primary_text_disable_only_holo_light.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/color/abs__primary_text_disable_only_holo_light.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/color/abs__primary_text_disable_only_holo_dark.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/color/abs__primary_text_disable_only_holo_dark.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/color/abs__primary_text_holo_dark.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/color/abs__primary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/abcda621452708f25986578f87df3f927756eed9/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/abcda621452708f25986578f87df3f927756eed9/output/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

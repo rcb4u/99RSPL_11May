@@ -1,0 +1,330 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9033"
+    android:clickable="false"
+    android:divider="@android:color/background_light"
+    android:orientation="vertical"
+    android:id="@id/layout_color"
+    android:weightSum="100.0"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:ems="10"
+            android:gravity="left"
+            android:text="Product Name"
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <com.RSPL.POS.CustomAuto
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="580dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/border_style"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+            android:focusable="true"
+            android:fontFamily="sans-serif"
+            android:hint="Select Product Name"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textAutoComplete"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:textColor="#000000"
+            android:textColorHint="@color/hint_color"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/displaytextsize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingTop="5dp"
+        android:weightSum="1.0">
+
+        <TextView
+            android:id="@+id/actve"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:ems="10"
+            android:gravity="left"
+            android:text="Active*"
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/activeProdPharma"
+            android:layout_width="580dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/border_style"
+            android:focusable="true"
+            android:fontFamily="sans-serif"
+            android:inputType="textAutoComplete"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/displaytextsize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4a4a4a"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="210.0">
+
+       <!-- <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvUserNm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="7dp"
+                android:text="USER NAME"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvProdId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="PRODUCT ID"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="39.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvProdctNm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="PRODUCT NAME"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="30.0"
+             android:background="#4a4a4a">
+
+             <TextView
+                 android:id="@+id/tvCode"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:fontFamily="sans_serif"
+                 android:gravity="center_vertical"
+                 android:text="BAR CODE"
+                 android:textColor="#ffffff"
+                 android:textSize="@dimen/textsize"
+                 android:textStyle="bold" />
+
+         </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="28.0"
+            android:background="#4a4a4a">
+
+
+            <TextView
+                android:id="@+id/tvMrp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="MRP"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvSPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="S PRICE"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvPPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="P PRICE"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+
+            <TextView
+                android:id="@+id/tvActve"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="ACTIVE"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:gravity="center_vertical"
+                android:text="MARGIN"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_below="@+id/linearlayout1"
+        android:layout_weight="85"
+        android:orientation="vertical"
+        android:paddingTop="1dp"
+        android:textColor="#000000">
+
+        <ListView
+            android:id="@+id/lv_ProductReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/layout3"
+        android:layout_weight="5"
+        android:paddingTop="3px"
+
+        >
+
+        <Button
+            android:id="@+id/emailbtn"
+            android:layout_width="225px"
+            android:layout_height="40px"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/shapebuttonsales"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="number"
+            android:onClick="view"
+            android:src="@drawable/button_background"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+
+</LinearLayout>

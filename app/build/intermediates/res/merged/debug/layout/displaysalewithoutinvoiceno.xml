@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10.0"
+    android:background="#ff9033">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingTop="2dp"
+        android:weightSum="8.5"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="product name"
+            android:ems="10"
+            android:id="@+id/prodname"
+            android:textSize="20px"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:text="batch"
+            android:ems="11"
+            android:selectAllOnFocus="true"
+
+            android:id="@+id/batchno"
+            android:textSize="20px"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:imeOptions="flagNoExtractUi"
+
+            />
+        <EditText
+            android:id="@+id/Exp_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:singleLine="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:ems="11"
+            android:textSize="20px"
+            android:hint="EnterDate"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:entries="@array/active_array"
+            android:prompt="@string/select2"
+            android:imeOptions="flagNoExtractUi"
+
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="quany"
+            android:ems="11"
+            android:id="@+id/quty"
+            android:textSize="20px"
+            android:maxLength="5"
+            android:gravity="center"
+            android:imeOptions="flagNoExtractUi"
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="selling"
+            android:ems="10"
+            android:id="@+id/selling"
+            android:textSize="20px"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="conv"
+            android:ems="10"
+            android:id="@+id/convefactreturn"
+            android:textSize="20px"
+            android:gravity="center">
+
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="uom"
+            android:ems="10"
+            android:id="@+id/uom"
+            android:textSize="20px"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="total"
+            android:ems="10"
+            android:id="@+id/totalpt"
+            android:textSize="20px"
+            android:gravity="center"
+
+            />
+
+        <ImageButton
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/cross_arrow_icon"
+            android:id="@+id/deleteButton" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

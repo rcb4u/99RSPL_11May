@@ -1,0 +1,2 @@
+include ':app', ':sqlite-android-3150000-see', ':android-pdfview'
+project(':android-pdfview').projectDir = new File('android-pdfview-master/android-pdfview')

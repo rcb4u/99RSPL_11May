@@ -1,0 +1,214 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:weightSum="100.0"
+    android:background="#ff9033"
+    android:id="@id/layout_color"
+    android:divider="@android:color/background_light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:text="Vendor Name"
+            android:textColor="#000000"
+            android:id="@+id/id"
+            android:textStyle="bold"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+
+        <com.RSPL.POS.CustomAuto
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="580dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:inputType="textAutoComplete"
+            android:textSize="@dimen/displaytextsize"
+            android:hint="Select Vendor Name"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+            android:textColorHint="@color/hint_color"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:background="@drawable/border_style"
+            android:focusable="true"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:text="Active*"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/actve"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+        <Spinner
+            android:id="@+id/activeVendor"
+            android:layout_width="580dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:fontFamily="sans-serif"
+            android:inputType="textAutoComplete"
+            android:textSize="@dimen/displaytextsize"
+            android:background="@drawable/border_style"
+            android:focusable="true"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:weightSum="90.0"
+        android:background="#4a4a4a"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="28.0"
+            android:background="#4a4a4a">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="USER NAME"
+            android:id="@+id/tvUserNm"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="VENDOR NAME"
+            android:id="@+id/tvDsbtrNm"
+            android:textColor="#ffffff"
+            android:layout_weight="30.0"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ACTIVE"
+            android:id="@+id/tvActve"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="vertical"
+        android:id="@+id/layout3"
+        android:textColor="#000000"
+        android:layout_weight="85"
+        android:layout_below="@+id/linearlayout1">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:paddingTop="1dp"
+            android:id="@+id/lv_VendorReport" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="5"
+        android:layout_below="@+id/layout3"
+        android:paddingTop="3px"
+
+        >
+        <Button
+            android:layout_width="225px"
+            android:layout_height="40px"
+            android:layout_weight="1"
+            android:background="@drawable/shapebuttonsales"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="Email"
+            android:focusable="false"
+            android:ems="10"
+            android:id="@+id/emailbtn"
+            android:textSize="@dimen/textsize"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/button_background"
+            android:onClick="view"
+            />
+    </LinearLayout>
+
+</LinearLayout>

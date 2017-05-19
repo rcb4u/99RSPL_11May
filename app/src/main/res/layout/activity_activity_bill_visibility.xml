@@ -1,0 +1,623 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100.0"
+    android:background="#ff9033"
+    android:id="@+id/layout_color"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_weight="100.0"
+        android:paddingTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Store_Id"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/store_id"
+
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:ems="10"
+                android:id="@+id/store"
+                android:textSize="@dimen/smalltext"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Mrp Visibility"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textView5"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <!-- <Spinner
+                 android:layout_width="0dp"
+                 android:layout_height="30dp"
+                 android:layout_weight="0.6"
+                 android:inputType="number"
+                 android:textColor="#000000"
+                 android:textColorHighlight="#ffffff"
+                 android:hint=""
+                 android:maxLength="1"
+                 android:ems="10"
+                 android:id="@+id/mrp"
+                 android:textSize="20px"
+                 android:layout_gravity="center_vertical"
+                 android:background="@drawable/border_style" />-->
+            <Spinner
+                android:id="@+id/mrpvisible"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:digits="2,3,4"
+                android:textColor="#000000"
+                android:layout_weight="0.3"
+                android:background="@drawable/border_style"
+                android:textSize="20px"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Tele2 Visibility"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textView9"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/tele2"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Footer Visibility"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textView1"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/footer"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+        <!--  <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:weightSum="1.0"
+              android:paddingRight="30dp"
+              android:paddingTop="10dp"
+              >
+
+              <TextView
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.4"
+                  android:text="Item Visibility"
+                  android:textColor="#000000"
+                  android:textStyle="bold"
+                  android:id="@+id/itemvisible"
+                  android:textSize="20px"
+                  android:layout_gravity="center_vertical"
+                  android:gravity="left"
+                  android:paddingLeft="80dp"
+
+
+                  />
+
+              <Spinner
+                  android:layout_width="0dp"
+                  android:layout_height="50dp"
+                  android:layout_weight="0.3"
+                  android:inputType="number"
+                  android:textColor="#000000"
+                  android:hint=""
+                  android:maxLength="50"
+                  android:ems="10"
+                  android:id="@+id/itemvisibilty"
+                  android:textSize="20px"
+                  android:layout_gravity="center_vertical"
+                  android:background="@drawable/border_style" />
+
+          </LinearLayout>
+
+
+
+  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Bill Copies"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/billcopy"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <!-- <Spinner
+                 android:layout_width="0dp"
+                 android:layout_height="30dp"
+                 android:layout_weight="0.6"
+                 android:inputType="number"
+                 android:textColor="#000000"
+                 android:textColorHighlight="#ffffff"
+                 android:hint=""
+                 android:maxLength="1"
+                 android:ems="10"
+                 android:id="@+id/mrp"
+                 android:textSize="20px"
+                 android:layout_gravity="center_vertical"
+                 android:background="@drawable/border_style" />-->
+            <Spinner
+                android:id="@+id/bill1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:digits="2,3,4"
+                android:textColor="#000000"
+                android:layout_weight="0.3"
+                android:background="@drawable/border_style"
+                android:textSize="20px"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Credit Bill Copies"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/creditcardbillcopy"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/bill2"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Return Bill Copies"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/returnbillcopy"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/bill3"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Margin Visibilty"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/returnmargin"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/marginvisible"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Free_Qty Visibilty"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/freeqtyvisiblr"
+
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/freeqtyvisible"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Inv_Bill_Print"
+                android:textColor="#000000"
+                android:textStyle="bold"
+              android:id="@+id/inv"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/invbillprintvisible"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Sale Print Bill"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/saleprint"
+
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/PrintBill"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="OTP"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/otp"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/otpgenerate"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3.0"
+        android:layout_alignParentBottom="true">
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/Store_update"
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize"
+            android:text="UPDATE"
+            android:background="@drawable/shapebuttonsales"
+            android:layout_weight="1.5"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="EXIT"
+            android:textSize="@dimen/textsize"
+            android:textColor="#000000"
+            android:id="@+id/Store_exit"
+            android:background="@drawable/shapebuttonsales"
+            android:layout_weight="1.5"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

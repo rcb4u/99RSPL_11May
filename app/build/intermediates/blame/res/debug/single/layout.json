@@ -1,0 +1,1402 @@
+[
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_search_retrnid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_search_retrnid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_bill_display.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_bill_display.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/inventoryeditalert.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/inventoryeditalert.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_product_pharma_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_product_pharma_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/button_sales.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/button_sales.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_productid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_productid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_vendorname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_vendorname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_direct_pay_by_cash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_direct_pay_by_cash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_menu_layout.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/popup_password_otp.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/popup_password_otp.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__screen_simple.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__screen_simple.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_overall_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_overall_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/custom_popup.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/custom_popup.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_bill_details.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_bill_details.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_sales.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_sales.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_otp_.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_otp_.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_masterdata_status.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_masterdata_status.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_dailyoverall_reportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_dailyoverall_reportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_pay_by_cash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_pay_by_cash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_vendor_return_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_vendor_return_product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/displaysalewithoutinvoiceno.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/displaysalewithoutinvoiceno.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_salereturnproduct_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_salereturnproduct_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_payment.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_payment.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_weeklyreportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_weeklyreportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_maintain.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_maintain.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/inventory_alert_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/inventory_alert_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_stock_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_stock_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_purchase_product_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_purchase_product_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/second_screen.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/second_screen.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_pay_by_cheque.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_pay_by_cheque.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_dayopen_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_dayopen_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_return.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_return.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_custom_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_custom_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_vendor.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_vendor.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_device_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_device_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/drop_down_lineitemdiscount.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/drop_down_lineitemdiscount.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_withoutinvoice_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_withoutinvoice_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/alert_dialog_salesreturn.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/alert_dialog_salesreturn.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/cashpayment_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/cashpayment_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cash_1month.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cash_1month.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_inventory_dropdown_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_inventory_dropdown_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__activity_chooser_view_list_item.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/fragment_fastmoving.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/fragment_fastmoving.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_productname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_productname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_monthlysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_monthlysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_transid_withoutinvoice_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_transid_withoutinvoice_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/purchase_batchno_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/purchase_batchno_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_ponumberdropdown_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_ponumberdropdown_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_quarterly_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_quarterly_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__settle_credit_customer.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__settle_credit_customer.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_1monthreportprocurement.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_1monthreportprocurement.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_dailysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_dailysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/walletpopup_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/walletpopup_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__screen_simple_overlay_action_mode.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/second_screen_bill.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/second_screen_bill.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_localproductid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_localproductid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/top_productlist.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/top_productlist.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_mfg_btl_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_mfg_btl_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_blinkinglogo_report_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_blinkinglogo_report_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_sale_withoutinvoice_list_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_sale_withoutinvoice_list_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/fragment_discount.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/fragment_discount.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_yearlysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_yearlysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_purchase.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_purchase.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_payment_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_payment_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/cebit_creditcard_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/cebit_creditcard_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_decimal.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_decimal.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_menu_item_layout.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_quarterlysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_quarterlysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_blinkinglogo.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_blinkinglogo.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_indirect_payment.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_indirect_payment.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activitylocalproductcpg.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activitylocalproductcpg.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/tab_activity_inventory_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/tab_activity_inventory_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_salereturnlist.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_salereturnlist.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/search_localproduct_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/search_localproduct_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_daily_reportprocurement.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_daily_reportprocurement.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityvendorpayment.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityvendorpayment.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__activity_chooser_view.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_main_maintainence.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_main_maintainence.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_rejection.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_rejection.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_master_screen1.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_master_screen1.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__search_view.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__search_view.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activitypurchase.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activitypurchase.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__comp__btl.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__comp__btl.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_inventory_product_row_total.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_inventory_product_row_total.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/invoice.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/invoice.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_sales.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_sales.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_salesreturn_withoutinvoice_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_salesreturn_withoutinvoice_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_bar_tab.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_bar_tab.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_purchase_vendornamewithpo_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_purchase_vendornamewithpo_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_localprod_pharma_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_localprod_pharma_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_yearly_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_yearly_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_withinvoice_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_withinvoice_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/second_screen_item_details.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/second_screen_item_details.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/displaybilldetails_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/displaybilldetails_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_distributor_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_distributor_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_customer_rejection.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_customer_rejection.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__loyalty__report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__loyalty__report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/masterscreen1_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/masterscreen1_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_bar_title_item.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_inventory_vendornstore_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_inventory_vendornstore_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_inventory_month1_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_inventory_month1_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_sales_return.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_sales_return.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/test_customer.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/test_customer.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_media_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_media_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/tab_activity_vendor_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/tab_activity_vendor_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activitymail.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activitymail.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/search_newproduct_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/search_newproduct_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/gsync.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/gsync.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_indirect_pay_by_cheque.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_indirect_pay_by_cheque.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_reportprocurement.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_reportprocurement.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_dailysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_dailysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_inventory_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_inventory_product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_system_validate.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_system_validate.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_vendor_return.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_vendor_return.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/discountpopuptotalinventory.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/discountpopuptotalinventory.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityinternetbill.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityinternetbill.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_localprod_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_localprod_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_salesreturn_withinvoice_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_salesreturn_withinvoice_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__top__product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__top__product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_withinvoice_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_withinvoice_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_sale.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_sale.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cheque_6month.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cheque_6month.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/dialog_confirm.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/dialog_confirm.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_local_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_local_product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_validate_.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_validate_.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity__media.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity__media.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_viewbilldetails_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_viewbilldetails_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_blinkinglogo_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_blinkinglogo_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_purchase_order_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_purchase_order_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/mcashloading_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/mcashloading_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/alertdialog_forvendorindirectpayment.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/alertdialog_forvendorindirectpayment.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_purchase_product_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_purchase_product_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_localproductname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_localproductname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_3monthreportprocurement.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_3monthreportprocurement.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_indirect_pay_by_cheque.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_indirect_pay_by_cheque.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_search_grnid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_search_grnid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_lost_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_lost_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_stock_adjustment.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_stock_adjustment.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/displaycreditcustname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/displaycreditcustname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_showmaintenance_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_showmaintenance_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/tab_activity_masterdata_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/tab_activity_masterdata_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_search_dstrnm_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_search_dstrnm_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__screen_action_bar_overlay.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__screen_action_bar_overlay.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_dialog__inventory__localproduct.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_dialog__inventory__localproduct.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_localprod_cpg_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_localprod_cpg_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_product_cpg_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_product_cpg_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__integrationwithdistributor.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__integrationwithdistributor.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_overallsale_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_overallsale_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_indirect_pay_by_cash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_indirect_pay_by_cash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activitycustomer.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activitycustomer.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/view_spinner_item.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/view_spinner_item.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_sales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_sales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_localprod_pharma_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_localprod_pharma_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_loyalityreport_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_loyalityreport_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_alidatepurchase_.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_alidatepurchase_.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__simple_dropdown_hint.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cheque_1month.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cheque_1month.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/search_customer_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/search_customer_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_productname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_productname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_inventory_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_inventory_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_comp_btl_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_comp_btl_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_yearlyreportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_yearlyreportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_vendor_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_vendor_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/addnewcustomer.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/addnewcustomer.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__salesreturn_withoutinvoiceno.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__salesreturn_withoutinvoiceno.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_scheme.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_scheme.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_yearlysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_yearlysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_localprod_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_localprod_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_line_item_fullproduct.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_line_item_fullproduct.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/search_localproduct_dialog_inventory.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/search_localproduct_dialog_inventory.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_direct_pay_by_cheque.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_direct_pay_by_cheque.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_activity_inventory_data.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_activity_inventory_data.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_vendor_return.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_vendor_return.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cash_3month.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cash_3month.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/alert_addnewcustomer_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/alert_addnewcustomer_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/additem.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/additem.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_inventory_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_inventory_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_top_productidorname_autocomp.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_top_productidorname_autocomp.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_custom_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_custom_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_retail_carddefine_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_retail_carddefine_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_lost_sale_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_lost_sale_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_daily_inventory_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_daily_inventory_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_activity_inventory_month1_data.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_activity_inventory_month1_data.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_distributor_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_distributor_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_distributorname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_distributorname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityreport.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityreport.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/toast.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/toast.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity__lost__sale.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity__lost__sale.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__list_menu_item_radio.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_biilinternet.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_biilinternet.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_bar_home.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_bar_home.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_direct_pay_by_cheque.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_direct_pay_by_cheque.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_direct_pay_by_cash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_direct_pay_by_cash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/checquepayment_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/checquepayment_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/customeritems.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/customeritems.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__doctor.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__doctor.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_rule_defination_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_rule_defination_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_weeklysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_weeklysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/doctoritems.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/doctoritems.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_customer_sales.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_customer_sales.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_product_pharma_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_product_pharma_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_product_cpg_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_product_cpg_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__bill__level.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__bill__level.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_product_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_product_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cheque_3month.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cheque_3month.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_product_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_product_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/tab_activity_sales_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/tab_activity_sales_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_monthlyreportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_monthlyreportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_hdfullcreditcust_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_hdfullcreditcust_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__list_menu_item_icon.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_monthly_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_monthly_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_vendor_return.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_vendor_return.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_quarterlysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_quarterlysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_day_open.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_day_open.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_inventory.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_inventory.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_lineitem_productid_name.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_lineitem_productid_name.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/pdf_main.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/pdf_main.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_dailyoverallsales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_dailyoverallsales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_localprod_cpg_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_localprod_cpg_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_lineitem_discount.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_lineitem_discount.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_store_main.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_store_main.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_tax.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_tax.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/fragment_inventory.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/fragment_inventory.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/tab_activity_sales_return_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/tab_activity_sales_return_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_activity_inventory_month3_data.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_activity_inventory_month3_data.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_mode_bar.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__installation.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__installation.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_bar_tab_bar_view.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_bar_tab_bar_view.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_reports_status.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_reports_status.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_stockadjustment_report_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_stockadjustment_report_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_search_transid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_search_transid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_dialog__purchase__loca_lproduct.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_dialog__purchase__loca_lproduct.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__screen_action_bar.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__screen_action_bar.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/alertdailog_purchase.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/alertdailog_purchase.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_master_data_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_master_data_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/second_screen_bill_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/second_screen_bill_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityproductcpg.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityproductcpg.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/reprint_bill_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/reprint_bill_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_sale_withinvoice_list_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_sale_withinvoice_list_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activitylocal_vendor.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activitylocal_vendor.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_adticker_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_adticker_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_expiredproduct_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_expiredproduct_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_transid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_transid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/credit_setlement_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/credit_setlement_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_tender.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_tender.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cheque.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cheque.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_lost_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_lost_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__popup_menu_item_layout.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_loyality_cust.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_loyality_cust.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_purchasing_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_purchasing_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_inventory_stock_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_inventory_stock_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_weekly_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_weekly_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/tab_activity_purchasing_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/tab_activity_purchasing_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/productlist.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/productlist.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/fragment_pushadds.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/fragment_pushadds.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_monthlysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_monthlysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_rule_defination.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_rule_defination.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__search_dropdown_item_icons_2line.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/keyboard_popup_salesbill.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/keyboard_popup_salesbill.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_creditcust_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_creditcust_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_dialog__purchase__local_vendor.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_dialog__purchase__local_vendor.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/alertdailog_vendorreturn.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/alertdailog_vendorreturn.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/listitem.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/listitem.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_purchaselist.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_purchaselist.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_lost_sale.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_lost_sale.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_adticker_report_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_adticker_report_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__credit_view_bills.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__credit_view_bills.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_salesbill.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_salesbill.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_daily_inventory_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_daily_inventory_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_grn_no_dropdown.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_grn_no_dropdown.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_loyality.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_loyality.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__mfg_btl.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity__mfg_btl.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityloyalityaccural.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityloyalityaccural.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/billleveldiscount_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/billleveldiscount_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_salelist.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_salelist.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_blinkinglogo_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_blinkinglogo_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityloyalitydefine.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityloyalitydefine.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_activity_inventory_month6_data.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_activity_inventory_month6_data.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_inventory_product_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_inventory_product_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_sale_list_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_sale_list_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_creditnote_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_creditnote_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/search_localvendor_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/search_localvendor_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_sales_return_withinvoice_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_sales_return_withinvoice_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_withoutinvoice_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_withoutinvoice_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_systemsettng_status.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_systemsettng_status.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_purchase_vendorname_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_purchase_vendorname_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_stockadjustment_product_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_stockadjustment_product_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__list_menu_item_checkbox.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/creditnote_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/creditnote_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_inventory_stock_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_inventory_stock_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_transid_withinvoice_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_transid_withinvoice_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_stockreport_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_stockreport_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_activity_inventory_stock_data.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_activity_inventory_stock_data.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_sales_return_withoutinvoice_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_sales_return_withoutinvoice_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/cardpayment_dialog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/cardpayment_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_purchase_productwithpo_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_purchase_productwithpo_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_master_screen2.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_master_screen2.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/user_setting_spinner.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/user_setting_spinner.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_purchaseprocurement_product_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_purchaseprocurement_product_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_loyalty_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_loyalty_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/displaytopfullproduct.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/displaytopfullproduct.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/device_name.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_search_prodid_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_search_prodid_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/abs__action_mode_close_item.xml",
+        "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__action_mode_close_item.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/show_incentive.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/show_incentive.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/isplay_search_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/isplay_search_product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_inventorywithpo.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_inventorywithpo.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_retail_carddefine.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_retail_carddefine.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_store_main_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_store_main_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_cr_status.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_cr_status.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_inventory_month6_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_inventory_month6_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_salesreturn.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_salesreturn.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/totaleditpopup.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/totaleditpopup.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_customer_rejection.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_customer_rejection.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/report_display_inventory_month3_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/report_display_inventory_month3_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_sales_status.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_sales_status.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_quarterlyreportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_quarterlyreportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_search_vendornameprocurement_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_search_vendornameprocurement_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_vendor_rejection.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_vendor_rejection.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/alertcustomer_sales.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/alertcustomer_sales.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_indirect_pay_by_cash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_indirect_pay_by_cash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_vendor_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_vendor_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_dialog__inventory__localvendor.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_dialog__inventory__localvendor.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cash.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cash.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_purchasing_status.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_purchasing_status.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_inventory_total.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_inventory_total.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/diplay_report_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/diplay_report_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_bill_visibility.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_bill_visibility.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_settlecreditcust_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_settlecreditcust_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_pay_by_cash_6month.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_pay_by_cash_6month.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_weeklysales_grandtotal_row.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_full_weeklysales_grandtotal_row.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/doctoradditiondiaglog.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/doctoradditiondiaglog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_dailyreportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_dailyreportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_store.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_store.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_report_sales_return.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_report_sales_return.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_dropdown_top_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_dropdown_top_product.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_reportsale_list.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_reportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_daily_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_daily_sale_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/dialog_purchase_product.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/dialog_purchase_product.xml"
+    }
+]

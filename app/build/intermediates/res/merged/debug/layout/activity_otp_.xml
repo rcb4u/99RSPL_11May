@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="100.0"
+
+    android:background="#ff9033"
+    android:id="@+id/layout_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20.0"
+        android:paddingLeft="370dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:id="@+id/layer2">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="Password*"
+                android:textColor="#000000"
+                android:id="@+id/textView2"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:ems="10"
+                android:maxLength="10"
+                android:focusable="true"
+
+                android:id="@+id/validatepassword"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style"
+                android:textStyle="bold"
+                android:imeOptions="flagNoExtractUi"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75.0"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <android.inputmethodservice.KeyboardView
+                android:id="@+id/keyboard_loginid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="true"
+                android:layout_gravity="bottom"
+                android:focusableInTouchMode="true"
+                android:visibility="gone"
+                android:background="@drawable/keyboard_border"
+                android:keyBackground="@drawable/keyboard_border"/>
+
+
+            <android.inputmethodservice.KeyboardView
+                android:id="@+id/keyboard_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="true"
+                android:layout_gravity="bottom"
+                android:focusableInTouchMode="true"
+                android:visibility="gone"
+                android:background="@drawable/keyboard_border"
+                android:keyBackground="@drawable/keyboard_border"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.0"
+        android:orientation="horizontal"
+        android:id="@+id/layer3">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:id="@+id/loginbutton"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:layout_weight="5.0"
+            android:textSize="20dp"
+            android:paddingBottom="15dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPlayRemoteVideo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="OnClickPlayRemoteVideo"/>
+</LinearLayout>

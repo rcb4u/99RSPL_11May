@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ngx_pos_usb_serial_sdk_dualdisplay_1.0.4_encrp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ngx_pos_usb_serial_sdk_dualdisplay_1.0.4_encrp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

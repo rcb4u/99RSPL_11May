@@ -1,0 +1,73 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.RSPL.POS.MasterScreen1">
+
+ <item android:id="@+id/action_user"
+     android:showAsAction="always"
+     android:orderInCategory="1"
+     android:actionViewClass="android.widget.TextView"/>
+
+  <!--  <item android:id="@+id/action_u"
+       android:showAsAction="always"
+       android:orderInCategory="1"
+       android:actionViewClass="android.widget.Spinner"/>-->
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_launcher_back"/>
+
+    <item android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settinghelp" android:title="@string/action_settinghelp"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher_help" android:showAsAction="always" />
+    <item
+        android:id="@+id/action_settinginfo"
+        android:title="@string/action_settinginfo"
+        android:orderInCategory="100"
+        android:icon="@drawable/infor"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_settinginv" android:title="@string/action_settinginv"
+        android:orderInCategory="100"
+        android:icon="@drawable/inventory" android:showAsAction="always"/>
+    <item android:id="@+id/action_settingsales" android:title="@string/action_settingsales"
+        android:orderInCategory="100"
+        android:icon="@drawable/sales" android:showAsAction="always"
+        />
+    <item android:id="@+id/action_Masterscn1" android:title="MasterScreen"
+        android:orderInCategory="100"
+        android:icon="@drawable/masterdatamanagement"
+        android:showAsAction="always" />
+
+
+
+
+ <item
+     android:id="@+id/spinner_user"
+     android:title="ActionBar Spinner"
+     android:actionViewClass="android.widget.Spinner"
+     android:showAsAction="always"
+     android:background="@drawable/border_style"
+     android:actionLayout="@layout/user_setting_spinner"
+
+     />
+
+ <item
+     android:id="@+id/TextView"
+     android:title="ActionBar TextView"
+     android:actionViewClass="android.widget.TextView"
+     android:showAsAction="always"
+
+
+     />
+
+
+
+
+</menu>

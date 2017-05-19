@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#2787A4"
+    android:id="@+id/Sub">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:weightSum="240.0"
+        android:layout_alignParentStart="true"
+        android:textAlignment="textStart">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvUser_Nm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="47dp"
+                android:text="Grand Total"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="39.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvLocal_Nm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ad Id"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvBar_Code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ad Id"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+               />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvMrp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ad Id"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvSPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ad Id"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvPPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ad Id"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtv_Active"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ad Id"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvP_Margin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Grand Total"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

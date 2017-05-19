@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Sub"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#2787A4"
+    android:weightSum="100.0">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:weightSum="150.0"
+        android:orientation="horizontal"
+        android:textAlignment="textStart">
+
+
+         <TextView
+             android:id="@+id/rowtvProdNm"
+             android:layout_width="210px"
+             android:layout_height="match_parent"
+             android:gravity="left"
+             android:layout_weight="25.0"
+             android:text="name"
+             android:textColor="#000000"
+             android:textSize="18px" />
+
+         <TextView
+             android:id="@+id/rowtvBatchNo"
+             android:layout_width="150px"
+             android:layout_height="fill_parent"
+             android:gravity="left"
+             android:text="batch"
+             android:layout_weight="27.0"
+             android:paddingLeft="5dp"
+             android:textColor="#000000"
+             android:textSize="18px"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <TextView
+             android:id="@+id/rowtvExpDate"
+             android:layout_width="160px"
+             android:layout_height="match_parent"
+             android:gravity="left"
+             android:text="EXP DATE"
+             android:layout_weight="30.0"
+             android:textColor="#000000"
+             android:textSize="18px"/>
+
+         <TextView
+             android:id="@+id/rowtvMrp"
+             android:layout_width="135px"
+             android:layout_height="match_parent"
+             android:gravity="left"
+             android:layout_weight="29.0"
+             android:text="mrp"
+             android:textColor="#000000"
+             android:textSize="18px"/>
+
+         <TextView
+             android:id="@+id/rowtvQty"
+             android:layout_width="180px"
+             android:layout_height="match_parent"
+             android:gravity="left"
+             android:layout_weight="20.0"
+             android:text="qty"
+             android:textColor="#000000"
+             android:paddingRight="70dp"
+             android:textSize="18px"/>
+
+        <TextView
+            android:id="@+id/rowtvDate"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_weight="25.0"
+            android:text="date"
+            android:textColor="#000000"
+            android:paddingRight="70dp"
+            android:textSize="18px"/>
+
+    </LinearLayout>
+
+</LinearLayout>

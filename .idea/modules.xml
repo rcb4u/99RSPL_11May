@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/99RSPL 11May.iml" filepath="$PROJECT_DIR$/99RSPL 11May.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-pdfview-master/android-pdfview/android-pdfview.iml" filepath="$PROJECT_DIR$/android-pdfview-master/android-pdfview/android-pdfview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite-android-3150000-see/sqlite-android-3150000-see.iml" filepath="$PROJECT_DIR$/sqlite-android-3150000-see/sqlite-android-3150000-see.iml" />
+    </modules>
+  </component>
+</project>

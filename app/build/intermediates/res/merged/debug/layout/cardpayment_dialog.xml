@@ -1,0 +1,374 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffdd0"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="1.0"
+        android:paddingLeft="10dp"
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="SELECT CARD"
+            android:ems="10"
+            android:id="@+id/amtrecived_tv"
+            android:textSize="15px"
+
+            android:gravity="left"
+            android:fontFamily="bold"
+            android:layout_gravity="center_vertical"
+            />
+
+
+
+
+
+        <Button
+            android:layout_width="20px"
+            android:layout_height="16px"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="300dp"
+            android:id="@+id/search_button"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/cross_arrow_icon"
+            android:onClick="view"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/visabutton"
+            android:background="@drawable/vs"
+            android:textColor="#000000"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:onClick="view"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mastrobutton"
+
+            android:background="@drawable/mm"
+            android:textColor="#000000"
+
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:onClick="view"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/masterbutton"
+            android:background="@drawable/mc"
+            android:textColor="#000000"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:onClick="view"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="CARD HOLDER NAME *"
+            android:ems="10"
+            android:id="@+id/entramount_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="190px"
+            android:layout_height="40px"
+            android:paddingBottom="5dp"
+            android:hint="first name"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:maxLength="15"
+            android:layout_marginEnd="5px"
+            android:textSize="12px"
+            android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, ,"
+            android:background="@drawable/border_style"
+            android:layout_gravity="center_vertical"
+
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="160px"
+            android:layout_height="40px"
+            android:layout_marginEnd="2px"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:hint="last name"
+            android:maxLength="15"
+            android:textSize="12px"
+            android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, ,"
+            android:background="@drawable/border_style"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="CARD NUMBER *"
+            android:ems="10"
+            android:id="@+id/cardno"
+            android:textSize="14px"
+            android:gravity="left"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/cardnoed"
+            android:layout_width="190px"
+            android:layout_height="40px"
+            android:layout_marginEnd="2px"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:maxLength="15"
+
+            android:background="@drawable/border_style"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="EXPIRY DATE *"
+            android:ems="10"
+            android:id="@+id/expdate_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/expdate"
+            android:layout_width="80px"
+            android:layout_height="40px"
+            android:layout_marginEnd="2px"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:hint="MM"
+            android:maxLength="5"
+            android:background="@drawable/border_style"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/expdate2"
+            android:layout_width="20px"
+            android:layout_height="40px"
+            android:layout_marginEnd="1px"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:text="/"
+            android:fontFamily="bold"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/expdate1"
+            android:layout_width="80px"
+            android:layout_height="40px"
+            android:layout_marginEnd="2px"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:hint="YY"
+            android:maxLength="5"
+            android:background="@drawable/border_style"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="SECURITY CODE *"
+            android:ems="10"
+            android:id="@+id/securitycode_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/securitycode"
+            android:layout_width="90px"
+            android:layout_height="40px"
+            android:layout_marginEnd="2px"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:maxLength="5"
+            android:background="@drawable/border_style"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="ENTER AMOUNT *"
+            android:ems="10"
+            android:id="@+id/entramount_tv1"
+            android:textSize="14px"
+            android:gravity="left"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <EditText
+            android:id="@+id/entramount"
+            android:layout_width="180px"
+            android:layout_height="40px"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:maxLength="15"
+            android:digits="0,1,2,3,4,5,6,7,8,9"
+            android:background="@drawable/border_style"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingLeft="70dp"
+        android:gravity="left"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11px"
+            android:layout_marginLeft="90dp"
+            android:text="The 3 digit after the card number on the signature panel of your card"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="140dp"
+        android:gravity="left"
+        android:paddingBottom="10dp"
+
+        >
+
+        <Button
+            android:paddingTop="5dp"
+            android:layout_width="90px"
+            android:layout_height="36px"
+            android:id="@+id/addtopayment_button"
+            android:textColor="#000000"
+            android:text="PAY"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="sans-serif"
+            android:onClick="view"
+            android:background="#ff3300"
+            />
+        <Button
+            android:paddingTop="5dp"
+            android:layout_width="90px"
+            android:layout_height="36px"
+            android:id="@+id/cancelopayment_button"
+            android:textColor="#000000"
+            android:text="CANCEL"
+            android:fontFamily="sans-serif"
+            android:onClick="view"
+            android:background="#ff3300"
+            />
+    </LinearLayout>
+
+</LinearLayout>

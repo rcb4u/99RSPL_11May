@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/popup"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#fffdd0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingTop="5dp"
+
+        android:layout_marginLeft="70px"
+
+        >
+
+
+        <RadioButton
+            android:id="@+id/creditcard"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="130px"
+            android:layout_height="40px"
+            android:text="Credit Card"
+            android:textSize="16px"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20px"
+            android:clickable="true"/>
+
+        <RadioButton
+            android:id="@+id/debitcard"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="130px"
+            android:layout_height="40px"
+            android:text="Debit Card"
+            android:textSize="16px"
+            android:textStyle="bold"
+            android:layout_marginLeft="20px"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/mastercard"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:text=""
+            android:background="@drawable/mastercard"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/amexcard"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:text=""
+            android:background="@drawable/amex"
+            android:clickable="true"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:weightSum="1.0"
+        android:paddingTop="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="0.1"
+            android:focusable="false"
+            android:textColor="#000000"
+            android:text="Card Number"
+            android:ems="10"
+            android:id="@+id/cardno"
+            android:textSize="14px"
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="14px"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:ems="5"
+            android:maxLength="4"
+            android:id="@+id/cardno_ed"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/border_style"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+        <EditText
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="14px"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:ems="10"
+            android:maxLength="4"
+            android:id="@+id/cardno_ed2"
+            android:layout_marginEnd="3dp"
+
+            android:background="@drawable/border_style"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+        <EditText
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="14px"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:ems="10"
+            android:maxLength="4"
+            android:id="@+id/cardno_ed3"
+            android:layout_marginEnd="3dp"
+
+            android:background="@drawable/border_style"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+        <EditText
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="14px"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:ems="10"
+            android:maxLength="4"
+            android:id="@+id/cardno_ed4"
+            android:background="@drawable/border_style"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:text="Customer Name"
+            android:ems="10"
+            android:id="@+id/custname_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <EditText
+            android:id="@+id/cardholdername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textColor="#000000"
+            android:text=""
+            android:ems="10"
+            android:textSize="14px"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            android:layout_marginLeft="10dp"
+
+            android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ABCDEFGHIJKLMNOPQRSTUVWXYZ, ,"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:text="Bank Name"
+            android:ems="10"
+            android:id="@+id/bankname_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <Spinner
+            android:id="@+id/bankname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textColor="#000000"
+            android:layout_marginLeft="50dp"
+            android:text=""
+            android:ems="10"
+            android:textSize="14px"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:text="Expiry Date"
+            android:ems="10"
+            android:id="@+id/expirydate_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <Spinner
+            android:id="@+id/cardexpirydate_ed"
+            android:layout_width="4dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:ems="10"
+            android:maxLength="5"
+            android:textSize="14px"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_style"
+            android:inputType="numberDecimal"
+            android:imeOptions="flagNoExtractUi"
+            />
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:textColor="#000000"
+            android:text="/"
+            android:textStyle="bold"
+            android:ems="0"
+            android:id="@+id/slesh"
+            android:textSize="24px"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            />
+        <Spinner
+            android:id="@+id/cardexpirydate_year"
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:ems="10"
+            android:textSize="14px"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="30px">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:layout_weight="0.1"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="Amount"
+            android:ems="10"
+            android:id="@+id/amount_tv"
+            android:textSize="14px"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/cardamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:text=""
+            android:ems="10"
+            android:textSize="14px"
+            android:background="@drawable/border_style"
+            android:inputType="numberDecimal"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingTop="5dp"
+
+        android:layout_marginLeft="70px"
+
+        >
+        <Button
+            android:id="@+id/pay"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120px"
+            android:layout_height="40px"
+            android:text="Pay"
+            android:background="#009985"
+            android:textSize="12px"
+
+            android:layout_marginLeft="20px"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/closecreditdebitcard"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120px"
+            android:layout_height="40px"
+            android:text="Close"
+            android:background="#009985"
+            android:textSize="12px"
+
+            android:layout_marginLeft="20px"
+            android:clickable="true"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

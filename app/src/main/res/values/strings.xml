@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="statusdflt"></string>
+    <string name="browsernotifydflt"></string>
+    <string name="resultdflt"></string>
+    <string name="app_name"></string>
+    <string name="title_activity_activity1">Activity1</string>
+    <string name="action_settings">Back</string>
+    <string name="action_settinghelp">Help</string>
+    <string name="action_settinginfo">Info</string>
+    <string name="action_settingpurchase">Purchase</string>
+    <string name="action_settinginv">Inventory</string>
+    <string name="action_settingsales">Sales</string>
+
+
+    <string name="email"> Email</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_frist">ActivityFrist</string>
+    <string name="title_activity_display_data">DisplayData</string>
+    <string name="select">Choose a country</string>
+    <string name="select2">Choose an item</string>
+    <string name="title_activity_store">Store</string>
+    <string-array name="active_Status_for_Report">
+        <item>Y</item>
+        <item>N</item>
+        <item>All</item>
+    </string-array>
+    <string name="title_activity_activitycustomer">Activitycustomer</string>
+    <string name="title_activity_master_screen1">MasterScreen1</string>
+    <string name="title_activity_master_screen2">MasterScreen2</string>
+    <string name="customer">find a customer;</string>
+    <string name="search">Search</string>
+    <string name="title_activity_activity_vendor">ActivityVendor</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_text">Enter Ad Text</string>
+    <string name="hint_start">Select Start Date</string>
+    <string name="hint_end">Select End Date</string>
+
+    <string name="text">N</string>
+    <string-array name="country_array">
+        <item>SriLanka</item>
+    </string-array>
+    <string-array name="inventory_array">
+        <item>Y</item>
+        <item>N</item>
+    </string-array>
+    <string-array name="active_Status">
+        <item>Y</item>
+        <item>N</item>
+    </string-array>
+    <string-array name="active_mrp_decimal">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="active_bill_copy">
+        <item>1</item>
+        <item>2</item>
+
+
+    </string-array>
+    <string-array name="active_hold_no">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+    </string-array>
+
+
+    <string-array name="active_hold_decimal">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+
+    <string-array name="active_textsize">
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+
+
+    </string-array>
+    <string-array name="active_backroundcolour">
+        <item>Orange</item>
+        <item>Orange Dark</item>
+        <item>Orange Lite</item>
+        <item>Blue</item>
+        <item>Grey</item>
+
+
+    </string-array>
+
+
+    <string-array name="active_Statusinventory">
+        <item>N</item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="active_array">
+        <item>"Retail_ad_ticker"</item>
+        <item>"Retail_ad_blinkinglogo"</item>
+        <item>"Retail_ad_store_main"</item>
+        <item>"retail_cust_loyality"</item>
+        <item>"retail_card_define"</item>
+        <item>"rule_defination"</item>
+    </string-array>
+
+
+    <string name="title_activity_activity_local_product">ActivityLocalProduct</string>
+    <string name="title_activity_activity_tax">ActivityTax</string>
+    <string name="title_activity_activity_store">ActivityStore</string>
+    <string name="title_activity_activity_product">ActivityProduct</string>
+    <string name="title_activity_activitypurchase">Activitypurchase</string>
+    <string name="title_activity_activity_sales">ActivitySales</string>
+    <string name="title_activity_activity_day_open">ActivityDayOpen</string>
+    <string name="title_activity_activity_main_sales">ActivityMainSales</string>
+    <string name="title_activity_activity_tender">ActivityTender</string>
+    <string name="title_activity_activity_scheme">ActivityScheme</string>
+    <string name="title_activity_activitypurchaseitem">Activitypurchaseitem</string>
+    <string name="title_activity_activity_salesbill">ActivitySalesbill</string>
+    <string name="title_activity_activity_stores2">ActivityStores2</string>
+    <string name="title_activity_activity_maintain">ActivityMaintain</string>
+    <string name="title_activity_activity_maintain_showlist">ActivityMaintainShowlist</string>
+    <string name="title_activity_activity_maintainfinal">ActivityMaintainfinal</string>
+    <string name="title_activity_activitylocal_vendor">ActivitylocalVendor</string>
+    <string name="title_activity_activity_report">ActivityReport</string>
+    <string name="title_activity_activity_main_maintainence">ActivityMainMaintainence</string>
+    <string name="title_activity_activityinternetbill">Activityinternetbill</string>
+    <string name="action_search" />
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a Printer</string>
+    <string name="insecure_connect">Connect Slave</string>
+    <string name="discoverable">Make discoverable</string>
+
+
+    <!--  <string name="app_name">Edittext_validation</string>-->
+
+    <string-array name="month_array">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="cr_status_for_allscreen">
+        <item>Master Data Management</item>
+        <item>System Settings</item>
+        <item>Purchasing</item>
+        <item>Sales</item>
+        <item>Reports</item>
+    </string-array>
+
+
+    <string-array name="year_array">
+        <item>YYYY</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

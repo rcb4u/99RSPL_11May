@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff9033"
+    android:id="@id/layout_color"
+    android:layout_weight="100.0">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="5dp"
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingTop="10dp"
+
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PaymentNumber"
+                android:textColor="#000000"
+                android:text=" Payment  Number"
+                android:textSize="@dimen/textsize"
+                android:layout_weight="0.5"
+
+
+                />
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:id="@+id/VendorPay"
+                android:textColor="#000000"
+                android:hint="PaymentNumber"
+                android:textSize="20px"
+                android:layout_weight="0.5"
+                android:background="@drawable/border_style"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:weightSum="1.0"
+            >
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SelectvendorOrDistributorName"
+                android:textColor="#000000"
+                android:layout_weight="0.5"
+                android:text=" Select vendor Or Distributor Name"
+                android:textSize="@dimen/textsize"
+
+                android:gravity="left"
+
+
+                />
+            <Spinner
+
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:id="@+id/Vendornameforindirectpayment"
+                android:background="@drawable/border_style"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:weightSum="1.0">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Enterthepaymentvalue"
+                android:textColor="#000000"
+                android:text=" Select Reason of Payment"
+                android:textSize="@dimen/textsize"
+                android:layout_weight="0.5"
+
+
+                />
+            <Spinner
+
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:id="@+id/selectthereason"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/border_style"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:weightSum="1.0"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Selectpono"
+                android:textColor="#000000"
+                android:text=" Amount to Pay"
+                android:textSize="@dimen/textsize"
+                android:layout_weight="0.5"
+
+
+
+                />
+            <EditText
+
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:id="@+id/VendorPaytotal"
+                android:textColor="#000000"
+                android:maxLength="10"
+                android:inputType="numberDecimal"
+                android:hint="EnterTotal Amount"
+                android:textSize="14px"
+                android:layout_weight="0.5"
+                android:background="@drawable/border_style"
+                android:imeOptions="flagNoExtractUi"
+
+                />
+        </LinearLayout>
+
+
+        />
+        <TextView
+            android:layout_width="10px"
+            android:layout_height="40px"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:textColor="#9B9B9B"
+            android:hint="INVOICE NO"
+            android:visibility="invisible"
+            android:ems="10"
+            android:id="@+id/sales_billno"
+            android:textSize="15px"
+            android:layout_marginEnd="3dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/border_style"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_number_indirct_payment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:background="@drawable/keyboard_border"
+            android:keyBackground="@drawable/keyboard_border"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1.0"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_height="50px"
+            android:layout_weight="0.5"
+            android:id="@+id/indirectpaybycash"
+            android:textColor="#000000"
+            android:text=" PAY BY CASH "
+            android:onClick="view"
+            android:textSize="@dimen/textsize"
+            android:background="@drawable/shapebuttonsales"
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:id="@+id/indirectpaybycheque"
+            android:layout_weight="0.5"
+            android:textColor="#000000"
+            android:text=" PAY BY CHEQUE "
+            android:onClick="view"
+            android:textSize="@dimen/textsize"
+            android:background="@drawable/shapebuttonsales"            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

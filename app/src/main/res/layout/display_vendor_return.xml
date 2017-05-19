@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff9033">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+
+        android:id="@+id/Sub"
+        android:weightSum="9.0">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:textColor="#000000"
+            android:text="Product Name"
+            android:focusable="false"
+            android:id="@+id/prodnameVendorreturn"
+            android:textSize="20px"
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <TextView
+            android:id="@+id/BatchNumberVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:layout_alignParentLeft="true"
+            android:inputType="number"
+            android:text="Mrp"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView android:id="@+id/expdateVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+
+            android:layout_alignParentLeft="true"
+            android:inputType="number"
+            android:text="expdate"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/PPriceVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:text="selling"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <EditText
+            android:id="@+id/qtyVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:text="quantity"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+        <TextView
+            android:id="@+id/StockVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:text="Stock"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <TextView
+            android:id="@+id/uomVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:text="uom"
+            android:textColor="#000000"
+            android:textSize="18px"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/totalVendorReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:text="total"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:src="@drawable/cross_arrow_icon"
+            android:id="@+id/deleteButtonVendorReturn" />
+    </LinearLayout>
+
+</LinearLayout>

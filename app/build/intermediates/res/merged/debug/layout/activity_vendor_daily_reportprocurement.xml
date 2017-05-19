@@ -1,0 +1,278 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:weightSum="100.0"
+    android:background="#ff9033"
+    android:divider="@android:color/background_light">
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:weightSum="120.0"
+        android:background="#4a4a4a"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+        <TextView
+            android:text="USER NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvNm"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingLeft="7dp"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="left"
+            android:gravity="center_vertical"  />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24.0"
+            android:background="#4a4a4a">
+
+        <TextView
+            android:text="PO NO"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvPoNo"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="left"
+            android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+        <TextView
+            android:text="VENDOR NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvVendNm"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="left"
+            android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+        <TextView
+            android:text="TOTAL"
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="left"
+            android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="100"
+        android:layout_height="420dp"
+        android:orientation="vertical"
+        android:id="@+id/layout3"
+        android:textColor="#000000"
+        android:layout_below="@+id/linearlayout1">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#ffffff"
+            android:id="@+id/lv_VendorReport" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2ede4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+
+                >
+
+                <TextView
+                    android:layout_width="74px"
+                    android:layout_height="30px"
+                    android:layout_weight="0.7"
+                    android:text="Total Items"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/discount_text"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="1.0"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="0"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/ReportPurchasingTotalitem"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Grand Total"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/discount_text9"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="0.00"
+                    android:textColor="#000000"
+                    android:id="@+id/ReportPurchasingGrandTotal"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/layout3"
+        android:paddingTop="1px"
+
+        >
+        <Button
+            android:layout_width="225px"
+            android:layout_height="50px"
+            android:layout_weight="20"
+            android:background="@drawable/shapebuttonsales"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="Email"
+            android:focusable="false"
+            android:ems="10"
+            android:id="@+id/emailbtn"
+            android:textSize="@dimen/textsize"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/button_background"
+            android:onClick="view"
+            />
+    </LinearLayout>-->
+
+</LinearLayout>

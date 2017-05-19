@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffdd0"
+    android:padding="15dp"
+    android:weightSum="1">
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="125px"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitbtnForHold"
+        android:textColor="#000000"
+        android:text=" CONNECT "
+        android:onClick="view"
+        android:textSize="@dimen/Buttontextsize"
+        android:layout_gravity="center"
+        android:background="@drawable/shapebutton_dialog"
+
+        />
+
+</LinearLayout>
