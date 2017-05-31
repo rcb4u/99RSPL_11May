@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:weightSum="100.0"
+    android:background="#ff9033"
+    android:divider="@android:color/background_light">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_weight="0.5">
+
+        <TextView
+            android:text="Master Data Management"
+            android:id="@+id/masterdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:ems="10"
+            android:textSize="50px"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="2.0"
+            android:id="@+id/radioGroup"
+            android:paddingLeft="20dp">
+
+
+            <RadioButton
+                android:text="Store Management"
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:ems="10"
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product(Pharma)"
+                android:id="@+id/radioButton2"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:layout_weight="0.13"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:ems="10"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local Product(Pharma)"
+                android:id="@+id/radioButton3"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:ems="10"
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capturing Doctor"
+                android:id="@+id/radioButton4"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:ems="10"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distributors"
+                android:id="@+id/radioButton5"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:ems="10"
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scheme Management For Companies"
+                android:id="@+id/radioButton6"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:ems="10"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Management"
+                android:id="@+id/radioButton7"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:ems="10"
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local Vendors"
+                android:id="@+id/radioButton8"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, "
+                android:ems="10"
+                android:maxLength="200"
+                android:background="@drawable/edittext_style"
+                android:paddingBottom="20dp"/>
+
+        </RadioGroup>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout4">
+
+        <Button
+            android:id="@+id/Submit"
+            android:text="Submit"
+            android:textSize="@dimen/textsize"
+            android:background="@drawable/shapebuttonsales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

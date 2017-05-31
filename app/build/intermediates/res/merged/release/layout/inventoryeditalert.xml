@@ -1,0 +1,354 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffdd0"
+    android:weightSum="70.0"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout8"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Product Name"
+            android:textColor="#000000"
+            android:id="@+id/searchtextView8"
+            android:fontFamily="sans-serif"
+            android:textSize="14px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/setproductname"
+            android:background="@drawable/border_style">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout1"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Batch No"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview1"
+            android:fontFamily="sans-serif"
+            android:textSize="14px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/searchbatchno"
+            android:background="@drawable/border_style">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout3"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Mrp"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview3"
+            android:fontFamily="sans-serif"
+            android:textSize="14px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/searchmrp"
+            android:background="@drawable/border_style">
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout4"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="S.Price"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview4"
+            android:fontFamily="sans-serif"
+            android:textSize="14px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/searchsprice"
+            android:background="@drawable/border_style">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout5"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="P.Price"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview5"
+            android:fontFamily="sans-serif"
+            android:textSize="14px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/searchpprice"
+            android:background="@drawable/border_style">
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout2"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Qty"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview2"
+            android:fontFamily="sans-serif"
+            android:textSize="14px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/searchqty"
+            android:background="@drawable/border_style">
+        </EditText>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:weightSum="1.0"
+         android:id="@+id/autolayout7"
+         android:paddingRight="20dp"
+         android:layout_marginTop="10dp"
+
+
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.4"
+             android:text="Total"
+             android:textColor="#000000"
+             android:id="@+id/searchtextview7"
+             android:fontFamily="sans-serif"
+             android:textSize="14px"
+             android:layout_gravity="center_vertical"
+             android:gravity="left"
+             android:paddingLeft="60dp"
+             />
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.6"
+             android:singleLine="true"
+             android:completionThreshold="1"
+             android:textColor="#000000"
+             android:textSize="14px"
+             android:id="@+id/searchtotal"
+             android:background="@drawable/border_style">
+         </TextView>
+
+     </LinearLayout>-->
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Hiddenlayout1"
+        android:paddingTop="10dp"
+        android:visibility="visible"
+        android:layout_weight="30"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingLeft="100dp"
+
+            >
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Submit"
+                android:textSize="15px"
+                android:id="@+id/Searchsubmit"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="10dp"
+                android:background="#ff3300"
+
+                />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Exit"
+                android:textSize="15px"
+                android:id="@+id/searchexit"
+                android:textColor="#FFFFFF"
+                android:background="#ff3300"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>

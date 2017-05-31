@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9033"
+    android:id="@+id/layout_color"
+    android:weightSum="100"
+    >
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.84"
+            >
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                >
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="1px"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:ems="10"
+                    android:id="@+id/mobileno"
+                    android:textSize="@dimen/textsize"
+                    android:layout_marginEnd="2dp"
+                    android:visibility="invisible"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/cust"
+                    android:background="@drawable/border_style" />
+                <!--<Button
+                    android:layout_width="46px"
+                    android:layout_height="46px"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/search_button"
+                    android:fontFamily="sans-serif"
+                    android:paddingEnd="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/circle_shape_drawable"
+                    android:drawableTop="@drawable/cust"
+                    android:onClick="view"
+                    />
+-->
+
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="4px"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:id="@+id/sales_credit"
+                    android:textSize="18px"
+                    android:paddingLeft="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"/>
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="42px"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:hint="TRANSID"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:id="@+id/sales_imeibill"
+                    android:textSize="8px"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"/>
+
+                <TextView android:layout_width="1px"
+                    android:layout_height="1px"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:hint="TRANSID"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:id="@+id/credit_invoiceno"
+                    android:textSize="14px"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"/>
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="40px"
+                    android:inputType="number"
+                    android:textColor="#9B9B9B"
+                    android:hint="INVOICE NO"
+                    android:visibility="invisible"
+                    android:fontFamily="sans-serif-thin"
+                    android:ems="10"
+                    android:id="@+id/sales_billno"
+                    android:textSize="15px"
+                    android:layout_gravity="center_vertical">
+
+                </TextView>
+
+
+
+
+
+                <!--   <Button
+                       android:layout_width="36px"
+                       android:layout_height="36px"
+                       android:textColor="#FFFFFF"
+                       android:id="@+id/adddoctor"
+                       android:paddingEnd="1dp"
+                       android:background="@drawable/circle_shape_drawable"
+                       android:drawableTop="@drawable/cust"
+                       android:onClick="view"
+                       />-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="3dp"
+
+                >
+
+
+
+                <com.RSPL.POS.CustomAuto
+                    android:layout_width="0dp"
+                    android:layout_height="45px"
+                    android:layout_weight="0.6"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:completionThreshold="1"
+                    android:textColor="#000000"
+                    android:hint="CUSTOMER NAME"
+                    android:textSize="@dimen/Edittextsize"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890, "
+                    android:id="@+id/creditmyautocomplete"
+                    android:background="@drawable/border_style"
+                    android:layout_marginEnd="2dp"
+                    android:imeOptions="flagNoExtractUi"
+                    >
+                </com.RSPL.POS.CustomAuto>
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="1px"
+                    android:layout_weight="0.1"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:hint="Scanitem"
+                    android:ems="10"
+                    android:visibility="visible"
+                    android:focusable="true"
+                    android:id="@+id/creditcustinvoice"
+                    android:textSize="15px"
+                    android:layout_marginEnd="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style" >
+                    <requestFocus/>
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+
+                >
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#4a4a4a"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+
+                >
+                <TextView
+                    android:layout_width="270px"
+                    android:layout_height="35px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:text="NAME"
+                    android:focusable="false"
+                    android:ems="10"
+                    android:id="@+id/productname"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    />
+                <!--  <TextView
+                      android:layout_width="160px"
+                      android:layout_height="25px"
+                      android:inputType="number"
+                      android:textColor="#ffffff"
+                      android:focusable="false"
+                      android:text="BATCH.NO"
+                      android:ems="10"
+                      android:id="@+id/batchno"
+                      android:textSize="18px"
+                      android:gravity="center"
+                      android:layout_gravity="center_vertical"
+                      />-->
+                <TextView
+                    android:layout_width="280px"
+                    android:layout_height="35px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:focusable="false"
+                    android:text="PHONE NO"
+                    android:ems="10"
+                    android:id="@+id/expirydate"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    />
+
+
+                <TextView
+                    android:layout_width="370px"
+                    android:layout_height="35px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:focusable="false"
+                    android:text="OUTSTANDING"
+                    android:ems="10"
+                    android:id="@+id/Mrp"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:layout_weight="10.0"
+                android:id="@+id/scrollView">
+                <LinearLayout
+                    android:id="@+id/buttons_layout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10.0"
+                    android:focusable="false"
+                    android:orientation="vertical"
+                    >
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/custlistView"
+                        android:focusable="false"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_centerHorizontal="true"
+                        android:transcriptMode="alwaysScroll"
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_creditcstomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

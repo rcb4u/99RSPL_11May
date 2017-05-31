@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.RSPL.POS"
+    android:versionCode="1"
+    android:versionName="1.1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <!--
+        <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+    -->
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission
+        android:name="com.mycompany.apps.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <permission
+        android:name="com.RSPL.POS.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.RSPL.POS.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.RSPL.POS.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/w"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:windowSoftInputMode="stateAlwaysHidden" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <receiver
+            android:name="com.RSPL.POS.ConnectivityReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.RSPL.POS.BootUpReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="com.mycompany.apps" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.RSPL.POS.StartAtBootUp" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.RSPL.POS.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- <meta-data -->
+        <!-- android:name="android.app.searchable" -->
+        <!-- android:resource="@xml/searchable" /> -->
+
+        <activity
+            android:name="com.RSPL.POS.ActivityCustomer"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Installation"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.RSPL.POS.ReportVendorReturnActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_masterScreen1"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_masterScreen2"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityVendor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.login"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ActivityLocalProduct"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityTax"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityStore"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.SalesReturnReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityProduct"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activitypurchase"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivitySales"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityDayOpen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityTender"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityScheme"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityMaintain"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ActivitylocalVendor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityReportMain"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowWithInvoiceReportListActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowWithoutInvoiceReportListActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ReportActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.BlinkinglogoActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ActivityMainMaintainence"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.maintainenecereport"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activityinternetbill"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.BiilinternetActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowStockAdjustmentListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.PurchaseActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Media"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.activity_inventory"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <receiver
+            android:name="com.RSPL.POS.GoDBSyncAlarmManager"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.RSPL.POS.ActivityLoyality"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_lineitem_discount"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Top_Product"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activityloyalitydefine"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activityloyalityaccural"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivityStoreScreenFeedback"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.MasterDataActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.SystemSettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.PurchasingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.SalesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ReportsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activityreport"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Additems"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ActivityLoyalityCust"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Loyalty_Report"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.LoyaltyReportActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.RetailCarddefineActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ActivityInvoice"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.VendorIndirectPaymentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.VendorPaymentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.activity_inventorywithpo"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.RSPL.POS.RuleDefinationActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.VendorReturnActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ActivitySalesreturn"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activityvendorpayment"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ActivitySalesbill"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Comp_Btl"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Mfg_btl"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.UserManagementActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Salesreturn_withoutinvoiceno"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activitylocalproductcpg"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activityproductcpg"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.AdTickerReportActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.BlinkingLogoReportActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.MainAdvertisementReportActivity"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Doctor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.MediaReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.VendorReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.PurchasingReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.SaleReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivityInventory"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivityMasterData"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_Bill_Level"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.CustomerRejection"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ShowPurchaseReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivityPurchasing"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ShowWeeklySalesReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowMonthlySalesReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowQuarterlySalesReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowYearlySalesReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowSalesReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowPurchaseReport1MonthListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowDailySalesReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowPurchaseReportDailyListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ShowPurchaseReport3MonthListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivitySalesReport"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivitySalesReturnReport"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.VendorPaymentReportActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivityPayByCashVendorPayment"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ReportTabActivityPayByChequeVendorPayment"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.VendorRejection"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ReportDayOpenCash"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+
+        <service android:name="com.RSPL.POS.RemoteVideoService" />
+
+        <activity
+            android:name="com.RSPL.POS.Activity_Integrationwithdistributor"
+            android:theme="@style/Theme.NoTitleBar" />
+
+        <service
+            android:name="com.RSPL.POS.Service_slaveurl"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.RSPL.POS.Service_finalmulti"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.RSPL.POS.Service_uploadinsert"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.RSPL.POS.Service_upload"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.ngx.UsbSerialService"
+            android:enabled="true" />
+
+        <!--
+        <intent-filter>
+            <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            <action android:name="android.net.wifi.STATE_CHANGE" />
+        </intent-filter>
+        -->
+
+
+        <!--
+            <meta-data
+            android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+            android:resource="@xml/device_filter" />
+        -->
+
+        <activity
+            android:name="com.RSPL.POS.StockAdjustment"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Activity_decimal"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_bill_visibility"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_bill_display"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.BillDetails"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_CreditView_bills"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Activity_SettleCreditCustomer"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Dialog_Purchase_LocalVendor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Add Local Vendor"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Dialog_Purchase_LocalProduct"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Add Local Product"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.ShowStockReportListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.Dialog_Inventory_Localvendor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Add Local Vendor"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.Dialog_Inventory_Localproduct"
+            android:banner="@drawable/finallogo_small"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/finallogo_small"
+            android:label="Add Local Product"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.RSPL.POS.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name="com.RSPL.POS.validate_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.RSPL.POS.alidatepurchase_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.RSPL.POS.InventoryTotalActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <intent-filter>
+            <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+        </intent-filter>
+
+        <meta-data
+            android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+            android:resource="@xml/device_filter" />
+
+        <activity android:name="com.RSPL.POS.ActivitySystemValidate" />
+        <activity android:name="com.RSPL.POS.Activity_Lost_Sale" />
+        <activity android:name="com.RSPL.POS.Otp_Activity" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.RSPL.POS" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.RSPL.POS.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+
+</manifest>

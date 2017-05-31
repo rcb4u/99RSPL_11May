@@ -1,0 +1,806 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#ff9033">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.8"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <com.RSPL.POS.CustomAuto
+                        android:id="@+id/autoCompleteTextView"
+                        android:layout_width="800px"
+                        android:layout_height="45px"
+                        android:hint="Select Vendor Name"
+                        android:textColor="#000000"
+                        android:inputType="textAutoComplete"
+                        android:ems="10"
+                        android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s, ,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0,1,2,3,4,5,6,7,8,9"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18px"
+                        android:focusable="true"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/cust"
+                        android:background="@drawable/border_style"
+                        android:imeOptions="flagNoExtractUi"
+                        >
+                    </com.RSPL.POS.CustomAuto>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="45px"
+                        android:id="@+id/addlocalvendorinvpo"
+                        android:paddingEnd="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="#ff9033"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_shopping_cart_black_24dp"
+                        android:onClick="view"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+
+                    >
+
+                    <!--<AutoCompleteTextView
+
+                        android:id="@+id/autoProductIdandName"
+                        android:layout_width="280px"
+                        android:layout_height="35px"
+                        android:hint="ID OR NAME"
+                        android:textColor="#9B9B9B"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textAutoComplete"
+                        android:ems="10"
+                        android:textSize="24px"
+                        android:focusable="true"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/cust"
+                        android:background="@drawable/border_style" />
+
+    -->
+                    <!--<com.mycompany.apps.CustomAuto
+                         android:id="@+id/autoProductIdandName"
+                         android:layout_width="580px"
+                         android:layout_height="40px"
+                         android:layout_weight="0.8"
+                         android:textColor="#9B9B9B"
+                         android:fontFamily="sans-serif"
+                         android:inputType="textAutoComplete"
+                         android:ems="10"
+                         android:textSize="24px"
+                         android:focusable="true"
+                         android:layout_gravity="center_vertical"
+                         android:drawableLeft="@drawable/cust"
+                         android:background="@drawable/border_style" >
+                     </com.mycompany.apps.CustomAuto>
+
+ -->
+                    <TextView
+                        android:layout_width="260dp"
+                        android:paddingTop="2dp"
+                        android:layout_height="45px"
+                        android:textColor="#000000"
+                        android:text="PO No."
+                        android:id="@+id/ponum"
+                        android:textSize="@dimen/textsize"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="360px"
+                    android:layout_height="45px"
+                    android:textSize="20px"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/Po_numbers"
+                    android:background="@drawable/border_style"
+                    />
+
+                <TextView android:layout_width="170px"
+                    android:layout_height="40px"
+                    android:layout_weight="1.0"
+                    android:inputType="number"
+                    android:textColor="#9B9B9B"
+                    android:hint="INVOICE NO"
+                    android:visibility="invisible"
+                    android:ems="10"
+                    android:id="@+id/sales_billno"
+                    android:textSize="15px"
+                    android:layout_marginEnd="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+
+                >
+                <TextView
+                    android:layout_width="250px"
+                    android:layout_height="45px"
+                    android:inputType="text|date"
+                    android:textColor="#000000"
+                    android:text="Vendor Invoice No."
+                    android:ems="10"
+                    android:id="@+id/TV_VendorEditNo"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+
+                    />
+                <EditText
+                    android:layout_width="530px"
+                    android:layout_height="45px"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:hint="Enter Vendor Edit No."
+                    android:ems="10"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/VendorEditNo"
+                    android:textSize="@dimen/Edittextsize"
+                    android:gravity="center"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+
+                    />
+                <TextView
+
+                    android:layout_width="400px"
+                    android:layout_height="40px"
+                    android:inputType="text|date"
+                    android:textColor="#000000"
+                    android:text="Vendor Invoice Date"
+                    android:ems="10"
+                    android:id="@+id/TV_VendorEditDate"
+                    android:textSize="@dimen/textsize"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:imeOptions="flagNoExtractUi"
+
+                    />
+                <EditText
+                    android:layout_width="360px"
+                    android:layout_height="45px"
+                    android:inputType="text|date"
+                    android:textColor="#000000"
+                    android:text="EXP.DATE"
+                    android:focusable="false"
+                    android:ems="10"
+                    android:id="@+id/VendorEditDate"
+                    android:textSize="20px"
+                    android:gravity="center"
+
+                    android:background="@drawable/border_style"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                >
+                <com.RSPL.POS.CustomAuto
+
+                    android:id="@+id/InventoryautoProductIdandName"
+                    android:layout_width="1500px"
+                    android:layout_height="40px"
+                    android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s, ,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0,1,2,3,4,5,6,7,8,9"
+                    android:textColor="#000000"
+                    android:inputType="text"
+                    android:hint="Product Name Or Scan Product "
+                    android:ems="10"
+                    android:textSize="@dimen/Edittextsize"
+                    android:focusable="true"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/scan"
+                    android:background="@drawable/searchborder"
+                    android:imeOptions="flagNoExtractUi"
+                    >
+                </com.RSPL.POS.CustomAuto>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="45px"
+                    android:id="@+id/addlocalproductinvpo"
+                    android:paddingEnd="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#ff9033"
+                    android:src="@drawable/ic_add_shopping_cart_black_24dp"
+                    android:onClick="view"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#4a4a4a"
+                android:weightSum="14.0"
+
+                >
+
+
+
+                <!--<TextView
+                    android:layout_width="0dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:text="PO_NO"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/product1"
+                    android:textSize="14px"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="PRODUCT_ID"
+                    android:ems="10"
+                    android:id="@+id/product10"
+                    android:textSize="14px"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical"
+                    />
+-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.7"
+                    android:inputType="text|date"
+                    android:textColor="#ffffff"
+                    android:text="PRODUCT NAME"
+                    android:ems="10"
+                    android:id="@+id/product11"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.4"
+                    android:textColor="#ffffff"
+                    android:text="BATCH.NO"
+                    android:ems="10"
+                    android:id="@+id/Batchno"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="EXP.DATE"
+                    android:ems="10"
+                    android:id="@+id/Exp_dt"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="MRP"
+                    android:ems="10"
+                    android:id="@+id/productmrp"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="S.PRICE"
+                    android:ems="10"
+                    android:id="@+id/productsprice"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="P.PRICE"
+                    android:ems="10"
+                    android:id="@+id/product9"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="MARGIN"
+                    android:ems="10"
+                    android:id="@+id/produc"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:inputType="text"
+                    android:textColor="#ffffff"
+                    android:text="C.DISC(%)"
+                    android:ems="10"
+                    android:id="@+id/disc"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textColor="#ffffff"
+                    android:text="QTY"
+                    android:ems="10"
+                    android:id="@+id/productQty"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:text="F.QTY"
+                    android:ems="10"
+                    android:id="@+id/productdiscount"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:text="T.QTY"
+                    android:ems="10"
+                    android:id="@+id/producttotalqty"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textColor="#ffffff"
+                    android:text="UOM"
+                    android:ems="10"
+                    android:id="@+id/totalvalue"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:textColor="#ffffff"
+                    android:text="TOTAL"
+                    android:ems="10"
+                    android:id="@+id/productstock"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:textColor="#ffffff"
+                    android:id="@+id/image"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/buttons_layout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:orientation="horizontal"
+                >
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listView"
+                    android:layout_weight="10.0"
+                    android:layout_centerHorizontal="true"
+                    android:transcriptMode="alwaysScroll"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#f2ede4"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="Total Items"
+                            android:textColor="#000000"
+                            android:id="@+id/totalitem_tv"
+                            android:textSize="@dimen/textsize"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="left"
+                            />
+                        />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="0.00"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:id="@+id/discount_textt"
+                            android:textSize="@dimen/textsize"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:gravity="left"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="Total Inventory Value"
+                            android:textColor="#000000"
+                            android:id="@+id/discount_text9"
+                            android:textSize="@dimen/textsize"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1.0"
+                        android:padding="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="0.00"
+                            android:textColor="#000000"
+                            android:id="@+id/discount_textt10"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/textsize"
+                            android:layout_marginRight="70dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+
+                            />
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons_layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+
+
+                <Button
+                    android:layout_width="36px"
+                    android:layout_height="50px"
+                    android:id="@+id/addtolist_button"
+                    android:textColor="#000000"
+                    android:text="Submit"
+                    android:textSize="@dimen/textsize"
+                    android:layout_weight="0.15"
+                    android:background="@drawable/shapebuttonsales"
+                    android:onClick="view"
+                    />
+                <Button
+                    android:layout_width="36px"
+                    android:layout_height="50px"
+                    android:id="@+id/HoldInventorybill"
+                    android:textColor="#000000"
+                    android:text="Hold"
+                    android:textSize="@dimen/textsize"
+                    android:layout_weight="0.15"
+                    android:background="@drawable/shapebuttonsales"
+                    android:onClick="view"
+                    />
+
+                <Button
+                    android:layout_width="36px"
+                    android:layout_height="50px"
+                    android:textColor="#000000"
+                    android:text="Clear"
+                    android:id="@+id/clear"
+                    android:textSize="@dimen/textsize"
+                    android:background="@drawable/shapebuttonsales"
+                    android:layout_weight="0.15"
+                    android:onClick="view"
+                    />
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_custom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+
+
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_alphabet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+
+
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+                <android.inputmethodservice.KeyboardView
+                    android:id="@+id/keyboard_fractional7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:layout_gravity="bottom"
+                    android:focusableInTouchMode="true"
+                    android:visibility="gone"
+                    android:background="@drawable/keyboard_border"
+                    android:keyBackground="@drawable/keyboard_border"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item
+        android:id="@+id/BillLevel"
+        android:title="Bill Level Discount"
+        android:showAsAction="ifRoom|withText"
+
+        />
+-->
+
+
+    <item
+        android:id="@+id/settlecustomer"
+        android:title="Settle Credit customer"
+        android:showAsAction="ifRoom|withText"
+
+        />
+
+    <!--<item-->
+        <!--android:id="@+id/adddoctor"-->
+        <!--android:title="Add  New Doctor"-->
+        <!--android:showAsAction="ifRoom|withText"-->
+        <!--/>-->
+
+
+
+    <!--<item-->
+        <!--android:id="@+id/addproduct"-->
+        <!--android:title="Add New Product"-->
+        <!--android:showAsAction="ifRoom|withText"-->
+
+        <!--/>-->
+
+
+
+</menu>
+

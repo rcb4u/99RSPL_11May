@@ -500,7 +500,6 @@ public class login extends Activity  implements ConnectivityReceiver.Connectivit
         }
     }
     public static void bluetoothdatadetails(){
-        SQLiteDatabase DataBase =null;
         if(getSalesDetailrecord.size()<=0)
         {
             return;

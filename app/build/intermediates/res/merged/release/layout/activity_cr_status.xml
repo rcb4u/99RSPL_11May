@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:weightSum="100.0"
+    android:background="#ff9033"
+    android:divider="@android:color/background_light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:weightSum="1.0">
+
+        <TextView
+            android:text="Screens"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/actve"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:ems="10"
+            android:textSize="30px"
+            android:layout_gravity="center_vertical"
+            android:gravity="left" />
+
+        <Spinner
+            android:id="@+id/allscreens"
+            android:layout_width="580dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="textAutoComplete"
+            android:textSize="@dimen/displaytextsize"
+            android:background="@drawable/border_style"
+            android:focusable="true"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="100.0"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout5">
+
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout4">
+
+        <Button
+            android:id="@+id/Submit"
+            android:text="Submit"
+            android:textSize="@dimen/textsize"
+            android:background="@drawable/shapebuttonsales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

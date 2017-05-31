@@ -1,0 +1,553 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="300dp"
+    android:background="#fffdd0"
+    android:weightSum="70.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Search"
+            android:textColor="#000000"
+            android:id="@+id/textView0"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="120dp"
+            />
+        <com.RSPL.POS.CustomAuto
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/myautocomplete"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            android:layout_weight="0.50">
+        </com.RSPL.POS.CustomAuto>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:id="@+id/Hiddenlayout1"
+        android:paddingTop="20dp"
+        android:visibility="visible"
+        android:layout_weight="30"
+        android:paddingLeft="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingLeft="100dp">
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Add new customer"
+                android:textSize="@dimen/Buttontextsize"
+                android:id="@+id/Cust_ok_button"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="10dp"
+
+                android:background="@drawable/shapebutton_dialog" />
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Exit"
+                android:textSize="@dimen/Buttontextsize"
+                android:id="@+id/exit"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shapebutton_dialog"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:paddingTop="5dp"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Mobile Number"
+                android:textColor="#000000"
+                android:id="@+id/textViewhidden"
+                android:fontFamily="sans-serif"
+                android:textSize="14px"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:textColor="#000000"
+                android:ems="10"
+                android:id="@+id/Cust_mobileno1"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:paddingTop="5dp"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Mobile Number"
+                android:textColor="#000000"
+                android:id="@+id/textViewhidden2"
+                android:fontFamily="sans-serif"
+                android:textSize="14px"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:textColor="#000000"
+                android:ems="10"
+                android:id="@+id/Cust_credit"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1.0"-->
+        <!--android:paddingRight="30dp"-->
+        <!--android:paddingTop="10dp"-->
+
+        <!-->-->
+
+        <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.4"-->
+        <!--android:text="Customer Name"-->
+        <!--android:textColor="#000000"-->
+        <!--android:id="@+id/textViewhidden2"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:textSize="20px"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:gravity="left"-->
+        <!--android:paddingLeft="80dp"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.6"-->
+        <!--android:textColor="#000000"-->
+        <!--android:ems="5"-->
+        <!--android:id="@+id/Cust_name2"-->
+        <!--android:textSize="20px"-->
+        <!--android:layout_gravity="center_vertical"-->
+
+        <!--/>-->
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:weightSum="1.0"
+             android:paddingRight="30dp"
+             android:paddingTop="10dp"
+
+             >
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.4"
+                 android:text="Email"
+                 android:textColor="#000000"
+                 android:id="@+id/textViewemailhidden"
+                 android:fontFamily="sans-serif"
+                 android:textSize="20px"
+                 android:layout_gravity="center_vertical"
+                 android:gravity="left"
+                 android:paddingLeft="80dp"
+                 />
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+                 android:textColor="#000000"
+                 android:ems="5"
+                 android:id="@+id/Cust_email2"
+                 android:textSize="20px"
+                 android:layout_gravity="center_vertical"
+                 />
+
+         </LinearLayout>-->
+        <!--  <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:orientation="vertical"
+              android:id="@+id/Hiddenlayoutfo"
+              android:visibility="invisible"
+              android:layout_weight="10"
+              >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="1.0"
+                  android:paddingRight="30dp"
+
+                  >
+
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.4"
+                      android:text="Mobile Number"
+                      android:textColor="#000000"
+                      android:id="@+id/textViewhid"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20px"
+                      android:layout_gravity="center_vertical"
+                      android:gravity="left"
+                      android:paddingLeft="80dp"
+                      />
+
+                  <EditText
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.6"
+                      android:inputType="number"
+                      android:textColor="#000000"
+                      android:ems="10"
+                      android:id="@+id/Cust_mobilenohidd"
+                      android:textSize="20px"
+                      android:layout_gravity="center_vertical"
+                      />
+
+              </LinearLayout>
+          </LinearLayout>-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:id="@+id/Hiddenlayout"
+        android:visibility="gone"
+        android:layout_weight="40"
+        android:paddingLeft="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="305px"
+                android:layout_height="35px"
+                android:text="Mobile Number *"
+                android:textColor="#000000"
+                android:id="@+id/textView1"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="60dp"
+                />
+
+            <EditText
+                android:layout_width="255px"
+                android:layout_height="45px"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:ems="10"
+                android:maxLength="10"
+                android:id="@+id/Cust_mobileno"
+                android:textSize="@dimen/Edittextsize"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style"
+                android:imeOptions="flagNoExtractUi"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+
+            >
+
+            <TextView
+                android:layout_width="305px"
+                android:layout_height="30px"
+                android:text="Customer Name *"
+                android:textColor="#000000"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="60dp"
+                />
+
+            <EditText
+                android:layout_width="255px"
+                android:layout_height="45px"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:ems="10"
+                android:id="@+id/Cust_name"
+                android:textSize="@dimen/Edittextsize"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style"
+                android:imeOptions="flagNoExtractUi"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+
+            >
+
+            <TextView
+                android:layout_width="305px"
+                android:layout_height="35px"
+                android:text="Email"
+                android:textColor="#000000"
+                android:id="@+id/textViewemail"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="60dp"
+                />
+
+            <EditText
+                android:layout_width="255px"
+                android:layout_height="45px"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:ems="10"
+                android:id="@+id/Cust_email"
+                android:textSize="@dimen/Edittextsize"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style"
+                android:imeOptions="flagNoExtractUi"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+
+            >
+
+            <TextView
+                android:layout_width="305px"
+                android:layout_height="35px"
+                android:text="Address"
+                android:textColor="#000000"
+                android:id="@+id/textView"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="60dp"
+                />
+
+            <EditText
+                android:layout_width="255px"
+                android:layout_height="45px"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:ems="10"
+                android:id="@+id/Cust_adress_sales_create"
+                android:textSize="@dimen/Edittextsize"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style"
+                android:imeOptions="flagNoExtractUi"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+
+            >
+            <TextView
+                android:layout_width="305px"
+                android:layout_height="35px"
+                android:text="Credit Customer"
+                android:textColor="#000000"
+                android:id="@+id/textViewCREDIT1"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="60dp"
+                />
+
+            <Spinner
+                android:layout_width="255px"
+                android:layout_height="45px"
+                android:textColor="#000000"
+                android:ems="10"
+                android:id="@+id/Cust_Credithidden"
+                android:textSize="14px"
+                android:layout_gravity="center"
+
+                />
+
+        </LinearLayout>
+        <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0"
+                    android:paddingRight="30dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="190px"
+                        android:layout_height="35px"
+                        android:text="Credit Customer"
+                        android:textColor="#000000"
+                        android:id="@+id/textViewecreditcust"
+                        android:textSize="15px"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="60dp"
+                        />
+
+                    <Spinner
+                        android:layout_width="250px"
+                        android:layout_height="35px"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#000000"
+                        android:ems="10"
+                        android:id="@+id/creditcust"
+                        android:textSize="12px"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/border_style" />
+
+                </LinearLayout>-->
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="CREATE"
+            android:textSize="@dimen/Buttontextsize"
+            android:id="@+id/Cust_update_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.3"
+
+            android:background="@drawable/shapebutton_dialog"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="CLEAR"
+            android:textSize="@dimen/Buttontextsize"
+            android:id="@+id/Cust_clear_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.3"
+            android:background="@drawable/shapebutton_dialog"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="EXIT"
+            android:textSize="@dimen/Buttontextsize"
+            android:id="@+id/Cust_Exit_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.3"
+            android:background="@drawable/shapebutton_dialog"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

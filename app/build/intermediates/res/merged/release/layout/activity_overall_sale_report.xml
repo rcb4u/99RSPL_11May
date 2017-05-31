@@ -1,0 +1,528 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9033"
+    android:clickable="false"
+    android:divider="@android:color/background_light"
+    android:orientation="vertical"
+    android:id="@id/layout_color"
+    android:weightSum="100.0"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/Layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Today Date"
+            android:textColor="#000000"
+            android:id="@+id/from"
+            android:textStyle="bold"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:paddingBottom="3dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/SaleFromDate"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:ems="10"
+            android:textSize="18px"
+            android:focusable="true"
+            android:paddingBottom="3dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/border_style"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#4a4a4a"
+        android:weightSum="270.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvUserNm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="USER"
+                android:paddingLeft="7dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="26.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvTriId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="BILL NO"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="PRODUCT NAME"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvBatch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="BATCH"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvExp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="EXPIRY"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvSprice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="S PRICE"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvPprice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="P PRICE"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="19.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvQty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="QTY"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--  <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="50.0"
+              android:background="#4a4a4a">
+
+              <TextView
+                  android:id="@+id/tvTotal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center"
+                  android:gravity="center_vertical"
+                  android:text="TOTAL AFTER DISCOUNT"
+                  android:textColor="#ffffff"
+                  android:textSize="@dimen/textsize"
+                  android:textStyle="bold" />
+
+
+          </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.0"
+            android:background="#4a4a4a">
+
+            <TextView
+                android:id="@+id/tvProfit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="PROFIT"
+                android:paddingLeft="35dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout1"
+        android:orientation="vertical"
+        android:layout_weight="100.0"
+        android:textColor="#000000">
+
+        <ListView
+            android:id="@+id/lv_SaleReport"
+            android:layout_weight="10.0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2ede4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="74px"
+                    android:layout_height="30px"
+                    android:layout_weight="0.7"
+                    android:text="Cash"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/discount_text1"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="0"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/ReportSalesTotalcash"
+                    android:textSize="@dimen/displaytextsize"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="74px"
+                    android:layout_height="30px"
+                    android:layout_weight="0.7"
+                    android:text="Total Discount"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/discount_text0"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="0"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/ReportSalesTotaldiscount"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="74px"
+                    android:layout_height="30px"
+                    android:layout_weight="0.7"
+                    android:text="Profit"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/discount_text7"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/textsize"                    android:layout_gravity="center_vertical"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="0"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/ReportSalesTotalprofit"
+                    android:textSize="@dimen/displaytextsize"                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="74px"
+                    android:layout_height="30px"
+                    android:layout_weight="0.7"
+                    android:text="Credit"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/discount_text2"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/textsize"                    android:layout_gravity="center_vertical"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="0"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#4A4A4A"
+                    android:id="@+id/ReportSalesTotalcredit"
+                    android:textSize="@dimen/displaytextsize"                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="74px"
+                    android:layout_height="30px"
+                    android:layout_weight="0.7"
+                    android:text="Grand Total"
+                    android:textColor="#000000"
+                    android:id="@+id/discount_text3"
+                    android:textSize="@dimen/textsize"                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="0.00"
+                    android:textColor="#000000"
+                    android:id="@+id/ReportSalesGrandTotal"
+                    android:textStyle="normal"
+                    android:textSize="@dimen/displaytextsize"                    android:singleLine="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

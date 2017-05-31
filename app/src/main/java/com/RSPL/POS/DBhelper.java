@@ -2891,6 +2891,7 @@ public class DBhelper  extends SQLiteOpenHelper {
 	}
 	public void savesalesListdetail(String TRANS_ID, ArrayList<Sales> list,String username,String imeino,String Discount) {
 		SQLiteDatabase db = this.getWritableDatabase();
+
 		int i = login.setboolean();
 		PersistenceManager.saveStoreId(mycontext, getStoreid().toString().replace("[", "").replace("]", ""));
 		String st= PersistenceManager.getStoreId(mycontext);;
@@ -2900,33 +2901,32 @@ public class DBhelper  extends SQLiteOpenHelper {
 		for (Sales sales : list) {
 			ContentValues contentValues = new ContentValues();
 			contentValues.put("TRI_ID", TRANS_ID);
-			contentValues.put("STORE_ID", st.substring(0,10));
+			contentValues.put("STORE_ID", st.substring(0, 10));
 			// contentValues.put("INVOICE_NO", INVOICE);
 			contentValues.put("BATCH_NO", sales.getBatchNo());
-			contentValues.put("POS_USER",username);
+			contentValues.put("POS_USER", username);
 			contentValues.put("PROD_NM", sales.getProductName());
 			contentValues.put("EXP_DATE", sales.getExpiry());
 			contentValues.put("PROD_ID", sales.getProdid());
 
 
 			contentValues.put("S_PRICE", sales.getSPrice());
-			contentValues.put("TAX_VALUE3",sales.getPPrice());//here the value insert of pprice
-			contentValues.put("M_FLAG","I");
-			contentValues.put("EX_TRI_ID",imeino);
+			contentValues.put("TAX_VALUE3", sales.getPPrice());//here the value insert of pprice
+			contentValues.put("M_FLAG", "I");
+			contentValues.put("EX_TRI_ID", imeino);
 			contentValues.put("QTY", sales.getQuantity());
 			contentValues.put("MRP", sales.getMrp());
 			contentValues.put("UOM", sales.getUom());
-			contentValues.put ("SALE_DATE",getDate());
-			contentValues.put("TOTAL", sales.getTotal()-sales.getDiscountamountsalestotal());
-			contentValues.put("DISCOUNT_PERCENT",Discount);
-			contentValues.put("LINE_DISC",sales.getDiscountsales());
-			contentValues.put("LINE_ITEM_DISC",sales.getDiscountamountsalestotal());
-			contentValues.put("S_FLAG","0");
-			contentValues.put("FLAG","NULL");
-			if (i==0)
-			{
-				contentValues.put("SLAVE_FLAG","0");
-			}else {
+			contentValues.put("SALE_DATE", getDate());
+			contentValues.put("TOTAL", sales.getTotal() - sales.getDiscountamountsalestotal());
+			contentValues.put("DISCOUNT_PERCENT", Discount);
+			contentValues.put("LINE_DISC", sales.getDiscountsales());
+			contentValues.put("LINE_ITEM_DISC", sales.getDiscountamountsalestotal());
+			contentValues.put("S_FLAG", "0");
+			contentValues.put("FLAG", "NULL");
+			if (i == 0) {
+				contentValues.put("SLAVE_FLAG", "0");
+			} else {
 				contentValues.put("SLAVE_FLAG", "1");
 				String Sales_ProductDetail = "insert into retail_str_sales_detail( TRI_ID , STORE_ID ,BATCH_NO , PROD_NM , EXP_DATE, POS_USER , S_FLAG , M_FLAG ,S_PRICE,EX_TRI_ID,QTY,MRP,UOM,SALE_DATE,TOTAL,DISCOUNT_PERCENT,LINE_DISC,SLAVE_FLAG) values (" + "'" + TRANS_ID + "'," + "'" + PersistenceManager.getStoreId(mycontext) + "'," + "'" + sales.getBatchNo() + "'," + "'" + sales.getProductName() + "'," + "'" + sales.getExpiry() + "'," + "'" + username + "'," + "'0'," + "'I'," + "'" + sales.getSPrice() + "'," + "'" + imeino + "'," + "'" + sales.getQuantity() + "'," + "'" + sales.getMrp() + "'," + "'" + sales.getUom() + "'," + "'" + getDate() + "'," + "'" + sales.getTotal() + "'," + "'" + Discount + "'," + "'" + sales.getDiscountsales() + "'," + "'1')";
 				try {
@@ -2936,6 +2936,7 @@ public class DBhelper  extends SQLiteOpenHelper {
 				} catch (Exception e) {
 				}
 			}
+
 			db.insert("retail_str_sales_detail", null, contentValues);
 		}
 		if(i==3)
@@ -2944,6 +2945,7 @@ public class DBhelper  extends SQLiteOpenHelper {
 			updateSlaveFlagsalesdetail();
 			//db.execSQL("update retail_str_sales_detail SET SLAVE_FLAG='1' where SLAVE_FLAG='0'");
 		}
+		//db.endTransaction();
 		db.close(); // Closing database connection
 		Log.e("Database Operation for", "row inserted...");
 		return;
@@ -2951,7 +2953,9 @@ public class DBhelper  extends SQLiteOpenHelper {
 	public boolean insertdetailsifpaybaycash(String TRANS_ID, String GrandTotal,String username,String imeino,String Discount,String totalamount,String totaldiscount,String FinalAmount, String ExpectedChange,String RecieveAmount,String CustNm,String DoctNm,String billprint) {
 
 		SQLiteDatabase db = this.getWritableDatabase();
+
 		int i = login.setboolean();
+
 		PersistenceManager.saveStoreId(mycontext, getStoreid().toString().replace("[", "").replace("]", ""));
 		String st = PersistenceManager.getStoreId(mycontext);
 		ContentValues contentValues = new ContentValues();
@@ -2975,14 +2979,13 @@ public class DBhelper  extends SQLiteOpenHelper {
 		contentValues.put("SAVERECEIVEDBILLAMOUNT",RecieveAmount);
 		contentValues.put("SAVEEXPECTEDBILLAMOUNT",ExpectedChange);
 		contentValues.put("FLAG",billprint);
-
-
 		if (i==0)
 		{
 			contentValues.put("SLAVE_FLAG","0");
 
-		}else{
-			contentValues.put("SLAVE_FLAG","1");
+		}else {
+			contentValues.put("SLAVE_FLAG", "1");
+		}
 		//	login.bluetoothdataMaster();
 		//	updateSlaveFlagsalesMaster();
 			String Sales_ProductMaster = "insert into retail_str_sales_master( TRI_ID , STORE_ID ,GRAND_TOTAL, POS_USER , S_FLAG , M_FLAG ,EX_TRI_ID,BUSINESS_DATE,SALE_TIME,SALE_DATE,DISCOUNT_PERCENT,SLAVE_FLAG) values (" + "'" + TRANS_ID + "'," + "'" + PersistenceManager.getStoreId(mycontext) + "'," + "'" + GrandTotal + "'," + "'" + username + "'," + "'0'," + "'I'," + "'" + imeino + "'," + "'" + getDate() + "'," + "'" + getTime()+ "','" + getDate() + "'," + "'" + Discount + "'," + "'1')";
@@ -2991,16 +2994,15 @@ public class DBhelper  extends SQLiteOpenHelper {
 				jsonObject.put("Query", Sales_ProductMaster);
 				login.sendMessage(String.valueOf(jsonObject));
 			}catch (Exception e){}
-		}
+
 		db.insert("retail_str_sales_master", null, contentValues);
-
-
 		if(i==3)
 		{
 			login.bluetoothdataMaster();
 			updateSlaveFlagsalesMaster();
 
 		}
+
 		db.close(); // Closing database connection
 		Log.e("Database Operation", "row inserted Master...");
 		return true;

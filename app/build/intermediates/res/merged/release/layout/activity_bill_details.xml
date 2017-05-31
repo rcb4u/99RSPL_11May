@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9033"
+    >
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.84"
+            >
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                >
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="1px"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:ems="10"
+                    android:id="@+id/mobileno"
+                    android:textSize="12px"
+                    android:layout_marginEnd="2dp"
+                    android:visibility="invisible"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/cust"
+                    android:background="@drawable/border_style" />
+                <!--<Button
+                    android:layout_width="46px"
+                    android:layout_height="46px"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/search_button"
+                    android:fontFamily="sans-serif"
+                    android:paddingEnd="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/circle_shape_drawable"
+                    android:drawableTop="@drawable/cust"
+                    android:onClick="view"
+                    />
+-->
+
+
+
+
+                <!--   <Button
+                       android:layout_width="36px"
+                       android:layout_height="36px"
+                       android:textColor="#FFFFFF"
+                       android:id="@+id/adddoctor"
+                       android:paddingEnd="1dp"
+                       android:background="@drawable/circle_shape_drawable"
+                       android:drawableTop="@drawable/cust"
+                       android:onClick="view"
+                       />-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+
+                >
+                <!--
+
+                                <EditText
+                                    android:layout_width="290px"
+                                    android:layout_height="40px"
+                                    android:layout_weight="0.7"
+                                    android:inputType="text"
+                                    android:fontFamily="sans-serif"
+                                    android:textColor="#000000"
+                                    android:hint="Scanitem"
+                                    android:ems="10"
+                                    android:visibility="visible"
+                                    android:focusable="true"
+                                    android:id="@+id/salesauto"
+                                    android:textSize="15px"
+                                    android:layout_marginEnd="3dp"
+                                    android:drawableLeft="@drawable/scan"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/border_style" >
+                                    <requestFocus/>
+                                </EditText>
+                -->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35px"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:text="OutStanding Balance  = "
+                    android:textSize="@dimen/textsize"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890, "
+                    android:id="@+id/outstandingblance"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginEnd="15dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35px"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textsize"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890, "
+                    android:id="@+id/billoutstandingblance"
+                    android:layout_marginEnd="2dp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+
+                >
+                <!--
+
+                                <EditText
+                                    android:layout_width="290px"
+                                    android:layout_height="40px"
+                                    android:layout_weight="0.7"
+                                    android:inputType="text"
+                                    android:fontFamily="sans-serif"
+                                    android:textColor="#000000"
+                                    android:hint="Scanitem"
+                                    android:ems="10"
+                                    android:visibility="visible"
+                                    android:focusable="true"
+                                    android:id="@+id/salesauto"
+                                    android:textSize="15px"
+                                    android:layout_marginEnd="3dp"
+                                    android:drawableLeft="@drawable/scan"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/border_style" >
+                                    <requestFocus/>
+                                </EditText>
+                -->
+
+
+
+
+
+
+
+                <!-- <Button
+                     android:layout_width="36px"
+                     android:layout_height="36px"
+                     android:textColor="#FFFFFF"
+                     android:id="@+id/new_product"
+                     android:paddingEnd="1dp"
+                     android:background="@drawable/circle_shape_drawable"
+                     android:drawableTop="@drawable/cust"
+                     android:onClick="view"
+                     />
+        -->
+                <!--   <Button
+                       android:layout_width="36px"
+                       android:layout_height="36px"
+                       android:id="@+id/addtolist_button"
+                       android:text="+"
+                       android:textColor="#FFFFFF"
+                       android:layout_weight="0.15"
+                       android:fontFamily="sans-serif"
+                       android:background="@drawable/circle_shape_drawable"
+                       android:onClick="view"
+                       />-->
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#4a4a4a"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+
+                >
+                <TextView
+                    android:layout_width="330px"
+                    android:layout_height="45px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:text="Bill Number"
+                    android:focusable="false"
+                    android:ems="10"
+                    android:id="@+id/billno"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="left"
+
+                    android:paddingLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    />
+                <!--  <TextView
+                      android:layout_width="160px"
+                      android:layout_height="25px"
+                      android:inputType="number"
+                      android:textColor="#ffffff"
+                      android:focusable="false"
+                      android:text="BATCH.NO"
+                      android:ems="10"
+                      android:id="@+id/batchno"
+                      android:textSize="18px"
+                      android:gravity="center"
+                      android:layout_gravity="center_vertical"
+                      />-->
+                <TextView
+                    android:layout_width="290px"
+                    android:layout_height="45px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:focusable="false"
+                    android:text="Date"
+                    android:ems="10"
+                    android:id="@+id/date"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    />
+
+
+                <TextView
+                    android:layout_width="250px"
+                    android:layout_height="45px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:focusable="false"
+                    android:text="Bill Amount"
+                    android:ems="10"
+                    android:id="@+id/billamount"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="45px"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:focusable="false"
+                    android:text="Paid"
+                    android:ems="10"
+                    android:id="@+id/paid"
+                    android:textSize="@dimen/textsize"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:layout_weight="10.0"
+                android:id="@+id/scrollView">
+                <LinearLayout
+                    android:id="@+id/buttons_layout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10.0"
+                    android:focusable="false"
+                    android:orientation="vertical"
+                    >
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/billlistView"
+                        android:focusable="false"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_centerHorizontal="true"
+                        android:transcriptMode="alwaysScroll"
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

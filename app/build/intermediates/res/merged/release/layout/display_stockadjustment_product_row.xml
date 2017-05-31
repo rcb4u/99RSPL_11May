@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100.0">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#ffffff"
+        android:weightSum="8.0"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.05"
+            android:text="Item name"
+            android:textColor="#000000"
+            android:ems="9"
+            android:textSize="20px"
+            android:id="@+id/PurchaseproductName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.20"
+            android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+            android:textColor="#000000"
+            android:textSize="20px"
+            android:maxLength="20"
+            android:selectAllOnFocus="true"
+            android:layout_marginLeft="79dp"
+
+            android:ems="7"
+            android:id="@+id/purchasebatchno"
+            android:gravity="center" />
+
+
+        <EditText
+            android:id="@+id/Exp_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.05"
+            android:singleLine="true"
+            android:focusable="false"
+            android:textSize="20px"
+            android:layout_marginLeft="64dp"
+
+            android:entries="@array/active_array"
+            android:prompt="@string/select2"
+            android:gravity="center"
+            android:ems="10" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:text="mrp"
+            android:imeOptions="flagNoExtractUi"
+            android:textSize="20px"
+            android:textColor="#000000"
+            android:selectAllOnFocus="true"
+
+            android:layout_marginLeft="55dp"
+
+            android:inputType="numberDecimal"
+            android:id="@+id/PurchaseproductMrp"
+            android:gravity="center"
+            android:ems="8" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textSize="20px"
+            android:text="Sprice"
+            android:imeOptions="flagNoExtractUi"
+            android:layout_marginLeft="69dp"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+
+            android:textColor="#000000"
+            android:id="@+id/purchaseselling"
+            android:gravity="center"
+            android:ems="9"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textSize="20px"
+            android:text="Pprice"
+            android:ems="9"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="72dp"
+            android:selectAllOnFocus="true"
+
+
+            android:textColor="#000000"
+            android:id="@+id/purchaseprice"
+            android:gravity="center"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textSize="20px"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:id="@+id/EditQty"
+            android:selectAllOnFocus="true"
+
+            android:ems="10"
+            android:layout_marginLeft="59dp"
+            android:maxLength="5"
+
+            android:gravity="center"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:text="Total"
+            android:textSize="18px"
+            android:textColor="#000000"
+            android:id="@+id/TotalStockAdj"
+            android:ems="11"
+            android:gravity="center"/>
+
+        <ImageButton
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/cross_arrow_icon"
+            android:background="#ffffff"
+            android:id="@+id/deleteButton" />
+
+        <Button
+
+            android:layout_width="106px"
+            android:layout_height="36px"
+            android:layout_gravity="center"
+            android:text="Delete"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffff"
+            android:id="@+id/deletestock" />
+
+    </LinearLayout>
+</RelativeLayout>

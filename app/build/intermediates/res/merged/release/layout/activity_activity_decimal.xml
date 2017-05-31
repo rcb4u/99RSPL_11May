@@ -1,0 +1,541 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100.0"
+    android:id="@id/layout_color"
+    android:background="#ff9033"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_weight="100.0"
+        android:paddingTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Store_Id"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/store_id"
+
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:ems="10"
+                android:id="@+id/store"
+                android:textSize="@dimen/smalltext"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="MRPs Decimal"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textView5"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <!-- <Spinner
+                 android:layout_width="0dp"
+                 android:layout_height="30dp"
+                 android:layout_weight="0.6"
+                 android:inputType="number"
+                 android:textColor="#000000"
+                 android:textColorHighlight="#ffffff"
+                 android:hint=""
+                 android:maxLength="1"
+                 android:ems="10"
+                 android:id="@+id/mrp"
+                 android:textSize="20px"
+                 android:layout_gravity="center_vertical"
+                 android:background="@drawable/border_style" />-->
+            <Spinner
+                android:id="@+id/mrpdecimal"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:digits="2,3,4"
+                android:textColor="#000000"
+                android:layout_weight="0.3"
+                android:background="@drawable/border_style"
+                android:textSize="20px"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="P.Price Decimal"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textView9"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/ppricedecimal"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="S.Price Decimal"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textView1"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/spricedecimal"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Text size"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textVie"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <!-- <Spinner
+                 android:layout_width="0dp"
+                 android:layout_height="30dp"
+                 android:layout_weight="0.6"
+                 android:inputType="number"
+                 android:textColor="#000000"
+                 android:textColorHighlight="#ffffff"
+                 android:hint=""
+                 android:maxLength="1"
+                 android:ems="10"
+                 android:id="@+id/mrp"
+                 android:textSize="20px"
+                 android:layout_gravity="center_vertical"
+                 android:background="@drawable/border_style" />-->
+            <Spinner
+                android:id="@+id/holdpo"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:digits="1,2,3,4,5"
+                android:layout_weight="0.3"
+                android:background="@drawable/border_style"
+                android:textSize="20px"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Hold Inv(Number Of Days)"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textViewinv"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:hint=""
+                android:maxLength="50"
+                android:ems="10"
+                android:digits="1,2,3,4,5"
+
+                android:id="@+id/holdinv"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Hold Sales(Number Of Days)"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textViewsales"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:hint=""
+                android:maxLength="50"
+                android:digits="1,2,3,4,5"
+
+                android:ems="10"
+                android:id="@+id/hold_sales"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Round Off (Y/N)"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textroundoff"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:hint=""
+                android:maxLength="50"
+                android:digits="1,2,3,4,5"
+
+                android:ems="10"
+                android:id="@+id/roundoff"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Inventory Hold No"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textinvhold"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:hint=""
+                android:maxLength="50"
+                android:digits="1,2,3,4,5"
+
+                android:ems="10"
+                android:id="@+id/inventoryholdno"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingLeft="100dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Backround Colour"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/textbackcolor"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+
+
+
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHighlight="#Ffffff"
+                android:hint=""
+                android:maxLength="50"
+                android:digits="1,2,3,4,5"
+
+                android:ems="10"
+                android:id="@+id/backroundcolor"
+                android:textSize="20px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3.0"
+        android:layout_alignParentBottom="true">
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/Store_update"
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize"
+            android:text="UPDATE"
+            android:background="@drawable/shapebuttonsales"
+            android:layout_weight="1.5"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="EXIT"
+            android:textSize="@dimen/textsize"
+            android:textColor="#000000"
+            android:id="@+id/Store_exit"
+            android:background="@drawable/shapebuttonsales"
+            android:layout_weight="1.5"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

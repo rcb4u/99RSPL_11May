@@ -6,50 +6,21 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62670834-5992-4197-9abf-1fb4f4ba83f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-05-19-16-56-13-309.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-05-19-16-56-23-527.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-05-19-16-56-42-649.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15inchMaster14-09.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15inchMaster31-08.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15inchfinalcode.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15inchfinalcode28-08.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/99RSPL-V-1.0.0.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/99RSPL-V-1.0.1(3 dec).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/99RSPL-V-1.1.5(14-03) .iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/99RSPL-V-1.1.5(21-02feb) .iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MasterNGX-10-11-2016.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MasterNGX-22-10.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MasterNGX.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-pdfview-master/android-pdfview/android-pdfview.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/tmp-build-info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/finalcodeforgolive.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/masterlatestcode4oct.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/99RSPL 11May.iml" afterPath="$PROJECT_DIR$/99RSPL 11May.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="99RSPL-V-1.1.5(29-03)_.iws" />
@@ -82,85 +53,154 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBhelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java">
+      <file leaf-file-name="ActivitySalesbill.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172605">
-              <caret line="11609" column="9" selection-start-line="11609" selection-start-column="9" selection-end-line="11609" selection-end-column="9" />
+            <state relative-caret-position="-16453">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#46432#46433#0" expanded="false" />
-                <element signature="e#46482#46483#0" expanded="false" />
+                <element signature="e#4122#6293#0" expanded="true" />
+                <element signature="e#6292#6293#0" expanded="true" />
+                <element signature="e#15963#16312#0" expanded="true" />
+                <element signature="e#16311#16312#0" expanded="true" />
+                <element signature="e#16370#16724#0" expanded="true" />
+                <element signature="e#16723#16724#0" expanded="true" />
+                <element signature="e#28135#28577#0" expanded="true" />
+                <element signature="e#28576#28577#0" expanded="true" />
+                <element signature="e#28647#28865#0" expanded="true" />
+                <element signature="e#28864#28865#0" expanded="true" />
+                <element signature="e#28933#29144#0" expanded="true" />
+                <element signature="e#29143#29144#0" expanded="true" />
+                <element signature="e#29195#29367#0" expanded="true" />
+                <element signature="e#29366#29367#0" expanded="true" />
+                <element signature="e#29607#41762#0" expanded="true" />
+                <element signature="e#41761#41762#0" expanded="true" />
+                <element signature="e#41804#41980#0" expanded="true" />
+                <element signature="e#41979#41980#0" expanded="true" />
+                <element signature="e#46326#46959#0" expanded="true" />
+                <element signature="e#46958#46959#0" expanded="true" />
+                <element signature="e#47027#47245#0" expanded="true" />
+                <element signature="e#47244#47245#0" expanded="true" />
+                <element signature="e#47311#47635#0" expanded="true" />
+                <element signature="e#47634#47635#0" expanded="true" />
+                <element signature="e#47705#47925#0" expanded="true" />
+                <element signature="e#47924#47925#0" expanded="true" />
+                <element signature="e#49909#50473#0" expanded="true" />
+                <element signature="e#50472#50473#0" expanded="true" />
+                <element signature="e#50538#52497#0" expanded="true" />
+                <element signature="e#52496#52497#0" expanded="true" />
+                <element signature="e#57725#59087#0" expanded="true" />
+                <element signature="e#59086#59087#0" expanded="true" />
+                <element signature="e#65174#65728#0" expanded="true" />
+                <element signature="e#65727#65728#0" expanded="true" />
+                <element signature="e#67557#69651#0" expanded="true" />
+                <element signature="e#68971#69623#0" expanded="true" />
+                <element signature="e#69622#69623#0" expanded="true" />
+                <element signature="e#69650#69651#0" expanded="true" />
+                <element signature="e#69694#74792#0" expanded="true" />
+                <element signature="e#74791#74792#0" expanded="true" />
+                <element signature="e#74834#74986#0" expanded="true" />
+                <element signature="e#74985#74986#0" expanded="true" />
+                <element signature="e#79902#80451#0" expanded="true" />
+                <element signature="e#80450#80451#0" expanded="true" />
+                <element signature="e#80619#81247#0" expanded="true" />
+                <element signature="e#81246#81247#0" expanded="true" />
+                <element signature="e#81286#81780#0" expanded="true" />
+                <element signature="e#81779#81780#0" expanded="true" />
+                <element signature="e#81822#81975#0" expanded="true" />
+                <element signature="e#81974#81975#0" expanded="true" />
+                <element signature="e#86555#87102#0" expanded="true" />
+                <element signature="e#87101#87102#0" expanded="true" />
+                <element signature="e#87265#88365#0" expanded="true" />
+                <element signature="e#88364#88365#0" expanded="true" />
+                <element signature="e#88400#88550#0" expanded="true" />
+                <element signature="e#88549#88550#0" expanded="true" />
+                <element signature="e#88586#88919#0" expanded="true" />
+                <element signature="e#88918#88919#0" expanded="true" />
+                <element signature="e#88958#89108#0" expanded="true" />
+                <element signature="e#89107#89108#0" expanded="true" />
+                <element signature="e#90571#92936#0" expanded="true" />
+                <element signature="e#92935#92936#0" expanded="true" />
+                <element signature="e#92981#93356#0" expanded="true" />
+                <element signature="e#93355#93356#0" expanded="true" />
+                <element signature="e#95276#95777#0" expanded="true" />
+                <element signature="e#95776#95777#0" expanded="true" />
+                <element signature="e#96567#96763#0" expanded="true" />
+                <element signature="e#96762#96763#0" expanded="true" />
+                <element signature="e#96808#97784#0" expanded="true" />
+                <element signature="e#97783#97784#0" expanded="true" />
+                <element signature="e#97825#98297#0" expanded="true" />
+                <element signature="e#98296#98297#0" expanded="true" />
+                <element signature="e#103333#103887#0" expanded="true" />
+                <element signature="e#103886#103887#0" expanded="true" />
+                <element signature="e#104004#105762#0" expanded="true" />
+                <element signature="e#105087#105734#0" expanded="true" />
+                <element signature="e#105733#105734#0" expanded="true" />
+                <element signature="e#105761#105762#0" expanded="true" />
+                <element signature="e#108356#110985#0" expanded="true" />
+                <element signature="e#110984#110985#0" expanded="true" />
+                <element signature="e#111027#111179#0" expanded="true" />
+                <element signature="e#111178#111179#0" expanded="true" />
+                <element signature="e#112844#113012#0" expanded="true" />
+                <element signature="e#113011#113012#0" expanded="true" />
+                <element signature="e#120345#120891#0" expanded="true" />
+                <element signature="e#120890#120891#0" expanded="true" />
+                <element signature="e#123271#123421#0" expanded="true" />
+                <element signature="e#123420#123421#0" expanded="true" />
+                <element signature="e#126729#127890#0" expanded="true" />
+                <element signature="e#127889#127890#0" expanded="true" />
+                <element signature="e#127932#128090#0" expanded="true" />
+                <element signature="e#128089#128090#0" expanded="true" />
+                <element signature="e#128180#128331#0" expanded="true" />
+                <element signature="e#128330#128331#0" expanded="true" />
+                <element signature="e#129318#129342#0" expanded="true" />
+                <element signature="e#141841#142603#0" expanded="true" />
+                <element signature="e#142602#142603#0" expanded="true" />
+                <element signature="e#142691#142915#0" expanded="true" />
+                <element signature="e#142914#142915#0" expanded="true" />
+                <element signature="e#143477#143865#0" expanded="true" />
+                <element signature="e#143864#143865#0" expanded="true" />
+                <element signature="e#143953#144177#0" expanded="true" />
+                <element signature="e#144176#144177#0" expanded="true" />
+                <element signature="e#145328#145557#0" expanded="true" />
+                <element signature="e#145556#145557#0" expanded="true" />
+                <element signature="e#145600#145750#0" expanded="true" />
+                <element signature="e#145749#145750#0" expanded="true" />
+                <element signature="e#145800#146028#0" expanded="true" />
+                <element signature="e#146027#146028#0" expanded="true" />
+                <element signature="e#146072#146615#0" expanded="true" />
+                <element signature="e#146614#146615#0" expanded="true" />
+                <element signature="e#148523#148531#0" expanded="true" />
+                <element signature="e#152262#167557#0" expanded="true" />
+                <element signature="e#167556#167557#0" expanded="true" />
+                <element signature="e#198040#198041#0" expanded="true" />
+                <element signature="e#198097#198098#0" expanded="true" />
+                <element signature="e#200087#237245#0" expanded="true" />
+                <element signature="e#237244#237245#0" expanded="true" />
+                <element signature="e#237289#237850#0" expanded="true" />
+                <element signature="e#237849#237850#0" expanded="true" />
+                <element signature="e#237906#238052#0" expanded="true" />
+                <element signature="e#238051#238052#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivitySalesbill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java">
+      <file leaf-file-name="login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5116" column="77" selection-start-line="5116" selection-start-column="77" selection-end-line="5116" selection-end-column="77" />
+            <state relative-caret-position="6735">
+              <caret line="520" column="21" selection-start-line="520" selection-start-column="16" selection-end-line="520" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="FragmentDailyInventoryReport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentDailyInventoryReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqlite-android-3150000-see/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="2595">
+              <caret line="213" column="55" selection-start-line="213" selection-start-column="55" selection-end-line="213" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -2264,7 +2304,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/Adapter/SalesAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/Config/Config.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/option_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/activity_inventory.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_master_screen1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/maintainenecereport.java" />
@@ -2279,18 +2318,19 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/VendorIndirectPaymentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/Adapter/SettleCreditcustAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ReportDayOpenCash.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_master_screen2.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="47" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1319" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2317,6 +2357,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2324,9 +2367,19 @@
               <option name="myItemId" value="99RSPL 11May" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="99RSPL 11May" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2334,23 +2387,56 @@
               <option name="myItemId" value="99RSPL 11May" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99RSPL 11May" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99RSPL 11May" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="Nexus_5_API_25" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/AndroidOCRFromAbbyy" />
+    <property name="device.picker.selection" value="0123456789ABCDEF" />
     <property name="DEBUGGABLE_DEVICE" value="rockchip-rk3188-0123456789ABCDEF" />
     <property name="DEBUGGABLE_PROCESS" value="com.RSPL.POS" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -2732,30 +2818,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="24" width="1319" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27258444" sideWeight="0.50647247" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50161815" sideWeight="0.50510603" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75242716" sideWeight="0.49489394" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6763754" sideWeight="0.5082482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6618123" sideWeight="0.49175176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38996765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48867315" sideWeight="0.4956795" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48867315" sideWeight="0.4956795" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3008641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27258444" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27669904" sideWeight="0.4972506" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27258444" sideWeight="0.50647247" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2768,6 +2853,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27808326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2806,241 +2892,218 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>388</line>
           <properties />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
           <line>2569</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
           <line>2570</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
           <line>2571</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
           <line>2572</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
           <line>2573</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>184</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>186</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>210</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>143</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>141</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>147</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>169</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>170</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Media.java</url>
           <line>173</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>396</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>397</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>398</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>403</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>404</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>406</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>407</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>411</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>447</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activitypurchase.java</url>
           <line>448</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/activity_inventory.java</url>
           <line>201</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/activity_inventory.java</url>
           <line>202</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
-          <line>4568</line>
+          <line>4569</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
           <line>4582</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/Adapter/SettleCreditcustAdapter.java</url>
           <line>450</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/Adapter/SettleCreditcustAdapter.java</url>
           <line>269</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/Adapter/SettleCreditcustAdapter.java</url>
           <line>279</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>9332</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>5671</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
+          <line>2892</line>
+          <properties />
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logout.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_master_screen1.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity_salesbill.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="1229" column="51" selection-start-line="1229" selection-start-column="37" selection-end-line="1229" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Pojo/lostsale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/Adapter/lostsaleslistadapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
@@ -3240,7 +3303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49680">
           <caret line="3317" column="32" selection-start-line="3317" selection-start-column="32" selection-end-line="3317" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3258,26 +3320,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4950">
           <caret line="388" column="42" selection-start-line="388" selection-start-column="42" selection-end-line="388" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#7564#7724#0" expanded="false" />
-            <element signature="e#7723#7724#0" expanded="false" />
-            <element signature="e#9433#18580#0" expanded="false" />
-            <element signature="e#18579#18580#0" expanded="false" />
-            <element signature="e#18635#19238#0" expanded="false" />
-            <element signature="e#19237#19238#0" expanded="false" />
-            <element signature="e#20226#20234#0" expanded="false" />
-            <element signature="e#20386#29765#0" expanded="false" />
-            <element signature="e#29764#29765#0" expanded="false" />
-            <element signature="e#29802#29952#0" expanded="false" />
-            <element signature="e#29951#29952#0" expanded="false" />
-            <element signature="e#31829#32109#0" expanded="false" />
-            <element signature="e#32108#32109#0" expanded="false" />
-            <element signature="e#32158#32511#0" expanded="false" />
-            <element signature="e#32510#32511#0" expanded="false" />
-            <element signature="e#32827#32828#0" expanded="false" />
-            <element signature="e#32887#32888#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3288,25 +3331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39165">
-          <caret line="2700" column="55" selection-start-line="2700" selection-start-column="26" selection-end-line="2700" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/android/text/TextUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.android/build-cache/e11ece5a72aed5624587c9022721a8c5f98a3a3a/output/jars/classes.jar!/org/sqlite/database/sqlite/SQLiteDatabase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -3341,18 +3369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172605">
-          <caret line="11609" column="9" selection-start-line="11609" selection-start-column="9" selection-end-line="11609" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#46432#46433#0" expanded="false" />
-            <element signature="e#46482#46483#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_actions.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3370,15 +3386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5116" column="77" selection-start-line="5116" selection-start-column="77" selection-end-line="5116" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3386,31 +3393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3418,7 +3400,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -3426,7 +3421,204 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Bill_Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.android/build-cache/e11ece5a72aed5624587c9022721a8c5f98a3a3a/output/jars/classes.jar!/org/sqlite/database/sqlite/SQLiteDatabase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="178" column="34" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55215">
+          <caret line="3783" column="28" selection-start-line="3783" selection-start-column="28" selection-end-line="3783" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity__bill__level.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity__doctor.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentDailyInventoryReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="213" column="55" selection-start-line="213" selection-start-column="55" selection-end-line="213" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6735">
+          <caret line="520" column="21" selection-start-line="520" selection-start-column="16" selection-end-line="520" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16453">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <element signature="e#4122#6293#0" expanded="true" />
+            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#15963#16312#0" expanded="true" />
+            <element signature="e#16311#16312#0" expanded="true" />
+            <element signature="e#16370#16724#0" expanded="true" />
+            <element signature="e#16723#16724#0" expanded="true" />
+            <element signature="e#28135#28577#0" expanded="true" />
+            <element signature="e#28576#28577#0" expanded="true" />
+            <element signature="e#28647#28865#0" expanded="true" />
+            <element signature="e#28864#28865#0" expanded="true" />
+            <element signature="e#28933#29144#0" expanded="true" />
+            <element signature="e#29143#29144#0" expanded="true" />
+            <element signature="e#29195#29367#0" expanded="true" />
+            <element signature="e#29366#29367#0" expanded="true" />
+            <element signature="e#29607#41762#0" expanded="true" />
+            <element signature="e#41761#41762#0" expanded="true" />
+            <element signature="e#41804#41980#0" expanded="true" />
+            <element signature="e#41979#41980#0" expanded="true" />
+            <element signature="e#46326#46959#0" expanded="true" />
+            <element signature="e#46958#46959#0" expanded="true" />
+            <element signature="e#47027#47245#0" expanded="true" />
+            <element signature="e#47244#47245#0" expanded="true" />
+            <element signature="e#47311#47635#0" expanded="true" />
+            <element signature="e#47634#47635#0" expanded="true" />
+            <element signature="e#47705#47925#0" expanded="true" />
+            <element signature="e#47924#47925#0" expanded="true" />
+            <element signature="e#49909#50473#0" expanded="true" />
+            <element signature="e#50472#50473#0" expanded="true" />
+            <element signature="e#50538#52497#0" expanded="true" />
+            <element signature="e#52496#52497#0" expanded="true" />
+            <element signature="e#57725#59087#0" expanded="true" />
+            <element signature="e#59086#59087#0" expanded="true" />
+            <element signature="e#65174#65728#0" expanded="true" />
+            <element signature="e#65727#65728#0" expanded="true" />
+            <element signature="e#67557#69651#0" expanded="true" />
+            <element signature="e#68971#69623#0" expanded="true" />
+            <element signature="e#69622#69623#0" expanded="true" />
+            <element signature="e#69650#69651#0" expanded="true" />
+            <element signature="e#69694#74792#0" expanded="true" />
+            <element signature="e#74791#74792#0" expanded="true" />
+            <element signature="e#74834#74986#0" expanded="true" />
+            <element signature="e#74985#74986#0" expanded="true" />
+            <element signature="e#79902#80451#0" expanded="true" />
+            <element signature="e#80450#80451#0" expanded="true" />
+            <element signature="e#80619#81247#0" expanded="true" />
+            <element signature="e#81246#81247#0" expanded="true" />
+            <element signature="e#81286#81780#0" expanded="true" />
+            <element signature="e#81779#81780#0" expanded="true" />
+            <element signature="e#81822#81975#0" expanded="true" />
+            <element signature="e#81974#81975#0" expanded="true" />
+            <element signature="e#86555#87102#0" expanded="true" />
+            <element signature="e#87101#87102#0" expanded="true" />
+            <element signature="e#87265#88365#0" expanded="true" />
+            <element signature="e#88364#88365#0" expanded="true" />
+            <element signature="e#88400#88550#0" expanded="true" />
+            <element signature="e#88549#88550#0" expanded="true" />
+            <element signature="e#88586#88919#0" expanded="true" />
+            <element signature="e#88918#88919#0" expanded="true" />
+            <element signature="e#88958#89108#0" expanded="true" />
+            <element signature="e#89107#89108#0" expanded="true" />
+            <element signature="e#90571#92936#0" expanded="true" />
+            <element signature="e#92935#92936#0" expanded="true" />
+            <element signature="e#92981#93356#0" expanded="true" />
+            <element signature="e#93355#93356#0" expanded="true" />
+            <element signature="e#95276#95777#0" expanded="true" />
+            <element signature="e#95776#95777#0" expanded="true" />
+            <element signature="e#96567#96763#0" expanded="true" />
+            <element signature="e#96762#96763#0" expanded="true" />
+            <element signature="e#96808#97784#0" expanded="true" />
+            <element signature="e#97783#97784#0" expanded="true" />
+            <element signature="e#97825#98297#0" expanded="true" />
+            <element signature="e#98296#98297#0" expanded="true" />
+            <element signature="e#103333#103887#0" expanded="true" />
+            <element signature="e#103886#103887#0" expanded="true" />
+            <element signature="e#104004#105762#0" expanded="true" />
+            <element signature="e#105087#105734#0" expanded="true" />
+            <element signature="e#105733#105734#0" expanded="true" />
+            <element signature="e#105761#105762#0" expanded="true" />
+            <element signature="e#108356#110985#0" expanded="true" />
+            <element signature="e#110984#110985#0" expanded="true" />
+            <element signature="e#111027#111179#0" expanded="true" />
+            <element signature="e#111178#111179#0" expanded="true" />
+            <element signature="e#112844#113012#0" expanded="true" />
+            <element signature="e#113011#113012#0" expanded="true" />
+            <element signature="e#120345#120891#0" expanded="true" />
+            <element signature="e#120890#120891#0" expanded="true" />
+            <element signature="e#123271#123421#0" expanded="true" />
+            <element signature="e#123420#123421#0" expanded="true" />
+            <element signature="e#126729#127890#0" expanded="true" />
+            <element signature="e#127889#127890#0" expanded="true" />
+            <element signature="e#127932#128090#0" expanded="true" />
+            <element signature="e#128089#128090#0" expanded="true" />
+            <element signature="e#128180#128331#0" expanded="true" />
+            <element signature="e#128330#128331#0" expanded="true" />
+            <element signature="e#129318#129342#0" expanded="true" />
+            <element signature="e#141841#142603#0" expanded="true" />
+            <element signature="e#142602#142603#0" expanded="true" />
+            <element signature="e#142691#142915#0" expanded="true" />
+            <element signature="e#142914#142915#0" expanded="true" />
+            <element signature="e#143477#143865#0" expanded="true" />
+            <element signature="e#143864#143865#0" expanded="true" />
+            <element signature="e#143953#144177#0" expanded="true" />
+            <element signature="e#144176#144177#0" expanded="true" />
+            <element signature="e#145328#145557#0" expanded="true" />
+            <element signature="e#145556#145557#0" expanded="true" />
+            <element signature="e#145600#145750#0" expanded="true" />
+            <element signature="e#145749#145750#0" expanded="true" />
+            <element signature="e#145800#146028#0" expanded="true" />
+            <element signature="e#146027#146028#0" expanded="true" />
+            <element signature="e#146072#146615#0" expanded="true" />
+            <element signature="e#146614#146615#0" expanded="true" />
+            <element signature="e#148523#148531#0" expanded="true" />
+            <element signature="e#152262#167557#0" expanded="true" />
+            <element signature="e#167556#167557#0" expanded="true" />
+            <element signature="e#198040#198041#0" expanded="true" />
+            <element signature="e#198097#198098#0" expanded="true" />
+            <element signature="e#200087#237245#0" expanded="true" />
+            <element signature="e#237244#237245#0" expanded="true" />
+            <element signature="e#237289#237850#0" expanded="true" />
+            <element signature="e#237849#237850#0" expanded="true" />
+            <element signature="e#237906#238052#0" expanded="true" />
+            <element signature="e#238051#238052#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

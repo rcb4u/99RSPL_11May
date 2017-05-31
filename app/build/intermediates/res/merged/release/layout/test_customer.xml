@@ -1,0 +1,580 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100.0"
+    android:id="@id/layout_color"
+    android:background="#ff9033"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:id="@+id/buttons_layout1"
+        android:paddingTop="10dp"
+        android:layout_weight="40.0"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_weight="25.5"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:id="@+id/autolayout"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp"
+
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="Search"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:id="@+id/textView0"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="80dp"
+                    />
+                <com.RSPL.POS.CustomAuto
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:singleLine="true"
+                    android:completionThreshold="1"
+                    android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+                    android:textColor="#000000"
+                    android:hint="CUSTOMER NAME/MOBILE"
+                    android:textSize="20px"
+                    android:id="@+id/myautocomplete"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+                    >
+                </com.RSPL.POS.CustomAuto>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:id="@+id/Hiddenlayout1"
+                android:paddingTop="10dp"
+                android:visibility="visible"
+                android:layout_weight="15.0"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:weightSum="1.0"
+                    android:paddingRight="30dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Mobile Number"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/textViewhidden"
+                        android:textSize="@dimen/textsize"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="80dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="#000000"
+                        android:ems="10"
+                        android:id="@+id/Cust_mobileno1"
+                        android:textSize="@dimen/smalltext"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Customer Name"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:id="@+id/textViewhidden2"
+                        android:textSize="@dimen/textsize"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="80dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="#000000"
+                        android:ems="5"
+                        android:id="@+id/Cust_name2"
+                        android:textSize="@dimen/smalltext"
+                        android:layout_gravity="center_vertical"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Email"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/textViewemailhidden"
+                        android:textSize="@dimen/textsize"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="80dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="#000000"
+                        android:ems="5"
+                        android:id="@+id/Cust_email2"
+                        android:textSize="@dimen/smalltext"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Address"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/textViewema"
+                        android:textSize="@dimen/textsize"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="80dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="#000000"
+                        android:ems="5"
+                        android:id="@+id/Cust_adress_shown"
+                        android:textSize="@dimen/smalltext"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0"
+                    android:paddingRight="30dp"
+                    android:paddingTop="2dp"
+
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Credit Customer"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:id="@+id/textViewCREDIT"
+                        android:textSize="@dimen/textsize"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="80dp"
+                        />
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/border_style"
+                        android:ems="5"
+                        android:id="@+id/Cust_Credit2"
+                        android:textSize="20px"
+                        android:layout_gravity="center_vertical"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:id="@+id/Hiddenlayoutfo"
+                android:visibility="gone"
+                android:paddingTop="2dp"
+                android:layout_weight="10.0"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="2dp"
+                    android:paddingRight="3dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:text="Mobile Number"
+                        android:textColor="#000000"
+                        android:id="@+id/textViewhid"
+                        android:textSize="20px"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="left"
+                        android:paddingLeft="5dp"
+                        />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:ems="10"
+                        android:id="@+id/Cust_mobilenohidd"
+                        android:textSize="20px"
+                        android:layout_gravity="center_vertical"
+                        android:imeOptions="flagNoExtractUi"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:id="@+id/Hiddenlayout"
+            android:visibility="gone"
+            android:paddingTop="8dp"
+            android:layout_weight="10.5"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="1.0"
+                android:paddingRight="30dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="Mobile Number *"
+                    android:textColor="#000000"
+                    android:id="@+id/textView1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="15dp"
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:ems="10"
+                    android:maxLength="10"
+                    android:id="@+id/Cust_mobileno"
+                    android:textSize="20px"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="Address"
+                    android:textColor="#000000"
+                    android:id="@+id/textVi2"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="60dp"
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:ems="5"
+                    android:maxLength="200"
+                    android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z, ,,/@-:"
+
+                    android:id="@+id/Cust_address_create"
+                    android:textSize="20px"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="Customer Name *"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:id="@+id/textView2"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="15dp"
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:inputType="textPersonName"
+                    android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z, ,"
+
+                    android:textColor="#000000"
+                    android:ems="5"
+                    android:id="@+id/Cust_name"
+                    android:textSize="20px"
+                    android:maxLength="30"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="Email "
+                    android:textColor="#000000"
+                    android:id="@+id/textViewemail"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="60dp"
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:ems="5"
+                    android:id="@+id/Cust_email"
+                    android:textSize="20px"
+                    android:maxLength="40"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/border_style"
+                    android:imeOptions="flagNoExtractUi"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="Credit Customer"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:id="@+id/textViewCREDIT1"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="15dp"
+                    />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:textColor="#000000"
+                    android:ems="5"
+                    android:id="@+id/Cust_Credithidden"
+                    android:background="@drawable/border_style"
+                    android:textSize="20px"
+                    android:layout_gravity="center_vertical"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="CREATE"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/Cust_ok_button"
+                android:textColor="#000000"
+                android:layout_weight="1.0"
+                android:background="@drawable/shapebuttonsales"
+
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="UPDATE"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/Cust_update_button"
+                android:textColor="#000000"
+                android:layout_weight="1.0"
+                android:background="@drawable/shapebuttonsales"
+
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="CLEAR"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/Cust_clear_button"
+                android:textColor="#000000"
+                android:layout_weight="1.0"
+                android:background="@drawable/shapebuttonsales"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="EXIT"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/Cust_Exit_button"
+                android:textColor="#000000"
+                android:layout_weight="1.0"
+                android:background="@drawable/shapebuttonsales"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

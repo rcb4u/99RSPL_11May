@@ -1,0 +1,877 @@
+# view res/layout/activity__lost__sale.xml #generated:400
+# view res/layout/activity__lost__sale.xml #generated:415
+# view res/layout/activity__lost__sale.xml #generated:430
+# view res/layout/activity_activity__installation.xml #generated:114
+# view res/layout/activity_activity__installation.xml #generated:128
+# view res/layout/activity_activity__salesreturn_withoutinvoiceno.xml #generated:487
+# view res/layout/activity_activity__salesreturn_withoutinvoiceno.xml #generated:502
+# view res/layout/activity_activity__salesreturn_withoutinvoiceno.xml #generated:517
+# view res/layout/activity_activity__settle_credit_customer.xml #generated:291
+# view res/layout/activity_activity_bill_display.xml #generated:376
+# view res/layout/activity_activity_day_open.xml #generated:211
+# view res/layout/activity_activity_inventorywithpo.xml #generated:675
+# view res/layout/activity_activity_inventorywithpo.xml #generated:690
+# view res/layout/activity_activity_inventorywithpo.xml #generated:705
+# view res/layout/activity_activity_inventorywithpo.xml #generated:719
+# view res/layout/activity_activity_inventorywithpo.xml #generated:732
+# view res/layout/activity_activity_inventorywithpo.xml #generated:745
+# view res/layout/activity_activity_inventorywithpo.xml #generated:758
+# view res/layout/activity_activity_inventorywithpo.xml #generated:771
+# view res/layout/activity_activity_inventorywithpo.xml #generated:784
+# view res/layout/activity_activity_lineitem_discount.xml #generated:255
+# view res/layout/activity_activity_lineitem_discount.xml #generated:269
+# view res/layout/activity_activity_salesbill.xml #generated:1120
+# view res/layout/activity_activity_salesbill.xml #generated:1133
+# view res/layout/activity_activity_salesbill.xml #generated:1146
+# view res/layout/activity_activity_salesbill.xml #generated:1159
+# view res/layout/activity_activity_vendor.xml #generated:533
+# view res/layout/activity_activity_vendor.xml #generated:546
+# view res/layout/activity_activitycustomer.xml #generated:537
+# view res/layout/activity_activitycustomer.xml #generated:551
+# view res/layout/activity_activityloyalityaccural.xml #generated:250
+# view res/layout/activity_activityloyalitydefine.xml #generated:201
+# view res/layout/activity_alidatepurchase_.xml #generated:72
+# view res/layout/activity_alidatepurchase_.xml #generated:86
+# view res/layout/activity_customer_rejection.xml #generated:228
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:475
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:490
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:505
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:519
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:533
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:548
+# view res/layout/activity_dialog__inventory__localvendor.xml #generated:549
+# view res/layout/activity_dialog__inventory__localvendor.xml #generated:562
+# view res/layout/activity_dialog__inventory__localvendor.xml #generated:576
+# view res/layout/activity_dialog__inventory__localvendor.xml #generated:589
+# view res/layout/activity_dialog__inventory__localvendor.xml #generated:603
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:475
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:490
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:505
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:519
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:533
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:548
+# view res/layout/activity_dialog__purchase__local_vendor.xml #generated:549
+# view res/layout/activity_dialog__purchase__local_vendor.xml #generated:562
+# view res/layout/activity_dialog__purchase__local_vendor.xml #generated:576
+# view res/layout/activity_dialog__purchase__local_vendor.xml #generated:589
+# view res/layout/activity_dialog__purchase__local_vendor.xml #generated:603
+# view res/layout/activity_inventory_total.xml #generated:590
+# view res/layout/activity_inventory_total.xml #generated:605
+# view res/layout/activity_inventory_total.xml #generated:620
+# view res/layout/activity_inventory_total.xml #generated:634
+# view res/layout/activity_inventory_total.xml #generated:647
+# view res/layout/activity_inventory_total.xml #generated:660
+# view res/layout/activity_inventory_total.xml #generated:673
+# view res/layout/activity_inventory_total.xml #generated:686
+# view res/layout/activity_inventory_total.xml #generated:699
+# view res/layout/activity_login.xml #generated:117
+# view res/layout/activity_login.xml #generated:131
+# view res/layout/activity_otp_.xml #generated:76
+# view res/layout/activity_otp_.xml #generated:90
+# view res/layout/activity_purchase.xml #generated:676
+# view res/layout/activity_purchase.xml #generated:691
+# view res/layout/activity_purchase.xml #generated:706
+# view res/layout/activity_purchase.xml #generated:720
+# view res/layout/activity_purchase.xml #generated:734
+# view res/layout/activity_report_pay_by_cash.xml #generated:378
+# view res/layout/activity_report_pay_by_cheque.xml #generated:428
+# view res/layout/activity_report_vendor_return.xml #generated:225
+# view res/layout/activity_stock_adjustment.xml #generated:358
+# view res/layout/activity_stock_adjustment.xml #generated:373
+# view res/layout/activity_stock_adjustment.xml #generated:388
+# view res/layout/activity_stock_adjustment.xml #generated:402
+# view res/layout/activity_stock_adjustment.xml #generated:416
+# view res/layout/activity_stock_adjustment.xml #generated:431
+# view res/layout/activity_system_validate.xml #generated:76
+# view res/layout/activity_system_validate.xml #generated:90
+# view res/layout/activity_validate_.xml #generated:76
+# view res/layout/activity_validate_.xml #generated:90
+# view res/layout/activity_vendor_indirect_payment.xml #generated:188
+# view res/layout/activity_vendor_payment.xml #generated:210
+# view res/layout/activity_vendor_rejection.xml #generated:246
+# view res/layout/activity_vendor_reportprocurement.xml #generated:435
+# view res/layout/activity_vendor_return.xml #generated:397
+# view res/layout/activity_vendor_return.xml #generated:412
+# view res/layout/activity_vendor_return.xml #generated:426
+# view res/layout/fragment_inventory.xml #generated:554
+# view res/layout/fragment_inventory.xml #generated:569
+# view res/layout/fragment_inventory.xml #generated:584
+# view res/layout/fragment_inventory.xml #generated:598
+# view res/layout/fragment_inventory.xml #generated:611
+# view res/layout/fragment_inventory.xml #generated:624
+# view res/layout/fragment_inventory.xml #generated:637
+# view res/layout/fragment_inventory.xml #generated:650
+# view res/layout/fragment_inventory.xml #generated:663
+# view res/layout/report_activity_inventory_data.xml #generated:339
+-keep class android.inputmethodservice.KeyboardView { <init>(...); }
+
+# view res/layout/activity_activity_salesbill.xml #generated:1263
+# view res/layout/tab_activity_inventory_report.xml #generated:12
+# view res/layout/tab_activity_masterdata_report.xml #generated:11
+# view res/layout/tab_activity_purchasing_report.xml #generated:11
+# view res/layout/tab_activity_sales_report.xml #generated:12
+# view res/layout/tab_activity_sales_return_report.xml #generated:11
+# view res/layout/tab_activity_vendor_report.xml #generated:11
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/dialog_confirm.xml #generated:22
+-keep class android.support.v7.widget.AppCompatButton { <init>(...); }
+
+# view res/layout/activity_activity_inventory.xml #generated:394
+# view res/layout/activity_activity_salesbill.xml #generated:493
+# view res/layout/activity_inventory_total.xml #generated:385
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.RSPL.POS.ActivityCustomer { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.RSPL.POS.ActivityDayOpen { <init>(...); }
+
+# view AndroidManifest.xml #generated:407
+-keep class com.RSPL.POS.ActivityInvoice { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.RSPL.POS.ActivityLocalProduct { <init>(...); }
+
+# view AndroidManifest.xml #generated:306
+-keep class com.RSPL.POS.ActivityLoyality { <init>(...); }
+
+# view AndroidManifest.xml #generated:385
+-keep class com.RSPL.POS.ActivityLoyalityCust { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.RSPL.POS.ActivityMainMaintainence { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.RSPL.POS.ActivityMaintain { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.RSPL.POS.ActivityProduct { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.RSPL.POS.ActivityReportMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.RSPL.POS.ActivitySales { <init>(...); }
+
+# view AndroidManifest.xml #generated:454
+-keep class com.RSPL.POS.ActivitySalesbill { <init>(...); }
+
+# view AndroidManifest.xml #generated:444
+-keep class com.RSPL.POS.ActivitySalesreturn { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.RSPL.POS.ActivityScheme { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.RSPL.POS.ActivityStore { <init>(...); }
+
+# view AndroidManifest.xml #generated:339
+-keep class com.RSPL.POS.ActivityStoreScreenFeedback { <init>(...); }
+
+# view AndroidManifest.xml #generated:787
+-keep class com.RSPL.POS.ActivitySystemValidate { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.RSPL.POS.ActivityTax { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.RSPL.POS.ActivityTender { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.RSPL.POS.ActivityVendor { <init>(...); }
+
+# view AndroidManifest.xml #generated:553
+-keep class com.RSPL.POS.Activity_Bill_Level { <init>(...); }
+
+# view AndroidManifest.xml #generated:461
+-keep class com.RSPL.POS.Activity_Comp_Btl { <init>(...); }
+
+# view AndroidManifest.xml #generated:716
+-keep class com.RSPL.POS.Activity_CreditView_bills { <init>(...); }
+
+# view AndroidManifest.xml #generated:510
+-keep class com.RSPL.POS.Activity_Doctor { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.RSPL.POS.Activity_Installation { <init>(...); }
+
+# view AndroidManifest.xml #generated:652
+-keep class com.RSPL.POS.Activity_Integrationwithdistributor { <init>(...); }
+
+# view AndroidManifest.xml #generated:788
+-keep class com.RSPL.POS.Activity_Lost_Sale { <init>(...); }
+
+# view AndroidManifest.xml #generated:392
+-keep class com.RSPL.POS.Activity_Loyalty_Report { <init>(...); }
+
+# view AndroidManifest.xml #generated:288
+-keep class com.RSPL.POS.Activity_Media { <init>(...); }
+
+# view AndroidManifest.xml #generated:466
+-keep class com.RSPL.POS.Activity_Mfg_btl { <init>(...); }
+
+# view AndroidManifest.xml #generated:478
+-keep class com.RSPL.POS.Activity_Salesreturn_withoutinvoiceno { <init>(...); }
+
+# view AndroidManifest.xml #generated:720
+-keep class com.RSPL.POS.Activity_SettleCreditCustomer { <init>(...); }
+
+# view AndroidManifest.xml #generated:318
+-keep class com.RSPL.POS.Activity_Top_Product { <init>(...); }
+
+# view AndroidManifest.xml #generated:706
+-keep class com.RSPL.POS.Activity_bill_display { <init>(...); }
+
+# view AndroidManifest.xml #generated:702
+-keep class com.RSPL.POS.Activity_bill_visibility { <init>(...); }
+
+# view AndroidManifest.xml #generated:698
+-keep class com.RSPL.POS.Activity_decimal { <init>(...); }
+
+# view AndroidManifest.xml #generated:311
+-keep class com.RSPL.POS.Activity_lineitem_discount { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.RSPL.POS.Activity_masterScreen1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.RSPL.POS.Activity_masterScreen2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.RSPL.POS.Activityinternetbill { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class com.RSPL.POS.ActivitylocalVendor { <init>(...); }
+
+# view AndroidManifest.xml #generated:485
+-keep class com.RSPL.POS.Activitylocalproductcpg { <init>(...); }
+
+# view AndroidManifest.xml #generated:332
+-keep class com.RSPL.POS.Activityloyalityaccural { <init>(...); }
+
+# view AndroidManifest.xml #generated:325
+-keep class com.RSPL.POS.Activityloyalitydefine { <init>(...); }
+
+# view AndroidManifest.xml #generated:490
+-keep class com.RSPL.POS.Activityproductcpg { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.RSPL.POS.Activitypurchase { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.RSPL.POS.Activityreport { <init>(...); }
+
+# view AndroidManifest.xml #generated:449
+-keep class com.RSPL.POS.Activityvendorpayment { <init>(...); }
+
+# view AndroidManifest.xml #generated:495
+-keep class com.RSPL.POS.AdTickerReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:380
+-keep class com.RSPL.POS.Additems { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.RSPL.POS.BiilinternetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:712
+-keep class com.RSPL.POS.BillDetails { <init>(...); }
+
+# view AndroidManifest.xml #generated:500
+-keep class com.RSPL.POS.BlinkingLogoReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:250
+-keep class com.RSPL.POS.BlinkinglogoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.RSPL.POS.BootUpReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.RSPL.POS.ConnectivityReceiver { <init>(...); }
+
+# view res/layout/activity__lost__sale.xml #generated:101
+# view res/layout/activity_activity__doctor.xml #generated:47
+# view res/layout/activity_activity__integrationwithdistributor.xml #generated:37
+# view res/layout/activity_activity__salesreturn_withoutinvoiceno.xml #generated:152
+# view res/layout/activity_activity__settle_credit_customer.xml #generated:138
+# view res/layout/activity_activity__top__product.xml #generated:87
+# view res/layout/activity_activity_customer_sales.xml #generated:47
+# view res/layout/activity_activity_inventory.xml #generated:130
+# view res/layout/activity_activity_inventory.xml #generated:40
+# view res/layout/activity_activity_inventorywithpo.xml #generated:228
+# view res/layout/activity_activity_inventorywithpo.xml #generated:37
+# view res/layout/activity_activity_local_product.xml #generated:55
+# view res/layout/activity_activity_product.xml #generated:55
+# view res/layout/activity_activity_salesbill.xml #generated:168
+# view res/layout/activity_activity_salesbill.xml #generated:253
+# view res/layout/activity_activity_vendor.xml #generated:55
+# view res/layout/activity_activitycustomer.xml #generated:56
+# view res/layout/activity_activitylocal_vendor.xml #generated:57
+# view res/layout/activity_dialog__inventory__localproduct.xml #generated:53
+# view res/layout/activity_dialog__inventory__localvendor.xml #generated:56
+# view res/layout/activity_dialog__purchase__loca_lproduct.xml #generated:53
+# view res/layout/activity_dialog__purchase__local_vendor.xml #generated:56
+# view res/layout/activity_distributor_report.xml #generated:36
+# view res/layout/activity_inventory_total.xml #generated:126
+# view res/layout/activity_inventory_total.xml #generated:37
+# view res/layout/activity_localprod_cpg_report.xml #generated:36
+# view res/layout/activity_localprod_pharma_report.xml #generated:36
+# view res/layout/activity_localprod_report.xml #generated:19
+# view res/layout/activity_product_cpg_report.xml #generated:34
+# view res/layout/activity_product_pharma_report.xml #generated:33
+# view res/layout/activity_product_report.xml #generated:20
+# view res/layout/activity_purchase.xml #generated:114
+# view res/layout/activity_purchase.xml #generated:28
+# view res/layout/activity_report_direct_pay_by_cash.xml #generated:34
+# view res/layout/activity_report_direct_pay_by_cheque.xml #generated:33
+# view res/layout/activity_report_indirect_pay_by_cash.xml #generated:33
+# view res/layout/activity_report_indirect_pay_by_cheque.xml #generated:32
+# view res/layout/activity_report_pay_by_cash.xml #generated:33
+# view res/layout/activity_report_pay_by_cheque.xml #generated:32
+# view res/layout/activity_report_vendor_return.xml #generated:41
+# view res/layout/activity_sales_return_withinvoice_report.xml #generated:34
+# view res/layout/activity_stock_adjustment.xml #generated:30
+# view res/layout/activity_stock_adjustment.xml #generated:50
+# view res/layout/activity_vendor_report.xml #generated:35
+# view res/layout/activity_vendor_reportprocurement.xml #generated:35
+# view res/layout/activity_vendor_return.xml #generated:107
+# view res/layout/activity_vendor_return.xml #generated:22
+# view res/layout/credit_setlement_dialog.xml #generated:498
+# view res/layout/creditnote_dialog.xml #generated:72
+# view res/layout/fragment_inventory.xml #generated:103
+# view res/layout/fragment_inventory.xml #generated:38
+# view res/layout/report_activity_inventory_data.xml #generated:33
+# view res/layout/report_activity_inventory_stock_data.xml #generated:34
+# view res/layout/report_activity_inventory_stock_data.xml #generated:74
+# view res/layout/search_customer_dialog.xml #generated:33
+# view res/layout/search_localproduct_dialog.xml #generated:37
+# view res/layout/search_localproduct_dialog_inventory.xml #generated:37
+# view res/layout/search_localvendor_dialog.xml #generated:38
+# view res/layout/search_newproduct_dialog.xml #generated:33
+# view res/layout/test_customer.xml #generated:58
+-keep class com.RSPL.POS.CustomAuto { <init>(...); }
+
+# view AndroidManifest.xml #generated:559
+-keep class com.RSPL.POS.CustomerRejection { <init>(...); }
+
+# view AndroidManifest.xml #generated:756
+-keep class com.RSPL.POS.DeviceListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:748
+-keep class com.RSPL.POS.Dialog_Inventory_Localproduct { <init>(...); }
+
+# view AndroidManifest.xml #generated:742
+-keep class com.RSPL.POS.Dialog_Inventory_Localvendor { <init>(...); }
+
+# view AndroidManifest.xml #generated:732
+-keep class com.RSPL.POS.Dialog_Purchase_LocalProduct { <init>(...); }
+
+# view AndroidManifest.xml #generated:726
+-keep class com.RSPL.POS.Dialog_Purchase_LocalVendor { <init>(...); }
+
+# view AndroidManifest.xml #generated:301
+-keep class com.RSPL.POS.GoDBSyncAlarmManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:767
+-keep class com.RSPL.POS.InventoryTotalActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:11
+# view res/layout/second_screen.xml #generated:11
+-keep class com.RSPL.POS.LockableScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:397
+-keep class com.RSPL.POS.LoyaltyReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:505
+-keep class com.RSPL.POS.MainAdvertisementReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:345
+-keep class com.RSPL.POS.MasterDataActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:517
+-keep class com.RSPL.POS.MediaReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.RSPL.POS.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.RSPL.POS.MyFirebaseMessagingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:789
+-keep class com.RSPL.POS.Otp_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.RSPL.POS.PurchaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:357
+-keep class com.RSPL.POS.PurchasingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:529
+-keep class com.RSPL.POS.PurchasingReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:650
+-keep class com.RSPL.POS.RemoteVideoService { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class com.RSPL.POS.ReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:645
+-keep class com.RSPL.POS.ReportDayOpenCash { <init>(...); }
+
+# view AndroidManifest.xml #generated:541
+-keep class com.RSPL.POS.ReportTabActivityInventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:547
+-keep class com.RSPL.POS.ReportTabActivityMasterData { <init>(...); }
+
+# view AndroidManifest.xml #generated:627
+-keep class com.RSPL.POS.ReportTabActivityPayByCashVendorPayment { <init>(...); }
+
+# view AndroidManifest.xml #generated:633
+-keep class com.RSPL.POS.ReportTabActivityPayByChequeVendorPayment { <init>(...); }
+
+# view AndroidManifest.xml #generated:569
+-keep class com.RSPL.POS.ReportTabActivityPurchasing { <init>(...); }
+
+# view AndroidManifest.xml #generated:611
+-keep class com.RSPL.POS.ReportTabActivitySalesReport { <init>(...); }
+
+# view AndroidManifest.xml #generated:617
+-keep class com.RSPL.POS.ReportTabActivitySalesReturnReport { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.RSPL.POS.ReportVendorReturnActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:369
+-keep class com.RSPL.POS.ReportsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:402
+-keep class com.RSPL.POS.RetailCarddefineActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:432
+-keep class com.RSPL.POS.RuleDefinationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:535
+-keep class com.RSPL.POS.SaleReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:363
+-keep class com.RSPL.POS.SalesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.RSPL.POS.SalesReturnReportActivity { <init>(...); }
+
+# view res/layout/second_screen.xml #generated:568
+-keep class com.RSPL.POS.ScrollTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:660
+-keep class com.RSPL.POS.Service_finalmulti { <init>(...); }
+
+# view AndroidManifest.xml #generated:656
+-keep class com.RSPL.POS.Service_slaveurl { <init>(...); }
+
+# view AndroidManifest.xml #generated:668
+-keep class com.RSPL.POS.Service_upload { <init>(...); }
+
+# view AndroidManifest.xml #generated:664
+-keep class com.RSPL.POS.Service_uploadinsert { <init>(...); }
+
+# view AndroidManifest.xml #generated:599
+-keep class com.RSPL.POS.ShowDailySalesReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:579
+-keep class com.RSPL.POS.ShowMonthlySalesReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:595
+-keep class com.RSPL.POS.ShowPurchaseReport1MonthListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:607
+-keep class com.RSPL.POS.ShowPurchaseReport3MonthListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:603
+-keep class com.RSPL.POS.ShowPurchaseReportDailyListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:565
+-keep class com.RSPL.POS.ShowPurchaseReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:583
+-keep class com.RSPL.POS.ShowQuarterlySalesReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:591
+-keep class com.RSPL.POS.ShowSalesReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.RSPL.POS.ShowStockAdjustmentListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:738
+-keep class com.RSPL.POS.ShowStockReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:575
+-keep class com.RSPL.POS.ShowWeeklySalesReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.RSPL.POS.ShowWithInvoiceReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.RSPL.POS.ShowWithoutInvoiceReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:587
+-keep class com.RSPL.POS.ShowYearlySalesReportListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.RSPL.POS.StartAtBootUp { <init>(...); }
+
+# view AndroidManifest.xml #generated:691
+-keep class com.RSPL.POS.StockAdjustment { <init>(...); }
+
+# view AndroidManifest.xml #generated:351
+-keep class com.RSPL.POS.SystemSettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:471
+-keep class com.RSPL.POS.UserManagementActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:412
+-keep class com.RSPL.POS.VendorIndirectPaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:419
+-keep class com.RSPL.POS.VendorPaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:623
+-keep class com.RSPL.POS.VendorPaymentReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:639
+-keep class com.RSPL.POS.VendorRejection { <init>(...); }
+
+# view AndroidManifest.xml #generated:523
+-keep class com.RSPL.POS.VendorReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:437
+-keep class com.RSPL.POS.VendorReturnActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:293
+-keep class com.RSPL.POS.activity_inventory { <init>(...); }
+
+# view AndroidManifest.xml #generated:426
+-keep class com.RSPL.POS.activity_inventorywithpo { <init>(...); }
+
+# view AndroidManifest.xml #generated:764
+-keep class com.RSPL.POS.alidatepurchase_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.RSPL.POS.login { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.RSPL.POS.maintainenecereport { <init>(...); }
+
+# view AndroidManifest.xml #generated:761
+-keep class com.RSPL.POS.validate_Activity { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:44
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:27
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:44
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:25
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large-v4/res/layout-large-v4/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:27
+# view res/layout/abs__screen_action_bar.xml #generated:51
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:30
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:53
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:27
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:28
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:37
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:41
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:37
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:38
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:32
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:36
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:32
+# view xlarge-v4/res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:33
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.TabsLinearLayout { <init>(...); }
+
+# view res/layout/abs__search_view.xml #generated:84
+-keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:790
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:811
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:806
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:820
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+
+# view AndroidManifest.xml #generated:840
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:825
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:847
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:798
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:855
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+
+# view res/layout/pdf_main.xml #generated:15
+-keep class com.joanzapata.pdfview.PDFView { <init>(...); }
+
+# view AndroidManifest.xml #generated:672
+-keep class com.ngx.UsbSerialService { <init>(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:278
+-keepclassmembers class * { *** Anyothers(...); }
+
+# onClick res/layout/activity_activityinternetbill.xml #generated:192
+-keepclassmembers class * { *** BackToShowActivity(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:141
+-keepclassmembers class * { *** Goodsreceipt(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:292
+# onClick res/layout/activity_activity_maintain.xml #generated:303
+-keepclassmembers class * { *** Hardwarecrash(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:171
+-keepclassmembers class * { *** Invoiceprocess(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:264
+-keepclassmembers class * { *** Manufacturingpayment(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:43
+-keepclassmembers class * { *** Masterdatasupport(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:26
+-keepclassmembers class * { *** NetworkingIssues(...); }
+
+# onClick res/layout/activity_alidatepurchase_.xml #generated:126
+# onClick res/layout/activity_login.xml #generated:171
+# onClick res/layout/activity_otp_.xml #generated:130
+# onClick res/layout/activity_system_validate.xml #generated:130
+# onClick res/layout/activity_validate_.xml #generated:130
+-keepclassmembers class * { *** OnClickPlayRemoteVideo(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:251
+-keepclassmembers class * { *** Paymentrelated(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:56
+-keepclassmembers class * { *** Printernotworking(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:127
+-keepclassmembers class * { *** Purchaseprocess(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:212
+# onClick res/layout/activity_activity_maintain.xml #generated:223
+-keepclassmembers class * { *** Reportingerror(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:185
+-keepclassmembers class * { *** Salesprocess(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:198
+-keepclassmembers class * { *** Salesreturn(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:70
+-keepclassmembers class * { *** Scannernotworking(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:97
+-keepclassmembers class * { *** Simcardnotworking(...); }
+
+# onClick res/layout/activity_main.xml #generated:458
+# onClick res/layout/activity_splash.xml #generated:53
+# onClick res/layout/second_screen.xml #generated:597
+-keepclassmembers class * { *** Test(...); }
+
+# onClick res/layout/activity_activity_report.xml #generated:109
+# onClick res/layout/activity_activity_report.xml #generated:122
+# onClick res/layout/activity_activity_report.xml #generated:137
+# onClick res/layout/activity_activity_report.xml #generated:95
+# onClick res/layout/activity_activity_sales.xml #generated:22
+# onClick res/layout/activity_activity_sales.xml #generated:36
+# onClick res/layout/activity_activity_sales.xml #generated:66
+# onClick res/layout/activity_activity_sales.xml #generated:79
+# onClick res/layout/activity_master_screen2.xml #generated:109
+# onClick res/layout/activity_master_screen2.xml #generated:123
+# onClick res/layout/activity_master_screen2.xml #generated:136
+# onClick res/layout/activity_master_screen2.xml #generated:151
+# onClick res/layout/activity_master_screen2.xml #generated:24
+# onClick res/layout/activity_master_screen2.xml #generated:37
+# onClick res/layout/activity_master_screen2.xml #generated:62
+# onClick res/layout/alert_dialog_salesreturn.xml #generated:64
+-keepclassmembers class * { *** View(...); }
+
+# onClick res/layout/activity_activity_maintain.xml #generated:111
+-keepclassmembers class * { *** Walletnotworking(...); }
+
+# onClick res/layout/fragment_fastmoving.xml #generated:110
+# onClick res/layout/fragment_fastmoving.xml #generated:132
+# onClick res/layout/fragment_fastmoving.xml #generated:142
+# onClick res/layout/fragment_fastmoving.xml #generated:152
+# onClick res/layout/fragment_fastmoving.xml #generated:176
+# onClick res/layout/fragment_fastmoving.xml #generated:186
+# onClick res/layout/fragment_fastmoving.xml #generated:196
+# onClick res/layout/fragment_fastmoving.xml #generated:218
+# onClick res/layout/fragment_fastmoving.xml #generated:228
+# onClick res/layout/fragment_fastmoving.xml #generated:238
+# onClick res/layout/fragment_fastmoving.xml #generated:43
+# onClick res/layout/fragment_fastmoving.xml #generated:54
+# onClick res/layout/fragment_fastmoving.xml #generated:64
+# onClick res/layout/fragment_fastmoving.xml #generated:87
+# onClick res/layout/fragment_fastmoving.xml #generated:99
+-keepclassmembers class * { *** onClick(...); }
+
+# onClick res/layout/additem.xml #generated:1
+# onClick res/layout/additem.xml #generated:343
+# onClick res/layout/additem.xml #generated:351
+-keepclassmembers class * { *** selectDate(...); }
+
+# onClick res/layout/activity_main.xml #generated:241
+# onClick res/layout/second_screen.xml #generated:268
+-keepclassmembers class * { *** true(...); }
+
+# onClick res/layout/activity__media.xml #generated:207
+# onClick res/layout/activity_activity__integrationwithdistributor.xml #generated:482
+# onClick res/layout/activity_activity__integrationwithdistributor.xml #generated:493
+# onClick res/layout/activity_activity__integrationwithdistributor.xml #generated:506
+# onClick res/layout/activity_activity_day_open.xml #generated:234
+# onClick res/layout/activity_activity_inventory.xml #generated:147
+# onClick res/layout/activity_activity_inventory.xml #generated:554
+# onClick res/layout/activity_activity_inventory.xml #generated:56
+# onClick res/layout/activity_activity_inventory.xml #generated:565
+# onClick res/layout/activity_activity_inventory.xml #generated:577
+# onClick res/layout/activity_activity_inventorywithpo.xml #generated:246
+# onClick res/layout/activity_activity_inventorywithpo.xml #generated:55
+# onClick res/layout/activity_activity_inventorywithpo.xml #generated:631
+# onClick res/layout/activity_activity_inventorywithpo.xml #generated:642
+# onClick res/layout/activity_activity_inventorywithpo.xml #generated:654
+# onClick res/layout/activity_activity_salesbill.xml #generated:1021
+# onClick res/layout/activity_activity_salesbill.xml #generated:1059
+# onClick res/layout/activity_activity_salesbill.xml #generated:1078
+# onClick res/layout/activity_activity_salesbill.xml #generated:1096
+# onClick res/layout/activity_activity_salesbill.xml #generated:1210
+# onClick res/layout/activity_activity_salesbill.xml #generated:1224
+# onClick res/layout/activity_activity_salesbill.xml #generated:183
+# onClick res/layout/activity_activity_salesbill.xml #generated:271
+# onClick res/layout/activity_activity_salesbill.xml #generated:280
+# onClick res/layout/activity_activity_salesbill.xml #generated:66
+# onClick res/layout/activity_activity_tender.xml #generated:738
+# onClick res/layout/activity_dayopen_report.xml #generated:488
+# onClick res/layout/activity_distributor_report.xml #generated:189
+# onClick res/layout/activity_inventory_total.xml #generated:143
+# onClick res/layout/activity_inventory_total.xml #generated:53
+# onClick res/layout/activity_inventory_total.xml #generated:547
+# onClick res/layout/activity_inventory_total.xml #generated:558
+# onClick res/layout/activity_inventory_total.xml #generated:570
+# onClick res/layout/activity_localprod_cpg_report.xml #generated:240
+# onClick res/layout/activity_localprod_pharma_report.xml #generated:295
+# onClick res/layout/activity_master_screen1.xml #generated:46
+# onClick res/layout/activity_product_cpg_report.xml #generated:232
+# onClick res/layout/activity_product_pharma_report.xml #generated:312
+# onClick res/layout/activity_purchase.xml #generated:131
+# onClick res/layout/activity_purchase.xml #generated:47
+# onClick res/layout/activity_purchase.xml #generated:630
+# onClick res/layout/activity_purchase.xml #generated:641
+# onClick res/layout/activity_purchase.xml #generated:654
+# onClick res/layout/activity_sale_report.xml #generated:296
+# onClick res/layout/activity_show_expiredproduct_list.xml #generated:353
+# onClick res/layout/activity_stock_adjustment.xml #generated:323
+# onClick res/layout/activity_stock_adjustment.xml #generated:336
+# onClick res/layout/activity_stock_adjustment.xml #generated:71
+# onClick res/layout/activity_store_main.xml #generated:130
+# onClick res/layout/activity_vendor_indirect_payment.xml #generated:212
+# onClick res/layout/activity_vendor_indirect_payment.xml #generated:225
+# onClick res/layout/activity_vendor_payment.xml #generated:233
+# onClick res/layout/activity_vendor_payment.xml #generated:245
+# onClick res/layout/activity_vendor_report.xml #generated:195
+# onClick res/layout/additem.xml #generated:381
+# onClick res/layout/alert_dialog_salesreturn.xml #generated:296
+# onClick res/layout/alert_dialog_salesreturn.xml #generated:308
+# onClick res/layout/alert_dialog_salesreturn.xml #generated:51
+# onClick res/layout/alertcustomer_sales.xml #generated:92
+# onClick res/layout/alertdailog_purchase.xml #generated:115
+# onClick res/layout/alertdailog_purchase.xml #generated:129
+# onClick res/layout/alertdailog_purchase.xml #generated:142
+# onClick res/layout/alertdailog_purchase.xml #generated:195
+# onClick res/layout/alertdailog_purchase.xml #generated:208
+# onClick res/layout/alertdailog_purchase.xml #generated:221
+# onClick res/layout/alertdailog_vendorreturn.xml #generated:114
+# onClick res/layout/alertdailog_vendorreturn.xml #generated:129
+# onClick res/layout/alertdailog_vendorreturn.xml #generated:172
+# onClick res/layout/alertdailog_vendorreturn.xml #generated:186
+# onClick res/layout/alertdialog_forvendorindirectpayment.xml #generated:135
+# onClick res/layout/alertdialog_forvendorindirectpayment.xml #generated:151
+# onClick res/layout/billleveldiscount_dialog.xml #generated:17
+# onClick res/layout/billleveldiscount_dialog.xml #generated:193
+# onClick res/layout/button_sales.xml #generated:6
+# onClick res/layout/cardpayment_dialog.xml #generated:349
+# onClick res/layout/cardpayment_dialog.xml #generated:361
+# onClick res/layout/cardpayment_dialog.xml #generated:40
+# onClick res/layout/cardpayment_dialog.xml #generated:64
+# onClick res/layout/cardpayment_dialog.xml #generated:76
+# onClick res/layout/cardpayment_dialog.xml #generated:90
+# onClick res/layout/cashpayment_dialog.xml #generated:165
+# onClick res/layout/cashpayment_dialog.xml #generated:40
+# onClick res/layout/checquepayment_dialog.xml #generated:186
+# onClick res/layout/checquepayment_dialog.xml #generated:38
+# onClick res/layout/creditnote_dialog.xml #generated:138
+# onClick res/layout/creditnote_dialog.xml #generated:40
+# onClick res/layout/fragment_inventory.xml #generated:120
+# onClick res/layout/fragment_inventory.xml #generated:511
+# onClick res/layout/fragment_inventory.xml #generated:522
+# onClick res/layout/fragment_inventory.xml #generated:534
+# onClick res/layout/fragment_inventory.xml #generated:54
+# onClick res/layout/gsync.xml #generated:66
+# onClick res/layout/inventory_alert_dialog.xml #generated:150
+# onClick res/layout/inventory_alert_dialog.xml #generated:166
+# onClick res/layout/inventory_alert_dialog.xml #generated:179
+# onClick res/layout/inventory_alert_dialog.xml #generated:194
+# onClick res/layout/inventory_alert_dialog.xml #generated:262
+# onClick res/layout/inventory_alert_dialog.xml #generated:276
+# onClick res/layout/inventory_alert_dialog.xml #generated:291
+# onClick res/layout/inventory_alert_dialog.xml #generated:307
+# onClick res/layout/masterscreen1_dialog.xml #generated:11
+# onClick res/layout/mcashloading_dialog.xml #generated:187
+# onClick res/layout/mcashloading_dialog.xml #generated:203
+# onClick res/layout/walletpopup_dialog.xml #generated:101
+# onClick res/layout/walletpopup_dialog.xml #generated:85
+-keepclassmembers class * { *** view(...); }
+

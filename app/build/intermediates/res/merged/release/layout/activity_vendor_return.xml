@@ -1,0 +1,443 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:weightSum="100.0"
+    android:id="@id/layout_color"
+    android:background="#ff9033"
+    android:divider="@android:color/background_light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        >
+
+        <com.RSPL.POS.CustomAuto
+
+            android:id="@+id/VendorNameordistributorNames"
+            android:layout_width="800px"
+            android:layout_height="45px"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:hint="Select Vendor Name"
+            android:ems="10"
+            android:textSize="18px"
+            android:focusable="true"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/cust"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </com.RSPL.POS.CustomAuto>
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="1px"
+            android:inputType="number"
+            android:textColor="#9B9B9B"
+            android:hint="INVOICE NO"
+            android:visibility="invisible"
+            android:ems="10"
+            android:id="@+id/sales_billno"
+            android:textSize="18px"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/border_style"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="Reason Of Return:-"
+            android:textColor="#000000"
+            android:id="@+id/TvReasonofreturn"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="15dp" />
+
+        <Spinner
+            android:id="@+id/Vendorreturn"
+            android:layout_width="800px"
+            android:layout_height="45px"
+            android:background="@drawable/border_style"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:textSize="18px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+        </Spinner>
+        <TextView android:layout_width="1px"
+            android:layout_height="1px"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:textColor="#9B9B9B"
+
+            android:hint="INVOICE NO"
+            android:visibility="invisible"
+            android:fontFamily="sans-serif-thin"
+            android:ems="10"
+            android:id="@+id/vendorreturn_billno"
+            android:textSize="18px"
+            android:layout_marginEnd="3dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/border_style"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="7dp"
+        android:weightSum="1.0"
+        >
+
+        <com.RSPL.POS.CustomAuto
+
+            android:id="@+id/SelectProducttoReturn"
+            android:layout_width="0dp"
+            android:layout_height="45px"
+            android:layout_weight="1.0"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:hint="Itemproduct"
+            android:ems="10"
+            android:textSize="18px"
+            android:focusable="true"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/cust"
+            android:background="@drawable/searchborder"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </com.RSPL.POS.CustomAuto>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9.0"
+        android:gravity="center_vertical"
+        android:background="#4a4a4a"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:text="PRODUCT NAME"
+            android:textColor="#ffffff"
+            android:id="@+id/product6"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="left"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="BATCH.NO"
+            android:textColor="#ffffff"
+            android:id="@+id/product11"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="EXP.DATE"
+            android:textColor="#ffffff"
+            android:id="@+id/product7"
+
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="P.PRICE"
+            android:textColor="#ffffff"
+            android:id="@+id/product9"
+
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="QTY"
+            android:textColor="#ffffff"
+            android:id="@+id/product9se"
+
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="STOCK"
+            android:textColor="#ffffff"
+            android:id="@+id/product111"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="UOM"
+            android:textColor="#ffffff"
+            android:id="@+id/product10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="TOTAL"
+            android:textColor="#ffffff"
+            android:id="@+id/product12"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:textColor="#ffffff"
+            android:id="@+id/image"
+
+            android:textSize="18px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100.0"
+        android:orientation="vertical"
+        android:id="@+id/layout3"
+        android:layout_below="@+id/linearlayout1"
+        android:paddingBottom="20dp">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/lv_ProductVendorreturn" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttons_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2ede4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Return Amount"
+                    android:textColor="#000000"
+                    android:id="@+id/discount_text9"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:fontFamily="sans-serif-medium" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="0.00"
+                    android:textColor="#000000"
+                    android:id="@+id/GrandTotalVendorReturn"
+                    android:textStyle="normal"
+                    android:textSize="@dimen/textsize"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:paddingEnd="30dp"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:padding="5dp">
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#009985">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:layout_width="263px"
+                android:layout_height="50px"
+                android:layout_weight="0.5"
+                android:textColor="#000000"
+                android:text="Submit"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:id="@+id/SubmitVendorReturn"
+                android:textSize="@dimen/textsize"
+                android:background="@drawable/shapebuttonsales"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"/>
+
+            <Button
+                android:layout_width="263px"
+                android:layout_height="50px"
+                android:layout_weight="0.5"
+                android:textColor="#000000"
+                android:text="Clear"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:id="@+id/clearvendorReturn"
+                android:textSize="@dimen/textsize"
+                android:gravity="center"
+                android:background="@drawable/shapebuttonsales"
+                android:layout_gravity="center_vertical"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_local_vendorreteun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:background="@drawable/keyboard_border"
+            android:keyBackground="@drawable/keyboard_border"
+            />
+
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_local_vendorreturn_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:background="@drawable/keyboard_border"
+            android:keyBackground="@drawable/keyboard_border"
+            />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_vendorreturn_qty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:background="@drawable/keyboard_border"
+            android:keyBackground="@drawable/keyboard_border"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

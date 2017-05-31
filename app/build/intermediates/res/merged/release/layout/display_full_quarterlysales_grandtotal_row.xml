@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Sub"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#2787A4"
+    android:weightSum="100.0">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:weightSum="240.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32.0"
+            android:background="#ffffff">
+
+
+            <TextView
+                android:id="@+id/rowtvProdNm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="name"
+                android:paddingLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="37.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvBatchNo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:paddingLeft="80dp"
+                android:text="batch"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvExpDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="EXP DATE"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvSPrice"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="mrp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvQty"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="qty"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvTotal"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="qty"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvCard_Type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="type"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.0"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/rowtvBank_Nm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="name"
+                android:textColor="#000000"
+                android:textSize="@dimen/displaytextsize"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

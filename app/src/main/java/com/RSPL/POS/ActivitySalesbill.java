@@ -119,9 +119,6 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
     String iteam;
     TextView user2;
 
-    UserManagementActivity userManagementActivity = new UserManagementActivity();
-
-
     @SuppressLint("HandlerLeak")
     private final Handler Handler = new Handler() {
         @Override
@@ -6265,6 +6262,5 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
      */
 
 }
-
 
 

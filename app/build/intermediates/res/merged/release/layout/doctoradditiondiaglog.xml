@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#fffdd0">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:id="@+id/Hiddenlayout"
+        android:paddingTop="10dp"
+        android:layout_weight="100"
+        android:paddingLeft="210dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:weightSum="1.0"
+            android:paddingEnd="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="210px"
+                android:layout_height="35px"
+                android:text="Doctor Name *"
+                android:textColor="#000000"
+                android:id="@+id/textView1"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+
+                />
+
+            <EditText
+                android:layout_width="360px"
+                android:layout_height="45px"
+                android:inputType="textCapCharacters"
+                android:textColor="#000000"
+                android:digits="A,B,C,D,E,F,G,H,I,J,K,L, ,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+                android:maxLength="50"
+                android:ems="10"
+                android:id="@+id/doctor_name"
+                android:textSize="@dimen/Edittextsize"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="110dp"
+                android:background="@drawable/border_style"
+                android:imeOptions="flagNoExtractUi" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:paddingEnd="10dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="1px"
+                android:text="Address"
+                android:textColor="#000000"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                />
+
+            <EditText
+                android:layout_width="1px"
+                android:layout_height="1px"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:ems="5"
+                android:id="@+id/doctor_address"
+                android:digits="a,b,c,d,e,f,g,h,i,j,k,l,m, ,n,o,p,q,r,s,t,u,v,w,x,y,z,0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,-,_,/"
+
+                android:textSize="12px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="210px"
+                android:layout_height="35px"
+                android:text="Specialization *"
+                android:textColor="#000000"
+                android:id="@+id/textViewemail"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                />
+
+            <Spinner
+                android:layout_width="360px"
+                android:layout_height="45px"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:ems="5"
+                android:id="@+id/doctor_special"
+                android:textSize="12px"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+
+            >
+            <TextView
+                android:layout_width="210px"
+                android:layout_height="35px"
+                android:text="Active"
+                android:textColor="#000000"
+                android:id="@+id/textactive"
+                android:textSize="@dimen/textsize"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                />
+
+            <Spinner
+                android:layout_width="360px"
+                android:layout_height="45px"
+                android:textColor="#000000"
+                android:ems="5"
+                android:id="@+id/doc_active"
+                android:textSize="14px"
+                android:background="@drawable/border_style"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingTop="10dp"
+             android:weightSum="1.0"
+             android:paddingEnd="10dp"
+
+             >
+
+             <TextView
+                 android:layout_width="170px"
+                 android:layout_height="35px"
+                 android:text="Doctor Name *"
+                 android:textColor="#000000"
+                 android:id="@+id/textView11"
+                 android:textSize="18px"
+                 android:visibility="invisible"
+                 android:layout_gravity="center_vertical"
+                 android:gravity="left"
+                 android:paddingLeft="20dp"
+                 />
+
+             <EditText
+                 android:layout_width="340px"
+                 android:layout_height="35px"
+                 android:inputType="textPersonName"
+                 android:textColor="#000000"
+                 android:digits="A,B,C,D,E,F,G,H,I,J,K,L, ,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+                 android:visibility="invisible"
+                 android:ems="10"
+                 android:id="@+id/doctor_name11"
+                 android:textSize="14px"
+                 android:layout_gravity="center_vertical"
+                 android:background="@drawable/border_style" />
+
+
+
+     </LinearLayout>-->
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingTop="10dp"
+
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="CREATE"
+            android:textSize="15px"
+            android:id="@+id/doct_ok_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/shapebutton_dialog"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="CLEAR"
+            android:textSize="15px"
+            android:id="@+id/doct_clear_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="1dp"
+
+            android:background="@drawable/shapebutton_dialog"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="EXIT"
+            android:textSize="15px"
+            android:id="@+id/doct_Exit_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1.0"
+            android:background="@drawable/shapebutton_dialog"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolay2"
+        android:paddingRight="20dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Discount"
+            android:textColor="#000000"
+            android:id="@+id/searchtiew2"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            android:completionThreshold="1"
+
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/localdisct"
+
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

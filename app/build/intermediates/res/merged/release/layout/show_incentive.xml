@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#28465e"
+    android:orientation="vertical"
+    android:weightSum="100.0"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90.0"
+        android:src="@drawable/incentive"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10.0"
+        android:text="Close"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize"
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

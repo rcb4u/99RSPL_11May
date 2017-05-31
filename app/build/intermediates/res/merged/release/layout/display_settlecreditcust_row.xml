@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:focusable="false"
+
+        >
+
+        <TextView
+            android:layout_width="270px"
+            android:layout_height="fill_parent"
+            android:textColor="#000000"
+            android:text="PRODUCT NAME"
+            android:focusable="false"
+            android:id="@+id/settlecustname"
+            android:textSize="@dimen/displaytextsize"
+            android:gravity="center"
+
+            android:layout_gravity="fill_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+
+        <TextView
+            android:layout_width="280px"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="phoneno"
+            android:focusable="false"
+            android:ems="10"
+            android:id="@+id/settlecustphoneno"
+            android:textSize="@dimen/displaytextsize"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:text="Outstanding"
+            android:ems="10"
+            android:maxLength="7"
+            android:id="@+id/settleoutstanding"
+            android:textSize="@dimen/displaytextsize"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.0"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:text="invoice"
+            android:ems="10"
+            android:id="@+id/settlecustinvoice"
+            android:textSize="12px"
+            android:layout_gravity="center_vertical"
+            />
+
+
+
+        <Button
+
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SETTLE"
+            android:layout_marginEnd="8dp"
+            android:textColor="#000000"
+            android:src="@drawable/button_settle"
+            android:id="@+id/SettleButton" />
+
+        <Button
+
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DETAILS"
+            android:textColor="#000000"
+            android:src="@drawable/button_settle"
+            android:id="@+id/detailsButton" />
+    </LinearLayout>
+
+
+</LinearLayout>

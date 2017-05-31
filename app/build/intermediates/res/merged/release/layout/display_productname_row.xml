@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="60px"
+            android:text="prodname"
+            android:textSize="18px"
+            android:textColor="#000000"
+            android:id="@+id/productname"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="60px"
+            android:text="prodname"
+            android:textSize="18px"
+            android:textColor="#000000"
+            android:id="@+id/productid"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    <!--   <TextView
+            android:layout_width="85dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:fontFamily="sans-serif"
+            android:textSize="12px"
+            android:textColor="#000000"
+            android:id="@+id/productid" />-->
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textSize="18px"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/batchno" />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="exp"
+            android:textSize="18px"
+            android:gravity="center"
+            android:id="@+id/productexp" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textSize="18px"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/quantity" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textSize="18px"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/sprice" />
+
+
+    </LinearLayout>
+</LinearLayout>

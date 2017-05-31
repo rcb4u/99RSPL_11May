@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_launcher_back"/>
+
+    <item android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_settinghelp" android:title="@string/action_settinghelp"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher_help" android:showAsAction="always" />
+
+    <!-- <item android:id="@+id/action_settingpurchase" android:title="@string/action_settingpurchase"
+         android:orderInCategory="100"  />
+ -->
+    <item android:id="@+id/action_settinginv" android:title="@string/action_settinginv"
+        android:orderInCategory="100"
+        android:icon="@drawable/inventory" android:showAsAction="always"/>
+
+    <item android:id="@+id/action_settingsales" android:title="@string/action_settingsales"
+        android:orderInCategory="100"
+        android:icon="@drawable/sales" android:showAsAction="always"
+        />
+    <item android:id="@+id/action_Masterscn1" android:title="MasterScreen"
+        android:orderInCategory="100"
+        android:icon="@drawable/masterdatamanagement"
+        android:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Sub"
+    >
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#ffffff"
+        android:layout_alignParentStart="true"
+        android:textAlignment="textStart"
+        android:layout_below="@id/layout1"
+        android:weightSum="8.5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/PurchaseproductName"
+            android:textColor="#000000"
+            android:ems="10"
+            android:textSize="18px"
+            android:layout_marginStart="2px"
+            android:gravity="left"
+            android:padding="10px"
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:inputType="numberDecimal"
+            android:id="@+id/PurchaseMRP"
+            android:textColor="#000000"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginStart="3px"
+            android:layout_gravity="center"
+            android:textSize="18px"
+            android:padding="10px"
+            android:imeOptions="flagNoExtractUi"
+
+            />
+
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="numberDecimal"
+            android:ems="8"
+            android:id="@+id/PurchaseproductPrice"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:maxLength="10"
+            android:layout_marginStart="3px"
+            android:layout_gravity="center"
+            android:textSize="18px"
+            android:padding="10px"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+        <EditText
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:inputType="number"
+            android:ems="10"
+            android:maxLength="5"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/editText"
+            android:textColor="#000000"
+            android:textSize="18px"
+            android:layout_marginStart="2px"
+            android:padding="10px"
+            android:imeOptions="flagNoExtractUi"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ConvFact"
+            android:id="@+id/ConvFact"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:focusable="false"
+            android:maxLength="10"
+            android:ems="8"
+            android:textSize="18px"
+            android:layout_gravity="center"
+            android:layout_marginStart="2px"
+            android:padding="10px"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="total qty"
+            android:id="@+id/TotalQty"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:focusable="false"
+            android:ems="10"
+            android:textSize="18px"
+            android:layout_marginStart="2px"
+            android:layout_gravity="center"
+            android:padding="10px"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/UOM"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:focusable="false"
+            android:ems="10"
+            android:textSize="18px"
+            android:layout_marginStart="2px"
+            android:padding="10px"/>
+
+        <TextView
+            android:id="@+id/we"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.0"
+            android:text="India "
+            android:textColor="#000000"
+            android:ems="12"
+            android:textSize="18px"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:padding="10px"
+            android:layout_marginStart="2px"
+            android:textAppearance="?android:textAppearanceLarge">
+
+            ></TextView>
+        <ImageButton
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:src="@drawable/cross_arrow_icon"
+            android:id="@+id/deleteButton"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+</LinearLayout>

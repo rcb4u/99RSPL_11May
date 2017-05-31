@@ -1,0 +1,762 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffdd0"
+    android:weightSum="70.0"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Search"
+            android:textColor="#000000"
+            android:id="@+id/searchtextView0"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            android:selectAllOnFocus="true"
+            />
+        <com.RSPL.POS.CustomAuto
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/searchlocalproductname"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </com.RSPL.POS.CustomAuto>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout8"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Product Name"
+            android:textColor="#000000"
+            android:id="@+id/searchtextView8"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:maxLength="50"
+            android:textSize="14px"
+            android:id="@+id/localproductname"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout1"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Product Id"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview1"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/localProductid"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayou"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Barcode"
+            android:textColor="#000000"
+            android:id="@+id/searchtext3"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:maxLength="20"
+            android:inputType="numberDecimal"
+            android:id="@+id/localbarcode"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayou"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Batch No"
+            android:textColor="#000000"
+            android:id="@+id/searchlocalbatchNo"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:maxLength="20"
+            android:inputType="text"
+            android:id="@+id/localbatchno"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout3"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Mrp"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview3"
+            android:textSize="@dimen/textsize"
+            android:maxLength="9"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/localmrp"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout4"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="S.Price"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview4"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:maxLength="9"
+
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/localsprice"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout5"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="P.Price"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview5"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:maxLength="9"
+            android:selectAllOnFocus="true"
+            android:inputType="numberDecimal"
+            android:id="@+id/localpprice"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayt5"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Active"
+            android:textColor="#000000"
+            android:id="@+id/searchtext"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:inputType="numberDecimal"
+            android:id="@+id/localactive"
+            android:background="@drawable/border_style">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout6"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Qauntity"
+            android:textColor="#000000"
+            android:id="@+id/searchlocalqty"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:selectAllOnFocus="true"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:maxLength="5"
+            android:inputType="numberDecimal"
+            android:id="@+id/localQauntity"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Margin"
+            android:textColor="#000000"
+            android:id="@+id/searchtext6"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/localmargin"
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolay6"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Uom"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview6"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:maxLength="15"
+            android:textSize="14px"
+            android:id="@+id/localuom"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayout2"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Discount"
+            android:textColor="#000000"
+            android:id="@+id/searchtextview2"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            android:completionThreshold="1"
+
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/localdiscount"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolayoutexp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Exp Date"
+            android:textColor="#000000"
+            android:id="@+id/Expdate2"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/localsearchexpdate"
+            android:focusable="false"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autolay2"
+        android:paddingRight="20dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Discount"
+            android:textColor="#000000"
+            android:id="@+id/searchtiew2"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            android:completionThreshold="1"
+
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/locaisct"
+
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:weightSum="1.0"
+         android:id="@+id/autolayout7"
+         android:paddingRight="20dp"
+         android:layout_marginTop="10dp"
+
+
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.4"
+             android:text="Total"
+             android:textColor="#000000"
+             android:id="@+id/searchtextview7"
+             android:fontFamily="sans-serif"
+             android:textSize="14px"
+             android:layout_gravity="center_vertical"
+             android:gravity="left"
+             android:paddingLeft="60dp"
+             />
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.6"
+             android:singleLine="true"
+             android:completionThreshold="1"
+             android:textColor="#000000"
+             android:textSize="14px"
+             android:id="@+id/searchtotal"
+             android:background="@drawable/border_style">
+         </TextView>
+
+     </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Hiddenlayout1"
+        android:visibility="visible"
+        android:layout_weight="30">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:paddingLeft="270dp"
+
+            >
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Submit"
+                android:textSize="@dimen/Buttontextsize"
+                android:id="@+id/Searchsubmit"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/shapebutton_dialog"
+
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Exit"
+                android:textSize="@dimen/Buttontextsize"
+                android:id="@+id/searchexit"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shapebutton_dialog"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:id="@+id/autay2"
+        android:paddingRight="20dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Discount"
+            android:textColor="#000000"
+            android:id="@+id/seartiew2"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:paddingLeft="60dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.6"
+            android:singleLine="true"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            android:completionThreshold="1"
+
+            android:textColor="#000000"
+            android:textSize="14px"
+            android:id="@+id/localdisct"
+
+            android:background="@drawable/border_style"
+            android:imeOptions="flagNoExtractUi"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
