@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:2:1-783:12
+ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:2:1-800:12
 	package
 		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:3:5-27
 		INJECTED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml
@@ -130,7 +130,7 @@ ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest
 	android:name
 		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:37:9-65
 application
-ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:40:5-781:19
+ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:40:5-798:19
 MERGED from [99RSPL 11May:sqlite-android-3150000-see:unspecified] /home/rspl-rahul/.android/build-cache/e11ece5a72aed5624587c9022721a8c5f98a3a3a/output/AndroidManifest.xml:11:5-15:19
 MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] /home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/AndroidManifest.xml:4:3-17
 MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /home/rspl-rahul/.android/build-cache/b0b0d2fe879b9d9837bf8c5db6fbeb589675fbe3/output/AndroidManifest.xml:18:5-19
@@ -1563,6 +1563,38 @@ activity#com.RSPL.POS.Otp_Activity
 ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:780:9-59
 	android:name
 		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:780:19-47
+activity#com.RSPL.POS.McashMainActivity
+ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:781:9-784:55
+	android:screenOrientation
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:783:13-50
+	android:theme
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:784:13-52
+	android:name
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:782:13-46
+activity#com.RSPL.POS.CashIn
+ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:785:9-788:55
+	android:screenOrientation
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:787:13-50
+	android:theme
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:788:13-52
+	android:name
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:786:13-35
+activity#com.RSPL.POS.CashOut
+ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:789:9-792:55
+	android:screenOrientation
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:791:13-50
+	android:theme
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:792:13-52
+	android:name
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:790:13-36
+activity#com.RSPL.POS.PayForGoodsActivity
+ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:793:9-796:55
+	android:screenOrientation
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:795:13-50
+	android:theme
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:796:13-52
+	android:name
+		ADDED from /home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/AndroidManifest.xml:794:13-48
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/rspl-rahul/.android/build-cache/abcda621452708f25986578f87df3f927756eed9/output/AndroidManifest.xml:19:9-172
 	android:exported

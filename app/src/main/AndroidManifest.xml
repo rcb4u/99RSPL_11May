@@ -778,6 +778,23 @@
         <activity android:name=".ActivitySystemValidate" />
         <activity android:name=".Activity_Lost_Sale" />
         <activity android:name=".Otp_Activity"></activity>
+        <activity
+            android:name=".McashMainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name=".CashIn"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name=".CashOut"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name=".PayForGoodsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+
     </application>
 
 </manifest>

@@ -1594,8 +1594,6 @@ public class DBhelper  extends SQLiteOpenHelper {
 		displaypojo display = null;
 
 		SQLiteDatabase db = this.getReadableDatabase();
-		db.getVersion();
-		Log.e("version ", "Version number is " + db.getVersion());
 		Cursor res = db.rawQuery("select * from retail_bill_display", null);
 		if (res.moveToFirst()) {
 			//do {

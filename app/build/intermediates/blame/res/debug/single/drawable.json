@@ -60,12 +60,12 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/bill2.png"
     },
     {
-        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/directt.jpg",
-        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/directt.jpg"
-    },
-    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/purchasereport.png",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/purchasereport.png"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/directt.jpg",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/directt.jpg"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
@@ -84,24 +84,24 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/sym_keyboard_return.png"
     },
     {
-        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/icon.png",
-        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/icon.png"
-    },
-    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/taximg.png",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/taximg.png"
     },
     {
-        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/usermanagementretail.png",
-        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/usermanagementretail.png"
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/schemenew.png",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/schemenew.png"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/systemsettings.png",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/systemsettings.png"
     },
     {
-        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/schemenew.png",
-        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/schemenew.png"
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/usermanagementretail.png",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/usermanagementretail.png"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/ponds.jpg",
@@ -120,12 +120,12 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/ic_status.png"
     },
     {
-        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/images.jpg",
-        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/images.jpg"
-    },
-    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/customerloyaltyretail.png",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/customerloyaltyretail.png"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/images.jpg",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/drawable/images.jpg"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/drawable/withoutinvoice.png",

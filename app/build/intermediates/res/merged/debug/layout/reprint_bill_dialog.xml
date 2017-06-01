@@ -2,54 +2,66 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#fffdd0">
-<!--
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:text=""
-        android:ems="10"
-        android:id="@+id/reprint_bill_text"
-        android:layout_weight="1"
-        android:imeOptions="flagNoExtractUi"
-        />-->
-
-
+    android:background="#fffdd0"
+    android:orientation="vertical">
     <LinearLayout
         android:id="@+id/layout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_below="@+id/layout1"
+        android:orientation="horizontal"
         android:paddingLeft="60dp"
         android:paddingTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         >
-
-
-        <LinearLayout
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="20dp"
-            android:weightSum="1.0"
-
-            >
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/reprint_bill_text"
-                android:ems="10"
-                android:textSize="20dp"
-                android:textColor="#000000"
-
-                android:drawableRight="@drawable/cross_arrow_icon"
-                android:background="@drawable/border_style"
-                android:layout_weight="0.85"
-                android:imeOptions="flagNoExtractUi"/>
+            android:id="@+id/reprint_bill_text"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:background="@drawable/border_style"
+            android:layout_weight="0.85"
+            android:imeOptions="flagNoExtractUi"/>
 
         </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+
+        <Button
+            android:id="@+id/Printrprt"
+            android:layout_width="0px"
+            android:layout_height="50px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="180dp"
+            android:layout_weight="0.5"
+            android:background="#009985"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:text="PRINT"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/Cancelrprt"
+            android:layout_width="0px"
+            android:layout_height="50px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="20dp"
+            android:background="#009985"
+            android:clickable="true"
+            android:text="CANCEL"
+            android:textSize="20px" />
     </LinearLayout>
 
 

@@ -387,7 +387,7 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
     private ActionBar actionBar;
     private TextView GrandTotal, Transid, Billno, PosCust, imeibill;
     private TextView Totalitems, Finalgrandtotaldisp;
-    private Button paybycash, paybycard;
+    private Button paybycash, paybycard,McashWallet;
     private int mTempPositionBeforeCalenderDialog = -1;
     TextView grandtotalafterdiscount, linediscount, LineDiscountAmount;
     String mrp;
@@ -468,7 +468,8 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
 
     String backroundcolour, colorchange;
 
-
+////////////////////////////////////MCASH BUTTON //////////////////////////////////////////////////////////////////
+    Button CashIn,PayForgoods,CashOut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         System.loadLibrary("sqliteX");
@@ -2946,7 +2947,6 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
 
             }
         });
-
         //  dialog.setCanceledOnTouchOutside(false);
         close.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -3524,10 +3524,8 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                     cardtype = "VISA";
 
                 }
-
-                BankNameSelected = cardbankname.getSelectedItem().toString();
                 try {
-                    //
+                    BankNameSelected = cardbankname.getSelectedItem().toString();
                     String imeino = imeibill.getText().toString();
                     tp.setColor(Color.BLUE);
                     tp.setTextSize(26);
@@ -3558,7 +3556,7 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
 
 
                     db.savecarddetail(Transid.getText().toString(), adapter.getList(), user2.getText().toString(), cardno4.getText().toString(), BankNameSelected, cardtype);
-                    db.insertdetailsifpaybaycard(Transid.getText().toString(), GrandTotal.getText().toString(), user2.getText().toString(), cardno4.getText().toString(), cardbankname.toString(), cardgrandtotal.getText().toString(), cardholdername.getText().toString(), OverallTotalDiscount.getText().toString());
+                    db.insertdetailsifpaybaycard(Transid.getText().toString(), GrandTotal.getText().toString(), user2.getText().toString(), cardno4.getText().toString(), BankNameSelected, cardgrandtotal.getText().toString(), cardholdername.getText().toString(), OverallTotalDiscount.getText().toString());
 
                     db.updateStockQty(adapter.getList());
                     db.insertdataIntosendMailforSales(Transid.getText().toString(), PosCust.getText().toString(), user2.getText().toString(), emailids.getText().toString());
@@ -4543,14 +4541,36 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
     public void Reprintdialog() {
         LayoutInflater inflater = getLayoutInflater();
         final View alertlayout = inflater.inflate(R.layout.reprint_bill_dialog, null);
-        AlertDialog.Builder reprint_dialog = new AlertDialog.Builder(ActivitySalesbill.this);
+        final AlertDialog.Builder reprint_dialog = new AlertDialog.Builder(ActivitySalesbill.this);
+      final  AlertDialog alertDialog=reprint_dialog.create();
         reprint_dialog.setTitle("             Reprint Bill");
         reprint_dialog.setMessage("Enter Transaction id");
         reprint_bill_dialog_text = (EditText) alertlayout.findViewById(R.id.reprint_bill_text);
-        reprint_dialog.setNegativeButton("Print", new DialogInterface.OnClickListener()
+        Button Print=(Button)alertlayout.findViewById(R.id.Printrprt);
+        Button Cancel=(Button)alertlayout.findViewById(R.id.Cancelrprt);
+        alertlayout.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
 
-        {
-            public void onClick(DialogInterface dialog, int which) {
+                try {
+
+                    InputMethodManager imm = (InputMethodManager) getBaseContext().getSystemService(Context
+                            .INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(reprint_bill_dialog_text.getWindowToken(), 0);
+
+                } catch (NullPointerException ex) {
+                    ex.printStackTrace();
+                }
+
+                return true;
+            }
+
+        });
+        reprint_dialog.setView(alertlayout);
+        reprint_dialog.show();
+        Print.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 try {
                     String bill_Transaction_id = reprint_bill_dialog_text.getText().toString();
                     Log.e("!!!!!!!!!!!!!!!!!", "" + bill_Transaction_id.toString());
@@ -4566,10 +4586,23 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                         get_Transcation_List = db.get_Transaction_Id_Bill(bill_Transaction_id);
 //////////////////////////////////////Printer testing ///////////////////////////////////////
 
+                        tp.setColor(Color.BLUE);
+                        tp.setTextSize(26);
+                        tp32.setTextSize(40);
+                        tp36.setTextSize(34);
+                        tp32.setTypeface(Typeface.create("Arial", Typeface.BOLD));
+                        tp.setTypeface(tff);
+                        store_name = db.getAllStores();
+                        store = (store_name.get(1).toString());
+                        storeAddress = store_name.get(2).toString();
+                        City = store_name.get(3).toString();
+                        Storenumber = store_name.get(4).toString();
+                        AlternateNo = store_name.get(5).toString();
+                        Footer = store_name.get(6).toString();
+                        Grandtotal = GrandTotal.getText().toString();
                         if (get_Transcation_List.size() > 0)
 
                         {
-
                             Sales card_Details = db.get_Card_Transaction_Id_Bill_Master(reprint_bill_dialog_text.getText().toString());
                             String card_No = card_Details.getCardHolderNumber();
                             String cardGrandTotal = card_Details.getCardGrandTotal();
@@ -4586,21 +4619,8 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                             String customer_name = getAllmasterinfoforprinter.getCustomerName();
                             String saledate = getAllmasterinfoforprinter.getDate();
                             String saletime = getAllmasterinfoforprinter.getSalesTime();
-                            if (totalbillamt != 0.00 && expectdchnge != 0.00) {
-                                tp.setColor(Color.BLUE);
-                                tp.setTextSize(26);
-                                tp32.setTextSize(40);
-                                tp36.setTextSize(34);
-                                tp32.setTypeface(Typeface.create("Arial", Typeface.BOLD));
-                                tp.setTypeface(tff);
-                                store_name = db.getAllStores();
-                                store = (store_name.get(1).toString());
-                                storeAddress = store_name.get(2).toString();
-                                City = store_name.get(3).toString();
-                                Storenumber = store_name.get(4).toString();
-                                AlternateNo = store_name.get(5).toString();
-                                Footer = store_name.get(6).toString();
-                                Grandtotal = GrandTotal.getText().toString();
+                            if (totalbillamt != 0.00 && TextUtils.isEmpty(card_No)) {
+
                                 DecimalFormat f = new DecimalFormat("##.00");
                                 for (int i = 1; i <= paybycashbillcopy; i++) {
                                     StringBuilder strbuilder = new StringBuilder();
@@ -4619,7 +4639,6 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                                     UsPrinter.addText(strbuilder.toString(), Layout.Alignment.ALIGN_CENTER, tp36);
                                     strbuilder.setLength(0);
                                     if (TextUtils.isEmpty(customer_name) || customer_name.matches("")) {
-                                        strbuilder.append(ActivitySalesbill.this.eol);
                                     } else {
                                         strbuilder.append("Customer Name:" + customer_name);
                                         strbuilder.append(ActivitySalesbill.this.eol);
@@ -4643,8 +4662,6 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                                     SimpleDateFormat formatter = new SimpleDateFormat(" EEEMMMdd yy");
 */
                                     // String newFormat = formatter.format(testDate);
-
-
                                     // Date dt = new Date(saletime);
                                     SimpleDateFormat timeformat = new SimpleDateFormat("hh:mm:ss");
                                     Date time1 = null;
@@ -4655,141 +4672,75 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                                     }
                                     SimpleDateFormat newtimeee = new SimpleDateFormat("hh:mm a");
                                     String timeeeee = newtimeee.format(time1);
-
                                     //SimpleDateFormat outdate = new SimpleDateFormat("yyMMMdd");
                                     String sales_date_reprint = saledate.concat(" ").concat(timeeeee);
-
                                     String formattedDate;
                                     formattedDate = new SimpleDateFormat("EEE,ddMMMyy hh:mma").format(Calendar.getInstance().getTime());
-
                                     int billDtSpace = 39 - ((String.valueOf(reprint_bill_dialog_text.getText().toString()).length() + BILL_DATE_COLUMN) + sales_date_reprint.length());
-
                                     strbuilder.append("Bill No:");
-
                                     strbuilder.append(reprint_bill_dialog_text.getText().toString());
-
                                     strbuilder.append(getSpacer(billDtSpace));
-
                                     strbuilder.append(sales_date_reprint);
-
                                     strbuilder.append(ActivitySalesbill.this.eol);
-
                                     strbuilder.append(getDividerSales());
-
                                     strbuilder.append(ActivitySalesbill.this.eol);
-
                                     if (MRPisShown.matches("Y")) {
-
                                         strbuilder.append(" ProductName" + "       " + "MRP");
                                         strbuilder.append(ActivitySalesbill.this.eol);
                                         strbuilder.append(" S.Price" + "    " + "Qty" + "  " + "ItemDisc" + "   " + "Total");
-
                                         strbuilder.append(ActivitySalesbill.this.eol);
-
                                         strbuilder.append(getDividerSales());
-
                                         strbuilder.append(ActivitySalesbill.this.eol);
-
                                         for (Sales prod : get_Transcation_List) {
-
                                             String ProuctName = prod.getProductName();
-
                                             if (ProuctName.length() >= 21) {
-
                                                 ProuctName = ProuctName.substring(0, 21);
-
                                             }
-
                                             strbuilder.append(getSpacer(PRINT_LEFT_MARGIN) + ProuctName);
-
                                             String printMrp = String.valueOf(f.format(prod.getMrp()));
-
                                             int spaces = 10 - printMrp.length();
-
                                             if (spaces == 0) {
-
                                                 strbuilder.append(getSpacer(spaces + PRINT_LEFT_MARGIN) + printMrp + getSpacer(PRINT_LEFT_MARGIN));
-
                                             } else {
-
                                                 strbuilder.append(getSpacer(spaces) + printMrp + getSpacer(PRINT_LEFT_MARGIN));
-
                                             }
-
                                             strbuilder.append(ActivitySalesbill.this.eol);
-
                                             strbuilder.append(ActivitySalesbill.this.eol);
-
                                             String printSPrice = String.valueOf(f.format(prod.getSPrice()));
-
                                             spaces = 9 - printSPrice.length();
-
                                             if (spaces == 0) {
-
                                                 strbuilder.append(getSpacer(spaces + PRINT_LEFT_MARGIN) + printSPrice + getSpacer(PRINT_LEFT_MARGIN));
-
                                             } else {
-
                                                 strbuilder.append(getSpacer(spaces) + printSPrice +
-
                                                         getSpacer(PRINT_LEFT_MARGIN));
-
                                             }
-
                                             String printqty = String.valueOf(prod.getQuantity());
-
                                             spaces = 3 - printqty.length();
-
                                             strbuilder.append(getSpacer(spaces) + printqty + getSpacer(PRINT_LEFT_MARGIN));
-
                                             String printDiscount = String.valueOf(f.format(prod.getDiscountsales()));
-
                                             spaces = 7 - printDiscount.length();
-
                                             if (spaces == 0) {
-
                                                 strbuilder.append(getSpacer(spaces + PRINT_LEFT_MARGIN) + printDiscount + getSpacer(PRINT_LEFT_MARGIN));
-
                                             } else {
-
                                                 strbuilder.append(getSpacer(spaces) + printDiscount + getSpacer(PRINT_LEFT_MARGIN));
-
                                             }
-
                                             if (prod.getDiscountamount() > 0.00) {
-
                                                 String printtotal = String.valueOf(f.format(prod.getDiscountamount()));
-
                                                 spaces = 8 - printtotal.length();
-
                                                 strbuilder.append(getSpacer(spaces) + printtotal);
-
                                             } else {
-
                                                 String printtotal = String.valueOf(f.format(prod.getTotal()));
-
                                                 spaces = 8 - printtotal.length();
-
                                                 strbuilder.append(getSpacer(spaces) + printtotal);
-
                                             }
-
                                             strbuilder.append(ActivitySalesbill.this.eol);
-
                                             strbuilder.append(ActivitySalesbill.this.eol);
-
                                         }
-
                                     } else {
-
                                         strbuilder.append(" S.Price" + "    " + "Qty" + "  " + "ItemDisc" + "   " + "Total");
-
                                         strbuilder.append(ActivitySalesbill.this.eol);
-
                                         strbuilder.append(getDividerSales());
-
                                         strbuilder.append(ActivitySalesbill.this.eol);
-
                                         for (Sales prod : get_Transcation_List) {
 
                                             strbuilder.append(getSpacer(PRINT_LEFT_MARGIN) + prod.getProductName());
@@ -4942,100 +4893,34 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                                     startActivity(intent);
 
                                 }
-
                             } else
-
                             {
-
-                                tp.setColor(Color.BLUE);
-
-                                tp.setTextSize(26);
-                                tp32.setTextSize(40);
-                                tp36.setTextSize(34);
-                                tp32.setTypeface(Typeface.create("Arial", Typeface.BOLD));
-
-                                tp.setTypeface(tff);
-
-                                store_name = db.getAllStores();
-
-                                store = (store_name.get(1).toString());
-
-                                storeAddress = store_name.get(2).toString();
-
-                                City = store_name.get(3).toString();
-
-                                Storenumber = store_name.get(4).toString();
-
-                                AlternateNo = store_name.get(5).toString();
-
-                                Footer = store_name.get(6).toString();
-
-                                Grandtotal = GrandTotal.getText().toString();
-
-                                //Footer = store_name.get(6).toString();
-
-                                //amountdiscount = discountamount.getText().toString();
-
-                                //Totalsavings.setText(amountdiscount);
-
                                 DecimalFormat f = new DecimalFormat("##.00");
-
                                 for (int i = 1; i <= paybycashbillcopy; i++) {
-
                                     StringBuilder strbuilder = new StringBuilder();
-
                                     strbuilder.append(store + "\n");
-
                                     strbuilder.append(storeAddress + "\n");
-
                                     strbuilder.append(City + "\n");
-
                                     UsPrinter.addText(strbuilder.toString(), Layout.Alignment.ALIGN_CENTER, tp32);
                                     strbuilder.setLength(0);
-
                                     if (!TextUtils.isEmpty(AlternateNo) && Tele2Shown.matches("Y")) {
-
                                         strbuilder.append("Tel:" + Storenumber + "," + AlternateNo + "\n");
 
                                     } else {
-
                                         strbuilder.append("Tel:" + Storenumber);
-
                                         strbuilder.append(ActivitySalesbill.this.eol);
-
                                     }
-
                                     UsPrinter.addText(strbuilder.toString(), Layout.Alignment.ALIGN_CENTER, tp36);
                                     strbuilder.setLength(0);
-
                                     if (TextUtils.isEmpty(customer_name) || customer_name.matches("")) {
                                         strbuilder.append(ActivitySalesbill.this.eol);
-
                                     } else {
                                         strbuilder.append("Customer Name:" + customer_name);
                                         strbuilder.append(ActivitySalesbill.this.eol);
                                     }
-                                    /*if (TextUtils.isEmpty(card_No) ||card_No.matches(" "))
-                                    {
-                                        strbuilder.append(ActivitySalesbill.this.eol);
-                                    }
-                                    else {
+
                                         strbuilder.append("Card Number:" + "XXXX-XXXX-XXXX-" + card_No);
                                         strbuilder.append(ActivitySalesbill.this.eol);
-                                    }*/
-
-
-                                 /*   SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd");
-                                    Date testDate = null;
-                                    try {
-                                        testDate = sdf.parse(saledate_paybycard);
-                                    }catch(Exception ex){
-                                        ex.printStackTrace();
-                                    }
-                                    SimpleDateFormat formatter = new SimpleDateFormat("EEE,MMM dd,yy");
-
-                                    String newFormat = formatter.format(testDate);
-*/                                    // Date dt = new Date(saletime);
                                     SimpleDateFormat timeformat = new SimpleDateFormat("hh:mm:ss");
                                     Date time1 = null;
                                     try {
@@ -5045,7 +4930,6 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
                                     }
                                     SimpleDateFormat newtimeee = new SimpleDateFormat("hh:mm a");
                                     String timeeeee = newtimeee.format(time1);
-                                    // SimpleDateFormat outdate = new SimpleDateFormat("yyMMMdd");
                                     String sales_date_reprint_bycard = saledate.concat(" ").concat(timeeeee);
                                     strbuilder.append(ActivitySalesbill.this.eol);
                                     String formattedDate;
@@ -5188,42 +5072,13 @@ public class ActivitySalesbill extends FragmentActivity implements View.OnClickL
 
             }
         });
-
-
-        alertlayout.setOnTouchListener(new View.OnTouchListener() {
+        Cancel.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-
-                try {
-
-                    InputMethodManager imm = (InputMethodManager) getBaseContext().getSystemService(Context
-                            .INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(reprint_bill_dialog_text.getWindowToken(), 0);
-
-                } catch (NullPointerException ex) {
-                    ex.printStackTrace();
-                }
-
-                return true;
-            }
-
-        });
-
-
-        reprint_dialog.setPositiveButton("Cancel", new DialogInterface.OnClickListener()
-
-        {
-            public void onClick(DialogInterface dialog, int which) {
-
-//
-
+            public void onClick(View v) {
+                //dialog.dismiss();
+                alertDialog.dismiss();
             }
         });
-
-        reprint_dialog.setView(alertlayout);
-
-        reprint_dialog.show();
-
     }
 
 

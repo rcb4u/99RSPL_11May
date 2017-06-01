@@ -788,6 +788,22 @@
         <activity android:name="com.RSPL.POS.Activity_Lost_Sale" />
         <activity android:name="com.RSPL.POS.Otp_Activity" />
         <activity
+            android:name="com.RSPL.POS.McashMainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.CashIn"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.CashOut"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.RSPL.POS.PayForGoodsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.NoTitleBar" />
+        <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />

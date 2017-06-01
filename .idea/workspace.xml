@@ -2,26 +2,598 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="Nexus 10" />
+        </devices>
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62670834-5992-4197-9abf-1fb4f4ba83f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashIn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashOut.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashOutFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/McashMainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/PayForGoodsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cash_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cashin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcashmain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pay_for_goods.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_cash_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_cashin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cash_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gettingotpcashout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/popup_cash_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/responsedisplaylayout.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1WaitingforResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-hdpi-1024x600-v4/values-large-hdpi-1024x600-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-land-hdpi-1024x600-v4/values-large-land-hdpi-1024x600-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-land-mdpi-1024x600-v4/values-large-land-mdpi-1024x600-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-mdpi-1024x600-v4/values-large-mdpi-1024x600-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/AdTickerReportAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/AdTickerReportAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BillDetails_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BillDetails_Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BillLevelAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BillLevelAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BlinkingLogoReportAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BlinkingLogoReportAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BlinkinglogoAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/BlinkinglogoAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Comp_list_adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Comp_list_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditCustomerAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditCustomerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditNoteAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditNoteAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditViewBill_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditViewBill_Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditcustNameadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CreditcustNameadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomAdaptor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomAdaptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomerAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomerRejectAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomerRejectAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomerSalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/CustomerSalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Dialog_Purchase_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Dialog_Purchase_Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Dialoginventory_adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Dialoginventory_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/DoctorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/DoctorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/FragmentStockVendorInvoiceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/FragmentStockVendorInvoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Fullproductadapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Fullproductadapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Fullproductadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Fullproductadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/HdCreditCustomerAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/HdCreditCustomerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryDropDownProductNmAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryDropDownProductNmAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductDropdownAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductDropdownAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductListAdapter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductListAdapter$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductListAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductListAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryProductListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryTotalLocalVendoradapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryTotalLocalVendoradapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryVendorNmAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventoryVendorNmAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventory_LocalProduct_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventory_LocalProduct_Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventoryadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventoryadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventorygrnadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventorygrnadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventorygrnnoAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/InventorygrnnoAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventoryinventorygrnadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventoryinventorygrnadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventoryproductadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventoryproductadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventorystockadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventorystockadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventorywithpoadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Inventorywithpoadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/LocalVedorInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/LocalVedorInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/LoyalityAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/LoyalityAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/MaintenanceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/MaintenanceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Mfg_list_adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Mfg_list_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/MylistAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/MylistAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ProductAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseFullProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseFullProductAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseInvoiceNoListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseInvoiceNoListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseProductAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Purchase_LocalProduct_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Purchase_LocalProduct_Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Purchaselocalvendoradapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Purchaselocalvendoradapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseproductlistAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseproductlistAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseproductlistwithpoAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/PurchaseproductlistwithpoAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportDailyOverallSaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportDailyOverallSaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportDailySaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportDailySaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportMonthlySaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportMonthlySaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseList1MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseList1MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseList3MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseList3MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseListDailyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportPurchaseListDailyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportQuarterlySaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportQuarterlySaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportSaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportSaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportSearchReturnIdAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportSearchReturnIdAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportStockListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportStockListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportVendorReturnAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportVendorReturnAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportWeeklySaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportWeeklySaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportWithInvoiceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportWithInvoiceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportWithoutInvoiceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportWithoutInvoiceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportYearlySaleListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ReportYearlySaleListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/RetailcarddefineAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/RetailcarddefineAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/RuleDefinationAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/RuleDefinationAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Saledoctorsadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Saledoctorsadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesProductNmAdaptor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesProductNmAdaptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesReturnAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesReturnAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesReturnProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesReturnProductAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesReturnwithoutinvoiceno.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SalesReturnwithoutinvoiceno.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SearchproductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SearchproductAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SecondBillAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SecondBillAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SecondSalesReturnAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SecondSalesReturnAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SecondSalesReturnAdapterWithotInvoiceNumber.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SecondSalesReturnAdapterWithotInvoiceNumber.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SettleCreditcustAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/SettleCreditcustAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ShowStockAdjustmentAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/ShowStockAdjustmentAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Stockproductadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Stockproductadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/StoreMainAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/StoreMainAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/TopProductDropDownAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/TopProductDropDownAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Top_Product_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Top_Product_Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Topfullproductadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Topfullproductadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/TopproductidandnameAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/TopproductidandnameAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorNameForVendorReturnAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorNameForVendorReturnAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorReturnProductListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorReturnProductListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorReturnSelectProductToreturnAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorReturnSelectProductToreturnAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorRjectAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorRjectAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorSearchAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/VendorSearchAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Withoutpo_localvendoradapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Withoutpo_localvendoradapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Withpo_localvendoradapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/Withpo_localvendoradapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterdialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterdialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterinventorydialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterinventorydialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterinventorypodialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterinventorypodialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterinventorytotal.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localproductadapterinventorytotal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localsalesproductadapterdialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localsalesproductadapterdialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localvendoradapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/localvendoradapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/lostsaleadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/lostsaleadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/lostsaleslistadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/lostsaleslistadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/purchaseBarcodeAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/purchaseBarcodeAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/stockvendernameadapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Adapter/stockvendernameadapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Fragments/DiscountFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Fragments/DiscountFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Fragments/FastMovingFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Fragments/FastMovingFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Fragments/PushAddsfragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/Fragments/PushAddsfragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailyInventoryReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailyInventoryReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailyOverallSalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailyOverallSalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailyPurchasingReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailyPurchasingReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailySalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDailySalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDistributorReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentDistributorReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventory1MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventory1MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventory3MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventory3MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventory6MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventory6MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventoryReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentInventoryReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList1MonthInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList1MonthInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList1MonthPurchasingAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList1MonthPurchasingAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList3MonthInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList3MonthInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList3MonthPurchasingAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList3MonthPurchasingAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList6MonthInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentList6MonthInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailyInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailyInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailyOverallSalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailyOverallSalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailyPurchasingAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailyPurchasingAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailySalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDailySalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDistributorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListDistributorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListLocalProductCPGAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListLocalProductCPGAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListLocalProductPharmaAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListLocalProductPharmaAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListMonthlySalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListMonthlySalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListProductCPGAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListProductCPGAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListProductPharmaAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListProductPharmaAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListPurchasingAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListPurchasingAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListQuarterlySalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListQuarterlySalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListSalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListSalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListVendorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListVendorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListWeeklySalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListWeeklySalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListWithInvoiceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListWithInvoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListWithoutInvoiceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListWithoutInvoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListYearlySalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentListYearlySalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLocalProductCPGReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLocalProductCPGReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLocalProductPharmaReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLocalProductPharmaReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLostSalesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLostSalesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLostSalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentLostSalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentMonthlySalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentMonthlySalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCash1MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCash1MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCash3MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCash3MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCash6MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCash6MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashList1MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashList1MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashList3MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashList3MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashList6MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashList6MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashSearchAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCashSearchAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCheque1MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCheque1MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCheque3MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCheque3MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCheque6MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByCheque6MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeList1MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeList1MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeList3MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeList3MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeList6MonthAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeList6MonthAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeSearchAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPayByChequeSearchAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentProductCPGReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentProductCPGReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentProductPharmaReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentProductPharmaReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPurchasing1MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPurchasing1MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPurchasing3MonthReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPurchasing3MonthReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPurchasingReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentPurchasingReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentQuarterlySalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentQuarterlySalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearch1MonthInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearch1MonthInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearch3MonthInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearch3MonthInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearch6MonthInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearch6MonthInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchDistributorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchDistributorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchLocalProductCPGAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchLocalProductCPGAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchLocalProductPharmaAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchLocalProductPharmaAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchProductCPGAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchProductCPGAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchProductPharmaAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchProductPharmaAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchPurchasingAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchPurchasingAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchVendorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchVendorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchWithInvoiceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchWithInvoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchWithoutInvoiceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentSearchWithoutInvoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentStockReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentStockReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentStockSearchAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentStockSearchAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentVendorReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentVendorReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentWeeklySalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentWeeklySalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentWithInvoiceReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentWithInvoiceReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentWithoutInvoiceReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentWithoutInvoiceReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentYearlySalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentYearlySalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentstockInventoryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ReportTabFragments/FragmentstockInventoryAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityCustomer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityCustomer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityDayOpen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityDayOpen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityInvoice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityInvoice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityLocalProduct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityLocalProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityLoyality.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityLoyality.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityLoyalityCust.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityLoyalityCust.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityMainMaintainence.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityMainMaintainence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityMaintain.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityMaintain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityProduct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityReportMain.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityReportMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySales.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySales.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$16.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$17.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$18.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$19.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1ConnectionSerial.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1ConnectionSerial.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateActivitySalesbill.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateActivitySalesbill.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateDoctor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateDoctor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateIventoryWithoutPO.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateIventoryWithoutPO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateLocalProduct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$1UpdateLocalProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$20.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$21.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$22.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$23.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$24$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$24$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$24.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$25.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$26.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$27.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$28.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$29.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$2UpdateActivitySalesbill.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$2UpdateActivitySalesbill.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$2UpdateLocalProduct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$2UpdateLocalProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$30.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$31.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$31.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$32.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$32.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$33.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$33.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$34.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$34.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$35.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$36.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$36.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$37.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$37.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$38.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$38.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$39.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$39.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$3UpdateActivitySalesbill.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$3UpdateActivitySalesbill.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$40.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$40.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$41.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$41.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$42.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$42.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$43.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$43.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$44.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$44.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$45.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$45.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$46.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$46.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$47.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$47.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$48.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$48.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$49.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$49.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$50$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$50$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$50.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$50.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$51.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$51.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$52.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$52.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$53.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$53.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$54.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$54.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$55.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$55.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$56.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$56.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$57.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$57.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$58.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$58.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$59.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$59.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$60.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$60.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$61.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$61.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$62.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$62.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$63.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$63.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$64.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$64.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$65.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$65.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$66.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$66.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$67.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$67.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$68.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$68.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$69.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$69.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$70.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$70.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$71.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$71.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$72.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$72.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$73.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$73.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$74.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$74.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$75.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$75.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$76.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$76.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$77.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$77.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$78.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$78.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$79.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$79.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$80.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$80.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$TalkThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill$TalkThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesbill.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesreturn.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySalesreturn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityScheme.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityStore$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityStore$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityStore.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityStoreScreenFeedback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityStoreScreenFeedback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySystemValidate.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitySystemValidate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityTax.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityTax.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityTender$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityTender$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityTender.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityTender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityVendor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivityVendor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Bill_Level.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Bill_Level.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Comp_Btl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Comp_Btl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_CreditView_bills.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_CreditView_bills.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Doctor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Doctor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Installation.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Installation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Lost_Sale.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Lost_Sale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Loyalty_Report.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Loyalty_Report.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Media.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Media.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Mfg_btl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Mfg_btl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Salesreturn_withoutinvoiceno.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Salesreturn_withoutinvoiceno.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_SettleCreditCustomer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_SettleCreditCustomer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Top_Product.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_Top_Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_bill_display.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_bill_display.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_bill_visibility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_bill_visibility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_decimal.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_decimal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_lineitem_discount.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_lineitem_discount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_masterScreen1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_masterScreen1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_masterScreen2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activity_masterScreen2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityinternetbill.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityinternetbill.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitylocalVendor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ActivitylocalVendor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalityaccural$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalityaccural$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalityaccural$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalityaccural$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalityaccural.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalityaccural.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalitydefine$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalitydefine$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalitydefine$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalitydefine$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalitydefine.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityloyalitydefine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activitypurchase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activitypurchase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityreport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityreport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityvendorpayment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Activityvendorpayment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/AdTickerReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/AdTickerReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/AddNewCustomer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/AddNewCustomer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Additems.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Additems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BiilinternetActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BiilinternetActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BillDetails.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BillDetails.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BlinkingLogoReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BlinkingLogoReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BlinkinglogoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BlinkinglogoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BluetoothChat.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/BluetoothChat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/CustomerRejection.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/CustomerRejection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/DBhelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/DBhelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/DeviceListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/DeviceListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Inventory_Localproduct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Inventory_Localproduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Inventory_Localvendor$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Inventory_Localvendor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Inventory_Localvendor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Inventory_Localvendor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Purchase_LocalProduct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Purchase_LocalProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Purchase_LocalVendor$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Purchase_LocalVendor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Purchase_LocalVendor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Dialog_Purchase_LocalVendor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/InventoryFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/InventoryFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/InventoryTotalActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/InventoryTotalActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/LoyaltyReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/LoyaltyReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MainAdvertisementReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MainAdvertisementReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MasterDataActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MasterDataActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MasterDataActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MasterDataActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MediaReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/MediaReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Otp_Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/Otp_Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchaseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchaseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchasingActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchasingActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchasingActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchasingActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchasingReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/PurchasingReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RemoteVideoPresentation$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RemoteVideoPresentation$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RemoteVideoPresentation$CustomDialogClass.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RemoteVideoPresentation$CustomDialogClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RemoteVideoPresentation.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RemoteVideoPresentation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportDayOpenCash.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportDayOpenCash.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityInventory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityInventory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityMasterData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityMasterData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityPayByCashVendorPayment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityPayByCashVendorPayment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityPayByChequeVendorPayment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityPayByChequeVendorPayment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityPurchasing.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivityPurchasing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivitySalesReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivitySalesReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivitySalesReturnReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportTabActivitySalesReturnReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportVendorReturnActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportVendorReturnActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ReportsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RetailCarddefineActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RetailCarddefineActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RuleDefinationActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/RuleDefinationActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SaleReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SaleReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SalesActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SalesActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SalesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SalesActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SalesReturnReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SalesReturnReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowDailyOverallSalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowDailyOverallSalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowDailySalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowDailySalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowIncentive.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowIncentive.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowMonthlySalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowMonthlySalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReport1MonthListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReport1MonthListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReport3MonthListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReport3MonthListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReportDailyListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReportDailyListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowPurchaseReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowQuarterlySalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowQuarterlySalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowSalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowSalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowStockAdjustmentListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowStockAdjustmentListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowStockReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowStockReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowWeeklySalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowWeeklySalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowWithInvoiceReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowWithInvoiceReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowWithoutInvoiceReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowWithoutInvoiceReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowYearlySalesReportListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/ShowYearlySalesReportListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/StockAdjustment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/StockAdjustment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SystemSettingsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SystemSettingsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SystemSettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/SystemSettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/UserManagementActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/UserManagementActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorIndirectPaymentActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorIndirectPaymentActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorPaymentActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorPaymentActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorPaymentReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorPaymentReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorRejection.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorRejection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorReportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorReturnActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/VendorReturnActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/activity_inventory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/activity_inventory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/activity_inventorywithpo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/activity_inventorywithpo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/alidatepurchase_Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/alidatepurchase_Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/login.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/maintainenecereport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/maintainenecereport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/validate_Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/validate_Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/yourAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/RSPL/POS/yourAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/actionbarsherlock/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/actionbarsherlock/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/sqlite/database/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/sqlite/database/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/qsKq7ZH5Py8mchGRyqw7EB0_IFE=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/qsKq7ZH5Py8mchGRyqw7EB0_IFE=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_a060d3a9222a9568f4747f37182961e1474ac832.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_a060d3a9222a9568f4747f37182961e1474ac832.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mcash.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mcash.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mcash.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mcash.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/RSPL/POS/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/RSPL/POS/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/actionbarsherlock/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/org/sqlite/database/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/org/sqlite/database/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_activity_salesbill.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_activity_salesbill.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/keyboard_popup_salesbill.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/keyboard_popup_salesbill.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/reprint_bill_dialog.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/reprint_bill_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_activity_salesbill.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_activity_salesbill.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/keyboard_popup_salesbill.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/keyboard_popup_salesbill.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/reprint_bill_dialog.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/reprint_bill_dialog.xml" />
     </list>
     <ignored path="99RSPL-V-1.1.5(29-03)_.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,154 +625,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ActivitySalesbill.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ActivitySalesbill.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16453">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="4542" column="67" selection-start-line="4542" selection-start-column="67" selection-end-line="4542" selection-end-column="67" />
               <folding>
-                <element signature="e#4122#6293#0" expanded="true" />
-                <element signature="e#6292#6293#0" expanded="true" />
-                <element signature="e#15963#16312#0" expanded="true" />
-                <element signature="e#16311#16312#0" expanded="true" />
-                <element signature="e#16370#16724#0" expanded="true" />
-                <element signature="e#16723#16724#0" expanded="true" />
-                <element signature="e#28135#28577#0" expanded="true" />
-                <element signature="e#28576#28577#0" expanded="true" />
-                <element signature="e#28647#28865#0" expanded="true" />
-                <element signature="e#28864#28865#0" expanded="true" />
-                <element signature="e#28933#29144#0" expanded="true" />
-                <element signature="e#29143#29144#0" expanded="true" />
-                <element signature="e#29195#29367#0" expanded="true" />
-                <element signature="e#29366#29367#0" expanded="true" />
-                <element signature="e#29607#41762#0" expanded="true" />
-                <element signature="e#41761#41762#0" expanded="true" />
-                <element signature="e#41804#41980#0" expanded="true" />
-                <element signature="e#41979#41980#0" expanded="true" />
-                <element signature="e#46326#46959#0" expanded="true" />
-                <element signature="e#46958#46959#0" expanded="true" />
-                <element signature="e#47027#47245#0" expanded="true" />
-                <element signature="e#47244#47245#0" expanded="true" />
-                <element signature="e#47311#47635#0" expanded="true" />
-                <element signature="e#47634#47635#0" expanded="true" />
-                <element signature="e#47705#47925#0" expanded="true" />
-                <element signature="e#47924#47925#0" expanded="true" />
-                <element signature="e#49909#50473#0" expanded="true" />
-                <element signature="e#50472#50473#0" expanded="true" />
-                <element signature="e#50538#52497#0" expanded="true" />
-                <element signature="e#52496#52497#0" expanded="true" />
-                <element signature="e#57725#59087#0" expanded="true" />
-                <element signature="e#59086#59087#0" expanded="true" />
-                <element signature="e#65174#65728#0" expanded="true" />
-                <element signature="e#65727#65728#0" expanded="true" />
-                <element signature="e#67557#69651#0" expanded="true" />
-                <element signature="e#68971#69623#0" expanded="true" />
-                <element signature="e#69622#69623#0" expanded="true" />
-                <element signature="e#69650#69651#0" expanded="true" />
-                <element signature="e#69694#74792#0" expanded="true" />
-                <element signature="e#74791#74792#0" expanded="true" />
-                <element signature="e#74834#74986#0" expanded="true" />
-                <element signature="e#74985#74986#0" expanded="true" />
-                <element signature="e#79902#80451#0" expanded="true" />
-                <element signature="e#80450#80451#0" expanded="true" />
-                <element signature="e#80619#81247#0" expanded="true" />
-                <element signature="e#81246#81247#0" expanded="true" />
-                <element signature="e#81286#81780#0" expanded="true" />
-                <element signature="e#81779#81780#0" expanded="true" />
-                <element signature="e#81822#81975#0" expanded="true" />
-                <element signature="e#81974#81975#0" expanded="true" />
-                <element signature="e#86555#87102#0" expanded="true" />
-                <element signature="e#87101#87102#0" expanded="true" />
-                <element signature="e#87265#88365#0" expanded="true" />
-                <element signature="e#88364#88365#0" expanded="true" />
-                <element signature="e#88400#88550#0" expanded="true" />
-                <element signature="e#88549#88550#0" expanded="true" />
-                <element signature="e#88586#88919#0" expanded="true" />
-                <element signature="e#88918#88919#0" expanded="true" />
-                <element signature="e#88958#89108#0" expanded="true" />
-                <element signature="e#89107#89108#0" expanded="true" />
-                <element signature="e#90571#92936#0" expanded="true" />
-                <element signature="e#92935#92936#0" expanded="true" />
-                <element signature="e#92981#93356#0" expanded="true" />
-                <element signature="e#93355#93356#0" expanded="true" />
-                <element signature="e#95276#95777#0" expanded="true" />
-                <element signature="e#95776#95777#0" expanded="true" />
-                <element signature="e#96567#96763#0" expanded="true" />
-                <element signature="e#96762#96763#0" expanded="true" />
-                <element signature="e#96808#97784#0" expanded="true" />
-                <element signature="e#97783#97784#0" expanded="true" />
-                <element signature="e#97825#98297#0" expanded="true" />
-                <element signature="e#98296#98297#0" expanded="true" />
-                <element signature="e#103333#103887#0" expanded="true" />
-                <element signature="e#103886#103887#0" expanded="true" />
-                <element signature="e#104004#105762#0" expanded="true" />
-                <element signature="e#105087#105734#0" expanded="true" />
-                <element signature="e#105733#105734#0" expanded="true" />
-                <element signature="e#105761#105762#0" expanded="true" />
-                <element signature="e#108356#110985#0" expanded="true" />
-                <element signature="e#110984#110985#0" expanded="true" />
-                <element signature="e#111027#111179#0" expanded="true" />
-                <element signature="e#111178#111179#0" expanded="true" />
-                <element signature="e#112844#113012#0" expanded="true" />
-                <element signature="e#113011#113012#0" expanded="true" />
-                <element signature="e#120345#120891#0" expanded="true" />
-                <element signature="e#120890#120891#0" expanded="true" />
-                <element signature="e#123271#123421#0" expanded="true" />
-                <element signature="e#123420#123421#0" expanded="true" />
-                <element signature="e#126729#127890#0" expanded="true" />
-                <element signature="e#127889#127890#0" expanded="true" />
-                <element signature="e#127932#128090#0" expanded="true" />
-                <element signature="e#128089#128090#0" expanded="true" />
-                <element signature="e#128180#128331#0" expanded="true" />
-                <element signature="e#128330#128331#0" expanded="true" />
-                <element signature="e#129318#129342#0" expanded="true" />
-                <element signature="e#141841#142603#0" expanded="true" />
-                <element signature="e#142602#142603#0" expanded="true" />
-                <element signature="e#142691#142915#0" expanded="true" />
-                <element signature="e#142914#142915#0" expanded="true" />
-                <element signature="e#143477#143865#0" expanded="true" />
-                <element signature="e#143864#143865#0" expanded="true" />
-                <element signature="e#143953#144177#0" expanded="true" />
-                <element signature="e#144176#144177#0" expanded="true" />
-                <element signature="e#145328#145557#0" expanded="true" />
-                <element signature="e#145556#145557#0" expanded="true" />
-                <element signature="e#145600#145750#0" expanded="true" />
-                <element signature="e#145749#145750#0" expanded="true" />
-                <element signature="e#145800#146028#0" expanded="true" />
-                <element signature="e#146027#146028#0" expanded="true" />
-                <element signature="e#146072#146615#0" expanded="true" />
-                <element signature="e#146614#146615#0" expanded="true" />
-                <element signature="e#148523#148531#0" expanded="true" />
-                <element signature="e#152262#167557#0" expanded="true" />
-                <element signature="e#167556#167557#0" expanded="true" />
-                <element signature="e#198040#198041#0" expanded="true" />
-                <element signature="e#198097#198098#0" expanded="true" />
-                <element signature="e#200087#237245#0" expanded="true" />
-                <element signature="e#237244#237245#0" expanded="true" />
-                <element signature="e#237289#237850#0" expanded="true" />
-                <element signature="e#237849#237850#0" expanded="true" />
-                <element signature="e#237906#238052#0" expanded="true" />
-                <element signature="e#238051#238052#0" expanded="true" />
+                <element signature="e#129483#129507#0" expanded="true" />
+                <element signature="e#148688#148696#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6735">
-              <caret line="520" column="21" selection-start-line="520" selection-start-column="16" selection-end-line="520" selection-end-column="21" />
-              <folding />
-            </state>
+      <file leaf-file-name="reprint_bill_dialog.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/reprint_bill_dialog.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentDailyInventoryReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentDailyInventoryReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2595">
-              <caret line="213" column="55" selection-start-line="213" selection-start-column="55" selection-end-line="213" selection-end-column="55" />
+            <state relative-caret-position="443">
+              <caret line="67" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -2308,7 +2753,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_master_screen1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/maintainenecereport.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_masterScreen1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_activity_salesbill.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentDailySalesReport.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentWeeklySalesReport.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentMonthlySalesReport.java" />
@@ -2320,8 +2764,21 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ReportDayOpenCash.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_master_screen2.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/PayForGoodsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/McashMainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cash_out.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashOut.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashIn.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cashin.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_cash_out.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_cash_out.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_cashin.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/keyboard_popup_salesbill.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_activity_salesbill.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/reprint_bill_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java" />
       </list>
     </option>
@@ -2396,7 +2853,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2423,6 +2880,56 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="POS" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99RSPL 11May" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99RSPL 11May" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adapter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99RSPL 11May" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2445,6 +2952,13 @@
     <property name="SearchEverywhereHistoryKey" value="Co&#9;PSI&#9;JAVA://Config.Config&#10;getting&#9;FILE&#9;file:///home/rspl-gourav/AndroidStudioProjects/14 march code/18 april dj/99RSPL-V-1.1.5(29-03)_/app/src/main/java/com/RSPL/POS/GettingApi.java&#10;login&#9;FILE&#9;file:///home/rspl-gourav/AndroidStudioProjects/14 march code/18 april dj/99RSPL-V-1.1.5(29-03)_/app/src/main/java/com/RSPL/POS/login.java" />
     <property name="android.project.structure.last.selected" value="android-pdfview" />
     <property name="android.project.structure.proportion" value="0.15" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/RSPL/POS" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2818,7 +3332,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2827,19 +3341,20 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6763754" sideWeight="0.5082482" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6618123" sideWeight="0.49175176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60355985" sideWeight="0.49175176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32521603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38996765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48867315" sideWeight="0.4956795" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48867315" sideWeight="0.4956795" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27258444" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27101335" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27669904" sideWeight="0.4972506" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3446602" sideWeight="0.4972506" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27258444" sideWeight="0.50647247" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2852,7 +3367,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27808326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2899,31 +3413,31 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>2569</line>
+          <line>2567</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>2570</line>
+          <line>2568</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>2571</line>
+          <line>2569</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>2572</line>
+          <line>2570</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>2573</line>
+          <line>2571</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -3054,18 +3568,6 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
-          <line>4569</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
-          <line>4582</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/Adapter/SettleCreditcustAdapter.java</url>
           <line>450</line>
           <properties />
@@ -3085,154 +3587,73 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
-          <line>5671</line>
+          <line>5526</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
-          <line>2892</line>
+          <line>2890</line>
           <properties />
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>738</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java</url>
+          <line>15650</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>4605</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>4607</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>4541</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>4548</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>4549</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java</url>
+          <line>4602</line>
+          <properties />
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="46" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Adapter/lostsaleslistadapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Lost_Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Adapter/lostsaleadapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="85" column="71" selection-start-line="85" selection-start-column="71" selection-end-line="85" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/display_salereturnproduct_row.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/popup_password_otp.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_masterScreen1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivityLoyalityCust.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="521" column="109" selection-start-line="521" selection-start-column="109" selection-end-line="521" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_Integrationwithdistributor.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/display_yearlysales_grandtotal_row.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/Activity_bill_display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="301" column="20" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/keyboard_popup_salesbill.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="563" column="0" selection-start-line="523" selection-start-column="3" selection-end-line="563" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentlostsaleReport.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentLostSalesReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentDailySalesReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="753" column="17" selection-start-line="753" selection-start-column="17" selection-end-line="753" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentWeeklySalesReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10575">
-          <caret line="750" column="0" selection-start-line="750" selection-start-column="0" selection-end-line="750" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentListDailySalesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentListWeeklySalesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentSalesReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -3445,14 +3866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55215">
-          <caret line="3783" column="28" selection-start-line="3783" selection-start-column="28" selection-end-line="3783" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity__bill__level.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3477,7 +3890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ReportTabFragments/FragmentDailyInventoryReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
+        <state relative-caret-position="454">
           <caret line="213" column="55" selection-start-line="213" selection-start-column="55" selection-end-line="213" selection-end-column="55" />
           <folding />
         </state>
@@ -3485,140 +3898,201 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6735">
+        <state relative-caret-position="15">
           <caret line="520" column="21" selection-start-line="520" selection-start-column="16" selection-end-line="520" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/PayForGoodsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cash_out.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashOutFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cashin.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/CashIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_cash_out.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_cashin.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_cash_out.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/McashMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="793" column="46" selection-start-line="793" selection-start-column="46" selection-end-line="793" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/mcash.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/keyboard_popup_salesbill.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="637" column="38" selection-start-line="637" selection-start-column="38" selection-end-line="637" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/mcash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/Adapter/InventoryProductListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="451" column="14" selection-start-line="451" selection-start-column="14" selection-end-line="451" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21334" column="13" selection-start-line="21334" selection-start-column="13" selection-end-line="21334" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity_salesbill.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="1310" column="50" selection-start-line="1286" selection-start-column="19" selection-end-line="1310" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/DBhelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="1595" column="55" selection-start-line="1595" selection-start-column="55" selection-end-line="1595" selection-end-column="55" />
+          <folding>
+            <element signature="e#657635#657642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/RSPL/POS/ActivitySalesbill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16453">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="4542" column="67" selection-start-line="4542" selection-start-column="67" selection-end-line="4542" selection-end-column="67" />
           <folding>
-            <element signature="e#4122#6293#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
-            <element signature="e#15963#16312#0" expanded="true" />
-            <element signature="e#16311#16312#0" expanded="true" />
-            <element signature="e#16370#16724#0" expanded="true" />
-            <element signature="e#16723#16724#0" expanded="true" />
-            <element signature="e#28135#28577#0" expanded="true" />
-            <element signature="e#28576#28577#0" expanded="true" />
-            <element signature="e#28647#28865#0" expanded="true" />
-            <element signature="e#28864#28865#0" expanded="true" />
-            <element signature="e#28933#29144#0" expanded="true" />
-            <element signature="e#29143#29144#0" expanded="true" />
-            <element signature="e#29195#29367#0" expanded="true" />
-            <element signature="e#29366#29367#0" expanded="true" />
-            <element signature="e#29607#41762#0" expanded="true" />
-            <element signature="e#41761#41762#0" expanded="true" />
-            <element signature="e#41804#41980#0" expanded="true" />
-            <element signature="e#41979#41980#0" expanded="true" />
-            <element signature="e#46326#46959#0" expanded="true" />
-            <element signature="e#46958#46959#0" expanded="true" />
-            <element signature="e#47027#47245#0" expanded="true" />
-            <element signature="e#47244#47245#0" expanded="true" />
-            <element signature="e#47311#47635#0" expanded="true" />
-            <element signature="e#47634#47635#0" expanded="true" />
-            <element signature="e#47705#47925#0" expanded="true" />
-            <element signature="e#47924#47925#0" expanded="true" />
-            <element signature="e#49909#50473#0" expanded="true" />
-            <element signature="e#50472#50473#0" expanded="true" />
-            <element signature="e#50538#52497#0" expanded="true" />
-            <element signature="e#52496#52497#0" expanded="true" />
-            <element signature="e#57725#59087#0" expanded="true" />
-            <element signature="e#59086#59087#0" expanded="true" />
-            <element signature="e#65174#65728#0" expanded="true" />
-            <element signature="e#65727#65728#0" expanded="true" />
-            <element signature="e#67557#69651#0" expanded="true" />
-            <element signature="e#68971#69623#0" expanded="true" />
-            <element signature="e#69622#69623#0" expanded="true" />
-            <element signature="e#69650#69651#0" expanded="true" />
-            <element signature="e#69694#74792#0" expanded="true" />
-            <element signature="e#74791#74792#0" expanded="true" />
-            <element signature="e#74834#74986#0" expanded="true" />
-            <element signature="e#74985#74986#0" expanded="true" />
-            <element signature="e#79902#80451#0" expanded="true" />
-            <element signature="e#80450#80451#0" expanded="true" />
-            <element signature="e#80619#81247#0" expanded="true" />
-            <element signature="e#81246#81247#0" expanded="true" />
-            <element signature="e#81286#81780#0" expanded="true" />
-            <element signature="e#81779#81780#0" expanded="true" />
-            <element signature="e#81822#81975#0" expanded="true" />
-            <element signature="e#81974#81975#0" expanded="true" />
-            <element signature="e#86555#87102#0" expanded="true" />
-            <element signature="e#87101#87102#0" expanded="true" />
-            <element signature="e#87265#88365#0" expanded="true" />
-            <element signature="e#88364#88365#0" expanded="true" />
-            <element signature="e#88400#88550#0" expanded="true" />
-            <element signature="e#88549#88550#0" expanded="true" />
-            <element signature="e#88586#88919#0" expanded="true" />
-            <element signature="e#88918#88919#0" expanded="true" />
-            <element signature="e#88958#89108#0" expanded="true" />
-            <element signature="e#89107#89108#0" expanded="true" />
-            <element signature="e#90571#92936#0" expanded="true" />
-            <element signature="e#92935#92936#0" expanded="true" />
-            <element signature="e#92981#93356#0" expanded="true" />
-            <element signature="e#93355#93356#0" expanded="true" />
-            <element signature="e#95276#95777#0" expanded="true" />
-            <element signature="e#95776#95777#0" expanded="true" />
-            <element signature="e#96567#96763#0" expanded="true" />
-            <element signature="e#96762#96763#0" expanded="true" />
-            <element signature="e#96808#97784#0" expanded="true" />
-            <element signature="e#97783#97784#0" expanded="true" />
-            <element signature="e#97825#98297#0" expanded="true" />
-            <element signature="e#98296#98297#0" expanded="true" />
-            <element signature="e#103333#103887#0" expanded="true" />
-            <element signature="e#103886#103887#0" expanded="true" />
-            <element signature="e#104004#105762#0" expanded="true" />
-            <element signature="e#105087#105734#0" expanded="true" />
-            <element signature="e#105733#105734#0" expanded="true" />
-            <element signature="e#105761#105762#0" expanded="true" />
-            <element signature="e#108356#110985#0" expanded="true" />
-            <element signature="e#110984#110985#0" expanded="true" />
-            <element signature="e#111027#111179#0" expanded="true" />
-            <element signature="e#111178#111179#0" expanded="true" />
-            <element signature="e#112844#113012#0" expanded="true" />
-            <element signature="e#113011#113012#0" expanded="true" />
-            <element signature="e#120345#120891#0" expanded="true" />
-            <element signature="e#120890#120891#0" expanded="true" />
-            <element signature="e#123271#123421#0" expanded="true" />
-            <element signature="e#123420#123421#0" expanded="true" />
-            <element signature="e#126729#127890#0" expanded="true" />
-            <element signature="e#127889#127890#0" expanded="true" />
-            <element signature="e#127932#128090#0" expanded="true" />
-            <element signature="e#128089#128090#0" expanded="true" />
-            <element signature="e#128180#128331#0" expanded="true" />
-            <element signature="e#128330#128331#0" expanded="true" />
-            <element signature="e#129318#129342#0" expanded="true" />
-            <element signature="e#141841#142603#0" expanded="true" />
-            <element signature="e#142602#142603#0" expanded="true" />
-            <element signature="e#142691#142915#0" expanded="true" />
-            <element signature="e#142914#142915#0" expanded="true" />
-            <element signature="e#143477#143865#0" expanded="true" />
-            <element signature="e#143864#143865#0" expanded="true" />
-            <element signature="e#143953#144177#0" expanded="true" />
-            <element signature="e#144176#144177#0" expanded="true" />
-            <element signature="e#145328#145557#0" expanded="true" />
-            <element signature="e#145556#145557#0" expanded="true" />
-            <element signature="e#145600#145750#0" expanded="true" />
-            <element signature="e#145749#145750#0" expanded="true" />
-            <element signature="e#145800#146028#0" expanded="true" />
-            <element signature="e#146027#146028#0" expanded="true" />
-            <element signature="e#146072#146615#0" expanded="true" />
-            <element signature="e#146614#146615#0" expanded="true" />
-            <element signature="e#148523#148531#0" expanded="true" />
-            <element signature="e#152262#167557#0" expanded="true" />
-            <element signature="e#167556#167557#0" expanded="true" />
-            <element signature="e#198040#198041#0" expanded="true" />
-            <element signature="e#198097#198098#0" expanded="true" />
-            <element signature="e#200087#237245#0" expanded="true" />
-            <element signature="e#237244#237245#0" expanded="true" />
-            <element signature="e#237289#237850#0" expanded="true" />
-            <element signature="e#237849#237850#0" expanded="true" />
-            <element signature="e#237906#238052#0" expanded="true" />
-            <element signature="e#238051#238052#0" expanded="true" />
+            <element signature="e#129483#129507#0" expanded="true" />
+            <element signature="e#148688#148696#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/reprint_bill_dialog.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="67" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

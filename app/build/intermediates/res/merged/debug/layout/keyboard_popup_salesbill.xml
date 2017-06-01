@@ -620,7 +620,6 @@
             android:text="Pay Cash"
             android:background="#009985"
             android:textSize="12px"
-
             android:layout_marginLeft="20px"
             android:clickable="true"/>
 
@@ -651,19 +650,6 @@
             android:layout_marginLeft="20px"
             android:clickable="true"/>
     </LinearLayout>
-    <Button
-        android:id="@+id/close1"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="120px"
-        android:visibility="invisible"
-        android:layout_height="20px"
-        android:text="PayByCash1"
-        android:textSize="12px"
-
-        android:layout_marginLeft="20px"
-        android:clickable="true"/>
-
 
 </LinearLayout>
 

@@ -44,12 +44,12 @@
         "source": "/home/rspl-rahul/.android/build-cache/9471f87299ecea7d891f949babc36978f64d5613/output/res/layout/abs__screen_simple.xml"
     },
     {
-        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_overall_sale_report.xml",
-        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_overall_sale_report.xml"
-    },
-    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/custom_popup.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/custom_popup.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_overall_sale_report.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_overall_sale_report.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_bill_details.xml",
@@ -102,6 +102,10 @@
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/inventory_alert_dialog.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/inventory_alert_dialog.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_cashin.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_cashin.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_full_stock_grandtotal_row.xml",
@@ -476,12 +480,20 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_vendor_return.xml"
     },
     {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/content_cashin.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/content_cashin.xml"
+    },
+    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/discountpopuptotalinventory.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/discountpopuptotalinventory.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityinternetbill.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityinternetbill.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/content_cash_out.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/content_cash_out.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_localprod_row.xml",
@@ -604,6 +616,10 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_localprod_cpg_report.xml"
     },
     {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/popup_cash_in.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/popup_cash_in.xml"
+    },
+    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_report_product_cpg_row.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/display_report_product_cpg_row.xml"
     },
@@ -662,6 +678,10 @@
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_inventory_report.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_inventory_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/gettingotpcashout.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/gettingotpcashout.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/display_comp_btl_list.xml",
@@ -772,6 +792,10 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_pay_for_goods.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_pay_for_goods.xml"
+    },
+    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activityreport.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activityreport.xml"
     },
@@ -838,6 +862,10 @@
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_product_cpg_report.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_product_cpg_report.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/responsedisplaylayout.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/responsedisplaylayout.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity__bill__level.xml",
@@ -1268,6 +1296,14 @@
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/isplay_search_product.xml"
     },
     {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/fragment_cash_out.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/fragment_cash_out.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_mcashmain.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_mcashmain.xml"
+    },
+    {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_activity_inventorywithpo.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_activity_inventorywithpo.xml"
     },
@@ -1390,6 +1426,10 @@
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_show_reportsale_list.xml",
         "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_show_reportsale_list.xml"
+    },
+    {
+        "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_cash_out.xml",
+        "source": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/src/main/res/layout/activity_cash_out.xml"
     },
     {
         "merged": "/home/rspl-rahul/MasterCode/99RSPL 11May/app/build/intermediates/res/merged/debug/layout/activity_daily_sale_report.xml",

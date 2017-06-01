@@ -112,7 +112,7 @@ public final class R {
         public static final int plain = 0x7f0c0022;
         public static final int rfc822 = 0x7f0c0023;
         public static final int standard = 0x7f0c0036;
-        public static final int text = 0x7f0c0618;
+        public static final int text = 0x7f0c0629;
         public static final int text1 = 0x7f0c0019;
         public static final int text2 = 0x7f0c001a;
         public static final int thing_proto = 0x7f0c001b;

@@ -1259,12 +1259,79 @@
                 android:orientation="vertical"
                 android:paddingTop="10dp"
                 android:layout_marginTop="1px"
-                >
+                android:weightSum="1">
                 <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
                     android:id="@+id/pager"
                     android:layout_width="250px"
-                    android:layout_height="650px">
+                    android:layout_height="350px">
                 </android.support.v4.view.ViewPager>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/mcash"
+                    android:layout_weight="0.27">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:background="#ffffff">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:background="#ffffff"
+                        android:layout_weight="0.5">
+                    <Button
+                        android:id="@+id/CashOutMcash"
+                        android:layout_weight="0.25"
+                        android:layout_marginTop="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="0px"
+                        android:layout_height="40px"
+                        android:text="CashOut"
+                        android:textSize="12px"
+                        android:background="#009985"
+                        android:layout_marginLeft="20px"
+                        android:clickable="true"/>
+
+                    <Button
+                        android:id="@+id/CashINMcash"
+                        android:layout_weight="0.25"
+                        android:layout_width="0px"
+                        android:layout_height="40px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="10px"
+                        android:layout_marginTop="10dp"
+                        android:background="#009985"
+                        android:clickable="true"
+                        android:text="CashIN"
+                        android:textSize="12px" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="#ffffff"
+                        android:layout_weight="0.5"
+                        >
+                        <Button
+                            android:id="@+id/PayForGoodsMcash"
+                            android:layout_width="0px"
+                            android:layout_height="40px"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="0.5"
+                            android:background="#009985"
+                            android:clickable="true"
+                            android:text="Pay For Goods"
+                            android:textSize="12px" />
+                    </LinearLayout>
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

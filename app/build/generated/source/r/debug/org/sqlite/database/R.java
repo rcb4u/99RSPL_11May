@@ -93,7 +93,7 @@ public final class R {
         public static final int showHome = 0x7f0c0031;
         public static final int showTitle = 0x7f0c0032;
         public static final int tabMode = 0x7f0c002d;
-        public static final int text = 0x7f0c0618;
+        public static final int text = 0x7f0c0629;
         public static final int text2 = 0x7f0c001a;
         public static final int useLogo = 0x7f0c0033;
         public static final int wrap_content = 0x7f0c0034;
